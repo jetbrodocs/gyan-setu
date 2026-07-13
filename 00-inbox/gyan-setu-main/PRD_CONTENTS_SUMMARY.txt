@@ -1,0 +1,286 @@
+================================================================================
+GYAAN SETU - AI-Driven Capital Knowledge City Digital Library Platform
+COMPREHENSIVE PRODUCT REQUIREMENTS DOCUMENT (PRD)
+================================================================================
+
+FILE: Gyaan_Setu_PRD.docx
+LOCATION: /sessions/nice-great-cray/mnt/temp-work/
+DATE: February 2026
+VERSION: 1.0
+
+================================================================================
+DOCUMENT STRUCTURE
+================================================================================
+
+1. TITLE PAGE
+   - Product Name: GYAAN SETU (Knowledge Bridge)
+   - Tagline: "Empowering Every Citizen with Knowledge"
+   - Client: Gandhinagar Smart City Development Ltd.
+   - Document Version and Date
+
+2. TABLE OF CONTENTS
+   - Complete navigation with all major sections
+
+3. SECTION 1: PRODUCT OVERVIEW
+   - Product Name, Tagline, Client Information
+   - Platforms: Web Portal, Mobile App (iOS/Android), Digital Kiosk
+   - Target Users: Citizens of Gandhinagar (students, professionals, seniors, govt employees)
+   - Service Availability: 24/7 Access
+
+4. SECTION 2: OBJECTIVES & VISION
+   - Primary Objectives (8 key points)
+   - Vision Statement for Digital Empowerment
+
+5. SECTION 3: USER ROLES & PERSONAS
+   - User Role Matrix (8 user categories with details)
+   - Citizen/Reader (Basic, Standard, Gold)
+   - Student, Senior Citizen, Content Creator, System Admin, Government Official
+
+6. SECTION 4: MODULE SPECIFICATIONS (16 Modules)
+   
+   4.1  Dashboard (Home)
+        - Sidebar navigation, top bar search, language selector
+        - Welcome banner, statistics cards, trending section
+        - User avatar with membership tier
+   
+   4.2  Digital Library (eBook Catalog)
+        - Search and filter functionality
+        - Book grid view with ratings and badges
+        - Multiple content type support
+   
+   4.3  eBook Reader
+        - Table of Contents sidebar with chapters, notes, marks tabs
+        - Reader toolbar: Font size, TTS, WCAG badge, bookmark, share
+        - Text interaction: Highlight, note, ask AI, translate
+        - AI Reading Companion chatbot panel
+        - Reading progress bar with time estimates
+   
+   4.4  Audiobook Player
+        - Large cover art display
+        - Audio playback controls (shuffle, rewind, play/pause, forward)
+        - Speed control: 0.75x to 2.0x
+        - Waveform visualization
+        - Chapters queue on right sidebar
+        - "You May Also Like" recommendations
+   
+   4.5  Newspapers & Periodicals
+        - Sub-tabs: Newspapers, Magazines, Journals
+        - Archive access with date/language/city filters
+        - Full-page newspaper viewer with zoom
+        - News articles carousel below viewer
+   
+   4.6  Test Preparation Hub
+        - Exam category cards (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET)
+        - Performance dashboard with readiness donut chart
+        - Subject-wise progress bars
+        - Question of the Day
+   
+   4.7  Mock Test Interface
+        - Full-screen exam mode
+        - Header with test info and countdown timer
+        - MCQ question panel with options (A/B/C/D)
+        - Right sidebar: Student profile, answer summary, question navigation
+        - Bottom action buttons: Mark for Review, Clear Response, Save & Next, Submit
+   
+   4.8  Podcast Creation Studio
+        - Recording studio panel with episode title and timer
+        - Real-time waveform visualization
+        - Recording controls with noise cancellation
+        - AI auto-transcription
+        - My Podcasts panel with series list
+        - Podcast statistics (listeners, episodes, rating)
+   
+   4.9  AI Book Summaries
+        - Book selection with search and category filters
+        - AI Confidence Score and Human Verified badge
+        - Neural TTS audio summaries
+        - Content tabs: Quick Summary, Detailed Analysis, Key Concepts, Mind Map, Quiz
+        - Language selector for multi-language summaries
+   
+   4.10 Indian Knowledge Systems (IKS Heritage)
+        - Historical timeline selector (1500 BCE to 1947 CE)
+        - Language options: English, Gujarati, Sanskrit
+        - Ancient Scriptures section with downloadable texts
+        - Virtual Experience Zones: 360° immersive tours
+        - Folk & Oral Traditions section
+   
+   4.11 STEM Innovation & Robotics Lab
+        - Category tabs: Coding, Robotics, AI/ML, IoT, 3D Design, Atal Projects
+        - Video lesson player integrated with code editor
+        - Code execution sandbox with terminal output
+        - My Badges achievement section
+        - Class Leaderboard by XP points
+        - Live Workshops with booking capability
+   
+   4.12 My Dashboard / User Profile
+        - User profile card with avatar, email, membership tier, reading streak
+        - User statistics: Books read, audiobooks, tests, podcast time
+        - Reading Activity chart (30-day history)
+        - Currently Reading section with progress
+        - Earned Certificates with download option
+        - My Bookshelf (Saved collections)
+        - Recent Test History
+        - Quick Settings: Notifications, Language, Dark Mode
+   
+   4.13 Membership Plans
+        - Tiered pricing: BASIC (₹0), STANDARD (₹99), GOLD (₹199)
+        - Feature comparison matrix
+        - Student/Senior Citizen 50% discount program
+        - Payment methods: UPI, Net Banking, Cards, BBPS
+        - DigiLocker & Aadhaar verification
+   
+   4.14 Admin Analytics Dashboard
+        - KPI cards: Active Users, Books Accessed, New Registrations, Session Time
+        - Analytics visualizations:
+          * Daily Active Users Trend (30-day line chart)
+          * Content Distribution (pie chart)
+          * Usage by Time of Day (heatmap)
+          * Top 10 Most Read Books (data table)
+          * Ward-wise User Distribution (geographic map)
+        - Export options: Excel, PDF, CSV
+   
+   4.15 Kiosk UI (Portrait Mode, Self-Service)
+        - GYAAN SETU Self Service Kiosk header with date/time
+        - Voice search input
+        - 6 large touch tiles (2x3 grid):
+          * Browse Books
+          * My Account
+          * Return Book
+          * Test Prep
+          * Audio & Podcasts
+          * Help Desk
+   
+   4.16 Mobile App
+        - iOS (12+) and Android (8.0+) support
+        - Primary screens: Home, Library, Reader, Audiobook, Tests, Profile
+        - Offline access with download capability
+        - Push notifications
+        - Cross-device synchronization
+        - Optimized performance for cellular networks
+
+7. SECTION 5: DESIGN SYSTEM
+   - Color Palette: Navy (#1E293B), Blue (#3B82F6), Gold (#F59E0B)
+   - Success Green (#10B981), Error Red (#EF4444)
+   - Typography: Arial font, clear hierarchy
+   - WCAG 2.0 AA Compliance
+   - Multi-language UI: English, Gujarati, Hindi, Sanskrit
+
+8. SECTION 6: TECHNICAL REQUIREMENTS
+   - Frontend: React.js/Next.js, Redux/Context API, Tailwind/Material-UI
+   - Mobile: React Native or Flutter
+   - Backend: Node.js/Express or Python/Django
+   - Database: PostgreSQL, MongoDB
+   - Cache: Redis
+   - Search: Elasticsearch
+   - AI/ML: TensorFlow, Hugging Face, Google Cloud TTS
+   - Content: PDF.js, WebXR, Three.js
+   - Real-time: Socket.io, SSE
+   - Payment: Razorpay/CCAvenue
+   - Integration: DigiLocker, Aadhaar, Google Analytics
+   - Infrastructure: AWS/GCP/Azure, Kubernetes, CI/CD
+
+9. SECTION 7: NON-FUNCTIONAL REQUIREMENTS
+   - Performance: < 3s page load, < 500ms API response
+   - Availability: 99.9% uptime SLA
+   - Security: TLS 1.2+, AES-256, OAuth 2.0, JWT, RBAC, MFA
+   - Scalability: 50,000+ concurrent users
+   - Accessibility: WCAG 2.0 AA, keyboard navigation, screen readers
+   - Offline: PWA, service workers, offline-first architecture
+   - Localization: 4 languages with regional content curation
+
+10. SECTION 8: SUCCESS METRICS & KPIs
+    
+    User Engagement Metrics:
+    - Active Monthly Users (MAU): 50,000+
+    - Daily Active Users (DAU): 15,000+
+    - User Retention (30-day): 65%+
+    - Average Session Duration: 18+ minutes
+    - Monthly Reading Hours: 500,000+
+    - NPS Score: > 70
+    
+    Content Metrics:
+    - Digital eBook Catalog: 50,000+
+    - Audiobook Library: 12,000+
+    - Newspaper Archives: 30+ publications
+    - AI Book Summaries: 10,000+
+    - Podcast Episodes: 5,000+
+    - Test Questions: 50,000+
+    
+    Learning Outcomes:
+    - Monthly Test Attempts: 10,000+
+    - Average Score Improvement: 15-20%
+    - Certification Issuance: 5,000+ quarterly
+    - Exam Success Rate: 25%+
+    - Books Completed: 20,000+ monthly
+    
+    Business Metrics:
+    - STANDARD Subscribers: 8,000+ (₹99/month)
+    - GOLD Subscribers: 3,000+ (₹199/month)
+    - Monthly Recurring Revenue: ₹15+ lakhs
+    - Customer Acquisition Cost: < ₹50/user
+    
+    Operational Excellence:
+    - Platform Availability: 99.9% uptime
+    - Mobile App Rating: > 4.5 stars
+    - Support Response: < 24 hours
+    - Content Updates: 3x per week
+
+================================================================================
+DOCUMENT SPECIFICATIONS
+================================================================================
+
+Format: Microsoft Word 2007+ (.docx)
+Page Size: US Letter (8.5" x 11")
+Margins: 1 inch on all sides
+Font: Arial throughout
+Professional Layout:
+  - Title Page with formatted branding
+  - Table of Contents with navigation
+  - Proper heading hierarchy (H1, H2, H3)
+  - Bullet lists with proper indentation
+  - Professional tables with shading
+  - Page breaks between major sections
+  - Footer-ready (page numbering compatible)
+
+Design System Colors:
+  - Primary Navy: #1E293B (headers, emphasis)
+  - Secondary Blue: #3B82F6 (interactive elements)
+  - Accent Gold: #F59E0B (premium features)
+  - Success Green: #10B981 (positive states)
+  - Error Red: #EF4444 (warnings/errors)
+  - Light Gray: #F3F4F6 (backgrounds)
+
+================================================================================
+KEY FEATURES DOCUMENTED
+================================================================================
+
+1. All 16 UI modules with exact specifications
+2. Detailed UI component descriptions for each module
+3. Comprehensive user roles and access control matrix
+4. Design system with color scheme and typography
+5. Technical architecture recommendations
+6. Non-functional requirements (performance, security, scalability)
+7. Accessibility compliance (WCAG 2.0 AA)
+8. Multi-language support (4 languages)
+9. Payment and monetization strategy
+10. Success metrics and KPIs with targets
+11. Mobile app specifications
+12. Kiosk UI for public library deployment
+13. Admin analytics dashboard
+14. AI/ML integration requirements
+15. Membership plan tiers and pricing
+16. Disaster recovery and backup strategy
+
+================================================================================
+FILE STATISTICS
+================================================================================
+
+File Name: Gyaan_Setu_PRD.docx
+File Size: 24 KB
+Created: March 6, 2026
+File Format: Microsoft Word 2007+ (.docx)
+Status: Successfully Generated
+
+================================================================================
+END OF SUMMARY
+================================================================================

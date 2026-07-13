@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFFF"/>
+
+  <!-- Top rule -->
+  <line x1="30" y1="15" x2="770" y2="15" stroke="#CC0000" stroke-width="5"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="35" font-family="Georgia, serif" font-size="10" fill="#333">Journalism of Courage | Est. 1932</text>
+  <text x="765" y="35" font-family="Georgia, serif" font-size="10" fill="#333" text-anchor="end">₹7 | Page 1 of 20</text>
+
+  <!-- Masthead -->
+  <text x="400" y="78" font-family="'Times New Roman', Georgia, serif" font-size="46" font-weight="bold" fill="#000000" text-anchor="middle" letter-spacing="3">THE INDIAN EXPRESS</text>
+
+  <!-- Red underline -->
+  <line x1="30" y1="88" x2="770" y2="88" stroke="#CC0000" stroke-width="3"/>
+
+  <!-- Subline -->
+  <text x="400" y="107" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle">Gujarat Edition | Wednesday, 18 March 2026 | New Delhi, Lucknow, Ahmedabad, Chandigarh, Pune, Mumbai</text>
+  <line x1="30" y1="115" x2="770" y2="115" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Top news strip -->
+  <rect x="30" y="118" width="740" height="22" fill="#FFF5F5"/>
+  <text x="40" y="134" font-family="Arial, sans-serif" font-size="10" fill="#CC0000" font-weight="bold">BREAKING:</text>
+  <text x="112" y="134" font-family="Arial, sans-serif" font-size="10" fill="#333">Supreme Court orders all states to implement digital land records within 2 years</text>
+  <line x1="30" y1="142" x2="770" y2="142" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Lead story -->
+  <text x="400" y="178" font-family="'Times New Roman', Georgia, serif" font-size="32" font-weight="bold" fill="#000" text-anchor="middle">CBI Files Chargesheet in Major</text>
+  <text x="400" y="212" font-family="'Times New Roman', Georgia, serif" font-size="32" font-weight="bold" fill="#000" text-anchor="middle">Bank Fraud; 12 Executives Named</text>
+
+  <text x="400" y="234" font-family="Arial, sans-serif" font-size="12" fill="#CC0000" text-anchor="middle" font-weight="bold">₹8,400 crore fraud at state-run bank | Four arrests across Mumbai, Delhi, Ahmedabad</text>
+
+  <line x1="60" y1="248" x2="740" y2="248" stroke="#CC0000" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <text x="35" y="275" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">THE EXPRESS INVESTIGATION</text>
+
+  <text x="35" y="298" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">How Shell Companies Were</text>
+  <text x="35" y="314" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Used to Siphon Public Funds</text>
+
+  <text x="35" y="336" font-family="Arial, sans-serif" font-size="10" fill="#555">An Indian Express investigation has</text>
+  <text x="35" y="349" font-family="Arial, sans-serif" font-size="10" fill="#555">revealed a network of 47 shell</text>
+  <text x="35" y="362" font-family="Arial, sans-serif" font-size="10" fill="#555">companies across Gujarat, Maharashtra,</text>
+  <text x="35" y="375" font-family="Arial, sans-serif" font-size="10" fill="#555">and Rajasthan used to route funds from</text>
+  <text x="35" y="388" font-family="Arial, sans-serif" font-size="10" fill="#555">government contracts. The probe found</text>
+  <text x="35" y="401" font-family="Arial, sans-serif" font-size="10" fill="#555">that fabricated invoices totalling ₹2,100</text>
+  <text x="35" y="414" font-family="Arial, sans-serif" font-size="10" fill="#555">crore were processed through these</text>
+  <text x="35" y="427" font-family="Arial, sans-serif" font-size="10" fill="#555">entities between 2023 and 2025.</text>
+
+  <rect x="35" y="442" width="230" height="130" fill="#E0E0E0" rx="2"/>
+  <text x="150" y="512" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="35" y="592" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Election Commission Sets</text>
+  <text x="35" y="608" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">New Voter ID Norms Using</text>
+  <text x="35" y="624" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Aadhaar-Linked Verification</text>
+
+  <text x="35" y="644" font-family="Arial, sans-serif" font-size="10" fill="#555">The Election Commission has mandated</text>
+  <text x="35" y="657" font-family="Arial, sans-serif" font-size="10" fill="#555">Aadhaar-linked voter ID verification</text>
+  <text x="35" y="670" font-family="Arial, sans-serif" font-size="10" fill="#555">for all new registrations starting April</text>
+  <text x="35" y="683" font-family="Arial, sans-serif" font-size="10" fill="#555">2026. Existing voters must link by</text>
+  <text x="35" y="696" font-family="Arial, sans-serif" font-size="10" fill="#555">December 2026 or face deactivation.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="260" x2="275" y2="720" stroke="#CC0000" stroke-width="0.3"/>
+
+  <!-- Column 2 -->
+  <text x="285" y="275" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">EXPLAINED</text>
+
+  <text x="285" y="298" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Why India's Data Privacy</text>
+  <text x="285" y="316" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Law Matters for Every</text>
+  <text x="285" y="334" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Citizen's Digital Life</text>
+
+  <text x="285" y="356" font-family="Arial, sans-serif" font-size="10" fill="#555">The Digital Personal Data Protection</text>
+  <text x="285" y="369" font-family="Arial, sans-serif" font-size="10" fill="#555">Act rules notified last week will change</text>
+  <text x="285" y="382" font-family="Arial, sans-serif" font-size="10" fill="#555">how companies collect, store, and use</text>
+  <text x="285" y="395" font-family="Arial, sans-serif" font-size="10" fill="#555">personal data. Key provisions include</text>
+  <text x="285" y="408" font-family="Arial, sans-serif" font-size="10" fill="#555">mandatory consent, right to erasure,</text>
+  <text x="285" y="421" font-family="Arial, sans-serif" font-size="10" fill="#555">penalties up to ₹250 crore for non-</text>
+  <text x="285" y="434" font-family="Arial, sans-serif" font-size="10" fill="#555">compliance, and a data protection board</text>
+  <text x="285" y="447" font-family="Arial, sans-serif" font-size="10" fill="#555">to adjudicate complaints. Here is what</text>
+  <text x="285" y="460" font-family="Arial, sans-serif" font-size="10" fill="#555">it means for the average user.</text>
+
+  <line x1="285" y1="475" x2="505" y2="475" stroke="#ddd" stroke-width="0.5"/>
+
+  <rect x="285" y="488" width="220" height="110" fill="#E0E0E0" rx="2"/>
+  <text x="395" y="548" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="285" y="618" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Parliament Passes Bill to</text>
+  <text x="285" y="634" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Create National Judicial</text>
+  <text x="285" y="650" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Appointments Commission</text>
+
+  <text x="285" y="670" font-family="Arial, sans-serif" font-size="10" fill="#555">Parliament passed the National Judicial</text>
+  <text x="285" y="683" font-family="Arial, sans-serif" font-size="10" fill="#555">Appointments Commission Bill with a</text>
+  <text x="285" y="696" font-family="Arial, sans-serif" font-size="10" fill="#555">two-thirds majority in both houses.</text>
+  <text x="285" y="709" font-family="Arial, sans-serif" font-size="10" fill="#555">The bill creates a new body to appoint</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="260" x2="515" y2="720" stroke="#CC0000" stroke-width="0.3"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="275" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#CC0000">OPINION</text>
+
+  <text x="525" y="298" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">The Digital Divide: Why</text>
+  <text x="525" y="316" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Rural India Needs Better</text>
+  <text x="525" y="334" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Internet Infrastructure</text>
+
+  <text x="525" y="354" font-family="Arial, sans-serif" font-size="10" fill="#555" font-style="italic">By Dr. Arvind Subramanian</text>
+
+  <text x="525" y="374" font-family="Arial, sans-serif" font-size="10" fill="#555">Despite India's rapid digitization, 40%</text>
+  <text x="525" y="387" font-family="Arial, sans-serif" font-size="10" fill="#555">of rural households still lack reliable</text>
+  <text x="525" y="400" font-family="Arial, sans-serif" font-size="10" fill="#555">broadband connectivity. The BharatNet</text>
+  <text x="525" y="413" font-family="Arial, sans-serif" font-size="10" fill="#555">programme has connected 1.5 lakh</text>
+  <text x="525" y="426" font-family="Arial, sans-serif" font-size="10" fill="#555">gram panchayats but last-mile access</text>
+  <text x="525" y="439" font-family="Arial, sans-serif" font-size="10" fill="#555">remains a challenge. Gujarat's model</text>
+  <text x="525" y="452" font-family="Arial, sans-serif" font-size="10" fill="#555">of public-private partnership for digital</text>
+  <text x="525" y="465" font-family="Arial, sans-serif" font-size="10" fill="#555">inclusion offers a replicable template.</text>
+
+  <line x1="525" y1="480" x2="765" y2="480" stroke="#ddd" stroke-width="0.5"/>
+
+  <rect x="525" y="492" width="240" height="110" fill="#E0E0E0" rx="2"/>
+  <text x="645" y="552" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="525" y="622" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Gujarat HC Orders CBI</text>
+  <text x="525" y="638" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Probe Into Land Allotment</text>
+  <text x="525" y="654" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Irregularities in 3 Districts</text>
+
+  <text x="525" y="674" font-family="Arial, sans-serif" font-size="10" fill="#555">The Gujarat High Court has ordered a</text>
+  <text x="525" y="687" font-family="Arial, sans-serif" font-size="10" fill="#555">CBI investigation into alleged land</text>
+  <text x="525" y="700" font-family="Arial, sans-serif" font-size="10" fill="#555">allotment irregularities in Ahmedabad,</text>
+  <text x="525" y="713" font-family="Arial, sans-serif" font-size="10" fill="#555">Gandhinagar, and Vadodara districts.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#CC0000" stroke-width="1.5"/>
+
+  <!-- Bottom section -->
+  <text x="35" y="755" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#CC0000">ECONOMY</text>
+
+  <text x="35" y="780" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">Centre Raises Minimum Support Price for Kharif Crops by 7-10% Ahead of Sowing Season</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#555">The Cabinet Committee on Economic Affairs approved a 7-10% hike in MSP for key kharif crops</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#555">including paddy, cotton, and groundnut, benefiting millions of farmers in Gujarat and other states.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">RBI Annual Report: Digital Lending Grew 48% in FY26; Calls for Tighter Fintech Regulation</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#555">The RBI's annual report flagged rapid growth in digital lending as a potential systemic risk, recommending</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#555">tighter regulation of fintech platforms and mandatory stress testing for digital lending portfolios.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">Semiconductor Fab in Dholera SIR: Vedanta-Foxconn JV Begins Equipment Installation</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#555">The Vedanta-Foxconn semiconductor fabrication facility at Dholera Special Investment Region has</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#555">begun installing cleanroom equipment. Trial production of 28nm chips is expected by late 2027.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#CC0000" stroke-width="0.5"/>
+  <rect x="30" y="965" width="740" height="50" fill="#CC0000" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ADVERTISEMENT: SBI — The Banker to Every Indian | www.sbi.co.in</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#CC0000" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by Indian Express Ltd., Express Towers, Nariman Point, Mumbai-400021 | Editor: S. Gupta</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#CC0000" stroke-width="1.5"/>
+</svg>

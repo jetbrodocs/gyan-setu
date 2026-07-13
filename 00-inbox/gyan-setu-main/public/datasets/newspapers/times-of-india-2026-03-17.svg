@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFFF"/>
+
+  <!-- Top double rule -->
+  <line x1="30" y1="18" x2="770" y2="18" stroke="#0A1929" stroke-width="2"/>
+  <line x1="30" y1="22" x2="770" y2="22" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="40" font-family="Georgia, serif" font-size="10" fill="#0A1929">Est. 1838 | India's Largest English Daily</text>
+  <text x="765" y="40" font-family="Georgia, serif" font-size="10" fill="#0A1929" text-anchor="end">₹8 | Page 1 of 36</text>
+
+  <!-- Masthead -->
+  <text x="400" y="82" font-family="'Times New Roman', Georgia, serif" font-size="50" font-weight="bold" fill="#0A1929" text-anchor="middle" letter-spacing="2" font-style="italic">THE TIMES OF INDIA</text>
+
+  <!-- Thin ornamental line -->
+  <line x1="200" y1="90" x2="600" y2="90" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Subline -->
+  <text x="400" y="108" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle">Ahmedabad Edition | Tuesday, 17 March 2026 | 36 Pages | www.timesofindia.com</text>
+  <line x1="30" y1="116" x2="770" y2="116" stroke="#0A1929" stroke-width="1.5"/>
+
+  <!-- Weather strip -->
+  <rect x="30" y="119" width="740" height="20" fill="#F0F4F8"/>
+  <text x="40" y="133" font-family="Arial, sans-serif" font-size="9" fill="#555">AHMEDABAD: Sunny, 33°C / 20°C | GANDHINAGAR: Sunny, 32°C / 19°C | SURAT: Sunny, 34°C / 22°C | VADODARA: Clear, 33°C / 21°C</text>
+  <line x1="30" y1="140" x2="770" y2="140" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Lead story -->
+  <text x="400" y="176" font-family="'Times New Roman', Georgia, serif" font-size="32" font-weight="bold" fill="#0A1929" text-anchor="middle">Centre Approves Bullet Train</text>
+  <text x="400" y="210" font-family="'Times New Roman', Georgia, serif" font-size="32" font-weight="bold" fill="#0A1929" text-anchor="middle">Extension to Gandhinagar GIFT City</text>
+
+  <text x="400" y="232" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">₹18,000 crore project to add 40 km spur line | Station at GIFT City, Mahatma Mandir | Completion by 2031</text>
+
+  <line x1="30" y1="248" x2="770" y2="248" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <text x="35" y="275" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#0A1929">Sabarmati Station to Serve</text>
+  <text x="35" y="293" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#0A1929">as Bullet Train Hub for</text>
+  <text x="35" y="311" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#0A1929">Gujarat Capital Region</text>
+
+  <text x="35" y="333" font-family="Arial, sans-serif" font-size="10" fill="#555">Ahmedabad: The National High Speed</text>
+  <text x="35" y="346" font-family="Arial, sans-serif" font-size="10" fill="#555">Rail Corporation has confirmed that</text>
+  <text x="35" y="359" font-family="Arial, sans-serif" font-size="10" fill="#555">the Sabarmati multi-modal hub will</text>
+  <text x="35" y="372" font-family="Arial, sans-serif" font-size="10" fill="#555">serve as the primary interchange for</text>
+  <text x="35" y="385" font-family="Arial, sans-serif" font-size="10" fill="#555">the Mumbai-Ahmedabad bullet train</text>
+  <text x="35" y="398" font-family="Arial, sans-serif" font-size="10" fill="#555">and the proposed Gandhinagar spur.</text>
+  <text x="35" y="411" font-family="Arial, sans-serif" font-size="10" fill="#555">The hub will integrate metro, BRTS,</text>
+  <text x="35" y="424" font-family="Arial, sans-serif" font-size="10" fill="#555">and conventional rail services, making</text>
+  <text x="35" y="437" font-family="Arial, sans-serif" font-size="10" fill="#555">it one of India's largest transport</text>
+  <text x="35" y="450" font-family="Arial, sans-serif" font-size="10" fill="#555">interchange nodes.</text>
+
+  <rect x="35" y="465" width="230" height="140" fill="#E0E0E0" rx="2"/>
+  <text x="150" y="540" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="35" y="625" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Real Estate Prices Surge Near</text>
+  <text x="35" y="641" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Proposed Bullet Train Stations</text>
+
+  <text x="35" y="661" font-family="Arial, sans-serif" font-size="10" fill="#555">Property prices near proposed bullet</text>
+  <text x="35" y="674" font-family="Arial, sans-serif" font-size="10" fill="#555">train stations in Ahmedabad and Surat</text>
+  <text x="35" y="687" font-family="Arial, sans-serif" font-size="10" fill="#555">have risen 30-40% since the project</text>
+  <text x="35" y="700" font-family="Arial, sans-serif" font-size="10" fill="#555">announcement. Analysts warn of a</text>
+  <text x="35" y="713" font-family="Arial, sans-serif" font-size="10" fill="#555">speculative bubble in some micro-markets.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="258" x2="275" y2="720" stroke="#0A1929" stroke-width="0.3"/>
+
+  <!-- Column 2 -->
+  <rect x="285" y="265" width="220" height="155" fill="#E0E0E0" rx="2"/>
+  <text x="395" y="348" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+  <text x="285" y="437" font-family="Arial, sans-serif" font-size="9" fill="#999">Artist's impression of GIFT City bullet train station</text>
+
+  <text x="285" y="460" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#0A1929">Foreign Universities Line</text>
+  <text x="285" y="478" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#0A1929">Up for GIFT City Campus</text>
+
+  <text x="285" y="498" font-family="Arial, sans-serif" font-size="10" fill="#555">Five international universities including</text>
+  <text x="285" y="511" font-family="Arial, sans-serif" font-size="10" fill="#555">Wharton and London Business School</text>
+  <text x="285" y="524" font-family="Arial, sans-serif" font-size="10" fill="#555">have submitted proposals to open</text>
+  <text x="285" y="537" font-family="Arial, sans-serif" font-size="10" fill="#555">satellite campuses in GIFT City under</text>
+  <text x="285" y="550" font-family="Arial, sans-serif" font-size="10" fill="#555">the new foreign university regulations.</text>
+  <text x="285" y="563" font-family="Arial, sans-serif" font-size="10" fill="#555">Gujarat Chief Minister said the state</text>
+  <text x="285" y="576" font-family="Arial, sans-serif" font-size="10" fill="#555">will provide land at concessional rates</text>
+  <text x="285" y="589" font-family="Arial, sans-serif" font-size="10" fill="#555">to attract top global institutions.</text>
+
+  <line x1="285" y1="602" x2="505" y2="602" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="285" y="622" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">IPL 2026: Gujarat Titans</text>
+  <text x="285" y="638" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Announce Squad; ₹22 Cr</text>
+  <text x="285" y="654" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Purse for 6 New Players</text>
+
+  <text x="285" y="674" font-family="Arial, sans-serif" font-size="10" fill="#555">The Gujarat Titans have announced</text>
+  <text x="285" y="687" font-family="Arial, sans-serif" font-size="10" fill="#555">their full squad for IPL 2026 with</text>
+  <text x="285" y="700" font-family="Arial, sans-serif" font-size="10" fill="#555">captain Shubman Gill retained at</text>
+  <text x="285" y="713" font-family="Arial, sans-serif" font-size="10" fill="#555">₹16 crore. Season starts March 28.</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="258" x2="515" y2="720" stroke="#0A1929" stroke-width="0.3"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="275" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">Climate: India Pledges</text>
+  <text x="525" y="295" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">Net Zero by 2065 at</text>
+  <text x="525" y="315" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">UN Climate Assembly</text>
+
+  <text x="525" y="337" font-family="Arial, sans-serif" font-size="10" fill="#555">Geneva: India has advanced its net</text>
+  <text x="525" y="350" font-family="Arial, sans-serif" font-size="10" fill="#555">zero emissions target by five years</text>
+  <text x="525" y="363" font-family="Arial, sans-serif" font-size="10" fill="#555">to 2065, announcing the revised</text>
+  <text x="525" y="376" font-family="Arial, sans-serif" font-size="10" fill="#555">commitment at the UN Climate</text>
+  <text x="525" y="389" font-family="Arial, sans-serif" font-size="10" fill="#555">Assembly in Geneva. The country</text>
+  <text x="525" y="402" font-family="Arial, sans-serif" font-size="10" fill="#555">will invest $500 billion in renewable</text>
+  <text x="525" y="415" font-family="Arial, sans-serif" font-size="10" fill="#555">energy over the next decade. Gujarat</text>
+  <text x="525" y="428" font-family="Arial, sans-serif" font-size="10" fill="#555">was cited as a model state for its</text>
+  <text x="525" y="441" font-family="Arial, sans-serif" font-size="10" fill="#555">solar and wind energy achievements.</text>
+
+  <line x1="525" y1="455" x2="765" y2="455" stroke="#ddd" stroke-width="0.5"/>
+
+  <rect x="525" y="468" width="240" height="120" fill="#E0E0E0" rx="2"/>
+  <text x="645" y="533" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="525" y="608" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">Startup India: 1 Lakh</text>
+  <text x="525" y="624" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">Startups Cross ₹1 Cr</text>
+  <text x="525" y="640" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">Revenue Milestone</text>
+
+  <text x="525" y="660" font-family="Arial, sans-serif" font-size="10" fill="#555">Over 1 lakh startups registered under</text>
+  <text x="525" y="673" font-family="Arial, sans-serif" font-size="10" fill="#555">the Startup India programme have</text>
+  <text x="525" y="686" font-family="Arial, sans-serif" font-size="10" fill="#555">crossed ₹1 crore annual revenue.</text>
+  <text x="525" y="699" font-family="Arial, sans-serif" font-size="10" fill="#555">Gujarat has 8,500 startups in this</text>
+  <text x="525" y="712" font-family="Arial, sans-serif" font-size="10" fill="#555">category, ranking 5th nationally.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#0A1929" stroke-width="1"/>
+
+  <!-- Bottom section -->
+  <text x="35" y="755" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">WORLD</text>
+
+  <text x="35" y="780" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">US Federal Reserve Holds Rates; Signals Two Cuts Later This Year</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#555">The US Federal Reserve kept interest rates unchanged at 4.25-4.50% but projected two rate cuts</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#555">before year-end. Markets reacted positively, with S&amp;P 500 gaining 1.2% in after-hours trading.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">EU Approves Landmark AI Regulation Framework; India Studies Model for Adoption</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#555">The European Union has approved the world's most comprehensive AI regulation framework. India's</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#555">IT Ministry is studying the model for potential adaptation to the Indian context.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Japan PM Visits India; Signs $10 Billion Green Infrastructure Partnership</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#555">Japan's Prime Minister signed a $10 billion green infrastructure partnership with India covering</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#555">electric mobility, clean energy, and smart city projects. Gujarat is a key beneficiary state.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#0A1929" stroke-width="0.5"/>
+  <rect x="30" y="965" width="740" height="50" fill="#0A1929" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ADVERTISEMENT: Tata Motors — Connecting Aspirations | www.tatamotors.com</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#0A1929" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by Bennett, Coleman &amp; Co. Ltd., Times House, DN Road, Mumbai-400001 | Editor: R. Sharma</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#0A1929" stroke-width="1"/>
+</svg>

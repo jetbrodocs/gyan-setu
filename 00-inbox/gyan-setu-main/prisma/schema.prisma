@@ -1,0 +1,376 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// === Enums ===
+
+enum Role {
+  CITIZEN
+  STUDENT
+  SENIOR
+  CREATOR
+  ADMIN
+  OFFICIAL
+}
+
+enum Tier {
+  BASIC
+  STANDARD
+  GOLD
+}
+
+enum RecordingStatus {
+  DRAFT
+  PUBLISHED
+}
+
+// === Auth & Users ===
+
+model User {
+  id             String   @id @default(cuid())
+  name           String
+  email          String   @unique
+  passwordHash   String
+  role           Role     @default(CITIZEN)
+  membershipTier Tier     @default(BASIC)
+  avatarUrl      String?
+  streakDays     Int      @default(0)
+  createdAt      DateTime @default(now())
+
+  sessions          Session[]
+  highlights        Highlight[]
+  notes             Note[]
+  readingProgress   ReadingProgress[]
+  testAttempts      TestAttempt[]
+  bookshelfItems    BookshelfItem[]
+  podcastRecordings PodcastRecording[]
+  podcastSeries     PodcastSeries[]
+  userStats         UserStats?
+  leaderboardEntry  LeaderboardEntry?
+  certificates      Certificate[]
+  readingActivity   ReadingActivity[]
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// === Content ===
+
+model Book {
+  id          String  @id @default(cuid())
+  title       String
+  author      String
+  language    String
+  format      String  // EPUB, PDF
+  collection  String?
+  year        Int?
+  coverUrl    String?
+  rating      Float   @default(0)
+  description String?
+  filePath    String?
+  pageCount   Int     @default(0)
+
+  highlights      Highlight[]
+  notes           Note[]
+  readingProgress ReadingProgress[]
+  bookshelfItems  BookshelfItem[]
+  bookSummary     BookSummary?
+  mindMap         MindMap?
+}
+
+model Audiobook {
+  id            String  @id @default(cuid())
+  title         String
+  author        String?
+  narrator      String?
+  language      String
+  coverUrl      String?
+  audioUrl      String?
+  totalDuration Int     // seconds
+  chapters      Json    // [{title, startTime, duration}]
+}
+
+model Newspaper {
+  id          String   @id @default(cuid())
+  publication String
+  edition     String?
+  date        DateTime
+  language    String
+  city        String
+  fileUrl     String   // relative path in public/datasets/newspapers/
+}
+
+model PodcastSeries {
+  id              String  @id @default(cuid())
+  name            String
+  creatorId       String
+  description     String?
+  language        String
+  subscriberCount Int     @default(0)
+  coverUrl        String?
+
+  creator    User               @relation(fields: [creatorId], references: [id])
+  podcasts   Podcast[]
+  recordings PodcastRecording[]
+}
+
+model Podcast {
+  id          String    @id @default(cuid())
+  title       String
+  seriesId    String
+  audioUrl    String
+  duration    Int       // seconds
+  publishedAt DateTime?
+
+  series    PodcastSeries    @relation(fields: [seriesId], references: [id])
+  recording PodcastRecording?
+}
+
+model Video {
+  id           String  @id @default(cuid())
+  title        String
+  category     String
+  youtubeUrl   String
+  duration     Int     // seconds
+  thumbnailUrl String?
+  description  String?
+}
+
+model Manuscript {
+  id          String  @id @default(cuid())
+  title       String
+  era         String  // VEDIC, MAURYAN, GUPTA, SOLANKI, MUGHAL, MODERN
+  language    String
+  description String?
+  contentUrl  String?
+  coverUrl    String?
+}
+
+model StemCourse {
+  id           String  @id @default(cuid())
+  title        String
+  moduleNumber Int
+  totalModules Int
+  videoUrl     String
+  description  String?
+  category     String
+}
+
+model ExamCategory {
+  id        String @id @default(cuid())
+  name      String
+  testCount Int    @default(0)
+  userCount Int    @default(0)
+  icon      String?
+
+  tests Test[]
+}
+
+model Test {
+  id              String @id @default(cuid())
+  examCategoryId  String
+  title           String
+  durationMinutes Int
+  totalQuestions  Int
+
+  examCategory ExamCategory  @relation(fields: [examCategoryId], references: [id])
+  questions    Question[]
+  testAttempts TestAttempt[]
+}
+
+model Question {
+  id              String  @id @default(cuid())
+  testId          String
+  text            String
+  options         Json    // [{label: "A", text: "..."}]
+  correctAnswer   String
+  marks           Float   @default(1)
+  negativeMarks   Float   @default(0)
+  subject         String?
+  isQuestionOfDay Boolean @default(false)
+
+  test Test @relation(fields: [testId], references: [id])
+}
+
+model MembershipPlan {
+  id        String  @id @default(cuid())
+  name      String
+  price     Int     // monthly INR, 0 for BASIC
+  features  Json    // [feature strings]
+  isPopular Boolean @default(false)
+  tier      Tier
+}
+
+// === User Activity ===
+
+model Highlight {
+  id       String @id @default(cuid())
+  userId   String
+  bookId   String
+  text     String
+  position Json
+  color    String @default("#F59E0B")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+}
+
+model Note {
+  id       String @id @default(cuid())
+  userId   String
+  bookId   String
+  text     String
+  position Json
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+}
+
+model ReadingProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  bookId      String
+  currentPage Int
+  totalPages  Int
+  updatedAt   DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+}
+
+model TestAttempt {
+  id          String    @id @default(cuid())
+  userId      String
+  testId      String
+  score       Float
+  totalMarks  Float
+  answers     Json
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  test Test @relation(fields: [testId], references: [id])
+}
+
+model BookshelfItem {
+  id     String @id @default(cuid())
+  userId String
+  bookId String
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  book Book @relation(fields: [bookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, bookId])
+}
+
+model PodcastRecording {
+  id        String          @id @default(cuid())
+  userId    String
+  title     String
+  audioUrl  String?
+  seriesId  String?
+  podcastId String?         @unique
+  status    RecordingStatus @default(DRAFT)
+  createdAt DateTime        @default(now())
+
+  user    User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  series  PodcastSeries? @relation(fields: [seriesId], references: [id])
+  podcast Podcast?       @relation(fields: [podcastId], references: [id])
+}
+
+// === Pre-computed (seeded) ===
+
+model UserStats {
+  userId             String @id
+  booksRead          Int    @default(0)
+  audiobooksListened Int    @default(0)
+  testsTaken         Int    @default(0)
+  podcastHours       Float  @default(0)
+  certificates       Int    @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model TestPerformance {
+  userId         String
+  examCategoryId String
+  readinessPct   Float
+  avgScore       Float
+  rank           Int
+  subjectScores  Json
+
+  @@id([userId, examCategoryId])
+}
+
+model LeaderboardEntry {
+  userId     String @id
+  xp         Int
+  rank       Int
+  badgeCount Int
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model TrendingContent {
+  id          String @id @default(cuid())
+  contentType String // BOOK, AUDIOBOOK, VIDEO, PODCAST — polymorphic, resolved at app level
+  contentId   String
+  title       String
+  coverUrl    String?
+  metric      String?
+  position    Int
+}
+
+model Certificate {
+  id       String   @id @default(cuid())
+  userId   String
+  name     String
+  icon     String?
+  earnedAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model ReadingActivity {
+  id      String   @id @default(cuid())
+  userId  String
+  date    DateTime
+  minutes Int
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+}
+
+// === AI Cache ===
+
+model MindMap {
+  id        String   @id @default(cuid())
+  bookId    String   @unique
+  content   Json
+  createdAt DateTime @default(now())
+
+  book Book @relation(fields: [bookId], references: [id])
+}
+
+model BookSummary {
+  id          String   @id @default(cuid())
+  bookId      String   @unique
+  summaryText String
+  createdAt   DateTime @default(now())
+
+  book Book @relation(fields: [bookId], references: [id])
+}

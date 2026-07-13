@@ -1,0 +1,33 @@
+# Generated output
+output/
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Environment
+.env
+
+# Playwright MCP
+.playwright-mcp/
+
+# Superpowers
+.superpowers/
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

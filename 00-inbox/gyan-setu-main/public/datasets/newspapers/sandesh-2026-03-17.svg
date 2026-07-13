@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFFF"/>
+
+  <!-- Top rule -->
+  <line x1="30" y1="20" x2="770" y2="20" stroke="#1B2A4A" stroke-width="4"/>
+  <line x1="30" y1="24" x2="770" y2="24" stroke="#1B2A4A" stroke-width="1"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="42" font-family="Georgia, serif" font-size="10" fill="#1B2A4A">Est. 1923</text>
+  <text x="765" y="42" font-family="Georgia, serif" font-size="10" fill="#1B2A4A" text-anchor="end">₹5 | Page 1 of 32</text>
+
+  <!-- Masthead -->
+  <text x="400" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="bold" fill="#1B2A4A" text-anchor="middle" letter-spacing="8">SANDESH</text>
+
+  <!-- Subline -->
+  <line x1="30" y1="100" x2="770" y2="100" stroke="#1B2A4A" stroke-width="1.5"/>
+  <text x="400" y="117" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">Ahmedabad Edition | Tuesday, 17 March 2026 | Vol. 103, No. 76 | www.sandesh.com</text>
+  <line x1="30" y1="125" x2="770" y2="125" stroke="#1B2A4A" stroke-width="2.5"/>
+
+  <!-- Main Headline spanning full width -->
+  <text x="400" y="165" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#1B2A4A" text-anchor="middle">Gujarat Tops National Ease of</text>
+  <text x="400" y="200" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#1B2A4A" text-anchor="middle">Doing Business Rankings 2026</text>
+
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="13" fill="#444" text-anchor="middle">State retains top position for third consecutive year; Ahmedabad, Surat among top 10 cities nationally</text>
+
+  <line x1="100" y1="240" x2="700" y2="240" stroke="#1B2A4A" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <text x="35" y="268" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1B2A4A">Industrial Output Grows</text>
+  <text x="35" y="286" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1B2A4A">12% in Gujarat This Quarter</text>
+
+  <text x="35" y="308" font-family="Arial, sans-serif" font-size="10" fill="#666">Gujarat's industrial production index</text>
+  <text x="35" y="321" font-family="Arial, sans-serif" font-size="10" fill="#666">registered a robust 12% growth in Q4</text>
+  <text x="35" y="334" font-family="Arial, sans-serif" font-size="10" fill="#666">FY2025-26 compared to the same</text>
+  <text x="35" y="347" font-family="Arial, sans-serif" font-size="10" fill="#666">period last year. The chemicals,</text>
+  <text x="35" y="360" font-family="Arial, sans-serif" font-size="10" fill="#666">pharmaceuticals, and auto ancillary</text>
+  <text x="35" y="373" font-family="Arial, sans-serif" font-size="10" fill="#666">sectors led the growth, followed by</text>
+  <text x="35" y="386" font-family="Arial, sans-serif" font-size="10" fill="#666">textiles and food processing. The</text>
+  <text x="35" y="399" font-family="Arial, sans-serif" font-size="10" fill="#666">state attracted ₹75,000 crore in new</text>
+  <text x="35" y="412" font-family="Arial, sans-serif" font-size="10" fill="#666">industrial investments during this</text>
+  <text x="35" y="425" font-family="Arial, sans-serif" font-size="10" fill="#666">fiscal year, surpassing targets.</text>
+
+  <rect x="35" y="440" width="230" height="130" fill="#D0D0D0" rx="2"/>
+  <text x="150" y="510" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="35" y="590" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1B2A4A">IIM Ahmedabad Placement</text>
+  <text x="35" y="606" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1B2A4A">Season Records ₹45 LPA</text>
+  <text x="35" y="622" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1B2A4A">Average Package</text>
+
+  <text x="35" y="642" font-family="Arial, sans-serif" font-size="10" fill="#666">IIM Ahmedabad has completed its</text>
+  <text x="35" y="655" font-family="Arial, sans-serif" font-size="10" fill="#666">2026 placement season with a record</text>
+  <text x="35" y="668" font-family="Arial, sans-serif" font-size="10" fill="#666">average package of ₹45 LPA. Top</text>
+  <text x="35" y="681" font-family="Arial, sans-serif" font-size="10" fill="#666">recruiters included McKinsey, BCG,</text>
+  <text x="35" y="694" font-family="Arial, sans-serif" font-size="10" fill="#666">Goldman Sachs, and Google.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="255" x2="275" y2="720" stroke="#1B2A4A" stroke-width="0.5"/>
+
+  <!-- Column 2 -->
+  <rect x="285" y="260" width="220" height="150" fill="#D5D5D5" rx="2"/>
+  <text x="395" y="340" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="285" y="430" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1B2A4A">Heritage City Status for</text>
+  <text x="285" y="448" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1B2A4A">Ahmedabad Walled City</text>
+
+  <text x="285" y="468" font-family="Arial, sans-serif" font-size="10" fill="#666">UNESCO has acknowledged the ongoing</text>
+  <text x="285" y="481" font-family="Arial, sans-serif" font-size="10" fill="#666">conservation efforts in Ahmedabad's</text>
+  <text x="285" y="494" font-family="Arial, sans-serif" font-size="10" fill="#666">walled city area. The municipal body has</text>
+  <text x="285" y="507" font-family="Arial, sans-serif" font-size="10" fill="#666">restored 45 heritage pols and renovated</text>
+  <text x="285" y="520" font-family="Arial, sans-serif" font-size="10" fill="#666">the historic Bhadra Fort complex. A new</text>
+  <text x="285" y="533" font-family="Arial, sans-serif" font-size="10" fill="#666">heritage tourism circuit connecting 12</text>
+  <text x="285" y="546" font-family="Arial, sans-serif" font-size="10" fill="#666">key sites will open next month.</text>
+
+  <line x1="285" y1="560" x2="505" y2="560" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="285" y="580" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1B2A4A">New Flyover at Ashram Road</text>
+  <text x="285" y="596" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1B2A4A">to Ease Traffic Congestion</text>
+
+  <text x="285" y="616" font-family="Arial, sans-serif" font-size="10" fill="#666">The AMC has fast-tracked the Ashram</text>
+  <text x="285" y="629" font-family="Arial, sans-serif" font-size="10" fill="#666">Road flyover project with a revised</text>
+  <text x="285" y="642" font-family="Arial, sans-serif" font-size="10" fill="#666">completion deadline of August 2026.</text>
+  <text x="285" y="655" font-family="Arial, sans-serif" font-size="10" fill="#666">The elevated corridor will reduce</text>
+  <text x="285" y="668" font-family="Arial, sans-serif" font-size="10" fill="#666">traffic at Income Tax and Nehru</text>
+  <text x="285" y="681" font-family="Arial, sans-serif" font-size="10" fill="#666">Bridge junctions significantly.</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="255" x2="515" y2="720" stroke="#1B2A4A" stroke-width="0.5"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="275" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1B2A4A">Saurashtra Farmers</text>
+  <text x="525" y="293" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1B2A4A">Switch to Organic</text>
+  <text x="525" y="311" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1B2A4A">Groundnut Cultivation</text>
+
+  <text x="525" y="331" font-family="Arial, sans-serif" font-size="10" fill="#666">Over 10,000 farmers in the Junagadh</text>
+  <text x="525" y="344" font-family="Arial, sans-serif" font-size="10" fill="#666">and Amreli districts have switched to</text>
+  <text x="525" y="357" font-family="Arial, sans-serif" font-size="10" fill="#666">organic groundnut farming. The state</text>
+  <text x="525" y="370" font-family="Arial, sans-serif" font-size="10" fill="#666">government is offering 50% subsidy</text>
+  <text x="525" y="383" font-family="Arial, sans-serif" font-size="10" fill="#666">on organic inputs and guaranteed</text>
+  <text x="525" y="396" font-family="Arial, sans-serif" font-size="10" fill="#666">minimum support price for certified</text>
+  <text x="525" y="409" font-family="Arial, sans-serif" font-size="10" fill="#666">organic produce. Export demand from</text>
+  <text x="525" y="422" font-family="Arial, sans-serif" font-size="10" fill="#666">Europe and US markets has made</text>
+  <text x="525" y="435" font-family="Arial, sans-serif" font-size="10" fill="#666">the switch financially attractive.</text>
+
+  <line x1="525" y1="448" x2="765" y2="448" stroke="#ddd" stroke-width="0.5"/>
+
+  <rect x="525" y="460" width="240" height="120" fill="#D0D0D0" rx="2"/>
+  <text x="645" y="525" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="525" y="600" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1B2A4A">Ahmedabad Air Quality</text>
+  <text x="525" y="616" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1B2A4A">Improves to 'Good' Category</text>
+
+  <text x="525" y="636" font-family="Arial, sans-serif" font-size="10" fill="#666">For the first time in three years,</text>
+  <text x="525" y="649" font-family="Arial, sans-serif" font-size="10" fill="#666">Ahmedabad's air quality index has</text>
+  <text x="525" y="662" font-family="Arial, sans-serif" font-size="10" fill="#666">reached the 'Good' category thanks</text>
+  <text x="525" y="675" font-family="Arial, sans-serif" font-size="10" fill="#666">to the city's electric bus fleet and</text>
+  <text x="525" y="688" font-family="Arial, sans-serif" font-size="10" fill="#666">strict industrial emission norms.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#1B2A4A" stroke-width="1.5"/>
+
+  <!-- Bottom section -->
+  <text x="35" y="755" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#1B2A4A">TECHNOLOGY</text>
+
+  <text x="35" y="780" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Gujarat's Startup Ecosystem Crosses 20,000 Registered Startups Milestone</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#666">Gujarat has crossed the 20,000 registered startups mark, ranking third nationally after Maharashtra</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#666">and Karnataka. The iCreate incubator in Ahmedabad has nurtured over 800 startups.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">AI-Powered Traffic Management System Goes Live in Ahmedabad</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#666">An artificial intelligence-powered traffic signal management system has been deployed at 200</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#666">intersections across Ahmedabad, reducing average commute times by 18% in pilot zones.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">ISRO's Chandrayaan-4 Mission to Feature Gujarat-Made Components</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#666">Key electronic components for ISRO's upcoming Chandrayaan-4 mission are being manufactured at</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#666">the Physical Research Laboratory in Ahmedabad, continuing Gujarat's contribution to space research.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#1B2A4A" stroke-width="1"/>
+  <rect x="30" y="965" width="740" height="50" fill="#1B2A4A" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ADVERTISEMENT: GSPC Gas — Powering Gujarat's Growth | www.gspc.in</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#1B2A4A" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by Sandesh Ltd., Sandesh Bhavan, Lad Society Road, Ahmedabad-380054 | Editor: F.B. Patel</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#1B2A4A" stroke-width="1.5"/>
+</svg>

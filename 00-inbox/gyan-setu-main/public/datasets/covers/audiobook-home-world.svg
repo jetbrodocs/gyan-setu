@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" width="300" height="450">
+  <defs>
+    <linearGradient id="grad_homeworld" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#E65100" />
+      <stop offset="100%" stop-color="#BF360C" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="450" fill="url(#grad_homeworld)" rx="6" ry="6" />
+  <rect width="300" height="80" fill="white" opacity="0.06" rx="6" ry="6" />
+  <!-- Wavy horizontal lines -->
+  <g opacity="0.18" stroke="#FFAB91" stroke-width="1.5" fill="none">
+    <path d="M70,70 Q110,55 150,70 Q190,85 230,70" />
+    <path d="M70,90 Q110,75 150,90 Q190,105 230,90" />
+    <path d="M70,110 Q110,95 150,110 Q190,125 230,110" />
+    <path d="M70,130 Q110,115 150,130 Q190,145 230,130" />
+    <path d="M70,150 Q110,135 150,150 Q190,165 230,150" />
+  </g>
+  <rect x="12" y="12" width="276" height="426" fill="none" stroke="#FF8A65" stroke-width="1.5" rx="4" ry="4" opacity="0.7" />
+  <rect x="18" y="18" width="264" height="414" fill="none" stroke="#FFAB91" stroke-width="0.6" rx="3" ry="3" opacity="0.4" />
+  <line x1="36" y1="190" x2="264" y2="190" stroke="#FFAB91" stroke-width="0.8" opacity="0.5" />
+  <text x="150" y="210" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" fill="white" letter-spacing="0.5"><tspan x="150" dy="0">The Home and</tspan><tspan x="150" dy="32">the World</tspan></text>
+  <line x1="36" y1="260" x2="264" y2="260" stroke="#FFAB91" stroke-width="0.8" opacity="0.5" />
+  <text x="150" y="282" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#FFAB91" letter-spacing="0.3"><tspan x="150" dy="0">Rabindranath</tspan><tspan x="150" dy="20">Tagore</tspan></text>
+  <!-- Headphone icon -->
+  <g transform="translate(35, 395) scale(0.7)" opacity="0.4" fill="white">
+    <path d="M12 3C6.48 3 2 7.48 2 13v4c0 1.1.9 2 2 2h2v-7H4.06C4.56 8.07 7.92 5 12 5s7.44 3.07 7.94 7H18v7h2c1.1 0 2-.9 2-2v-4c0-5.52-4.48-10-10-10z"/>
+    <rect x="3" y="13" width="3" height="6" rx="1"/>
+    <rect x="18" y="13" width="3" height="6" rx="1"/>
+  </g>
+  <rect x="90" y="410" width="120" height="22" rx="11" ry="11" fill="white" opacity="0.15" />
+  <text x="150" y="425" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="white" opacity="0.9" letter-spacing="1">AUDIOBOOK</text>
+  <circle cx="30" cy="30" r="3" fill="#FFAB91" opacity="0.5" />
+  <circle cx="270" cy="30" r="3" fill="#FFAB91" opacity="0.5" />
+  <circle cx="30" cy="420" r="3" fill="#FFAB91" opacity="0.5" />
+  <circle cx="270" cy="420" r="3" fill="#FFAB91" opacity="0.5" />
+</svg>

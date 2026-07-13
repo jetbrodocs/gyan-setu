@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFFF"/>
+
+  <!-- Top double rule -->
+  <line x1="30" y1="18" x2="770" y2="18" stroke="#0A1929" stroke-width="2"/>
+  <line x1="30" y1="22" x2="770" y2="22" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="40" font-family="Georgia, serif" font-size="10" fill="#0A1929">Est. 1838 | India's Largest English Daily</text>
+  <text x="765" y="40" font-family="Georgia, serif" font-size="10" fill="#0A1929" text-anchor="end">₹8 | Page 1 of 36</text>
+
+  <!-- Masthead -->
+  <text x="400" y="82" font-family="'Times New Roman', Georgia, serif" font-size="50" font-weight="bold" fill="#0A1929" text-anchor="middle" letter-spacing="2" font-style="italic">THE TIMES OF INDIA</text>
+
+  <!-- Thin ornamental line -->
+  <line x1="200" y1="90" x2="600" y2="90" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Subline -->
+  <text x="400" y="108" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle">Ahmedabad Edition | Wednesday, 18 March 2026 | 36 Pages | www.timesofindia.com</text>
+  <line x1="30" y1="116" x2="770" y2="116" stroke="#0A1929" stroke-width="1.5"/>
+
+  <!-- Weather strip -->
+  <rect x="30" y="119" width="740" height="20" fill="#F0F4F8"/>
+  <text x="40" y="133" font-family="Arial, sans-serif" font-size="9" fill="#555">AHMEDABAD: Sunny, 34°C / 21°C | GANDHINAGAR: Sunny, 33°C / 20°C | SURAT: Partly Cloudy, 35°C / 23°C | VADODARA: Sunny, 34°C / 22°C</text>
+  <line x1="30" y1="140" x2="770" y2="140" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Lead story - full width headline -->
+  <text x="400" y="176" font-family="'Times New Roman', Georgia, serif" font-size="34" font-weight="bold" fill="#0A1929" text-anchor="middle">India Overtakes Japan to Become</text>
+  <text x="400" y="212" font-family="'Times New Roman', Georgia, serif" font-size="34" font-weight="bold" fill="#0A1929" text-anchor="middle">World's Fourth Largest Economy</text>
+
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">GDP crosses $5 trillion milestone | PM calls it 'New India's moment' | Markets rally to all-time highs</text>
+
+  <line x1="30" y1="248" x2="770" y2="248" stroke="#0A1929" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <rect x="35" y="258" width="230" height="170" fill="#E0E0E0" rx="2"/>
+  <text x="150" y="348" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+  <text x="35" y="445" font-family="Arial, sans-serif" font-size="9" fill="#999">Reuters | PM Modi addressing the nation</text>
+
+  <text x="35" y="468" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">Gujarat Contributes 8.2%</text>
+  <text x="35" y="484" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">to India's $5 Trillion GDP</text>
+
+  <text x="35" y="504" font-family="Arial, sans-serif" font-size="10" fill="#555">Ahmedabad: Gujarat's GSDP has</text>
+  <text x="35" y="517" font-family="Arial, sans-serif" font-size="10" fill="#555">reached $410 billion, contributing</text>
+  <text x="35" y="530" font-family="Arial, sans-serif" font-size="10" fill="#555">8.2% to India's total GDP. The state</text>
+  <text x="35" y="543" font-family="Arial, sans-serif" font-size="10" fill="#555">ranked third nationally after</text>
+  <text x="35" y="556" font-family="Arial, sans-serif" font-size="10" fill="#555">Maharashtra and Tamil Nadu. Key</text>
+  <text x="35" y="569" font-family="Arial, sans-serif" font-size="10" fill="#555">drivers include the petrochemical,</text>
+  <text x="35" y="582" font-family="Arial, sans-serif" font-size="10" fill="#555">diamond polishing, pharmaceutical</text>
+  <text x="35" y="595" font-family="Arial, sans-serif" font-size="10" fill="#555">and IT services sectors. GIFT City</text>
+  <text x="35" y="608" font-family="Arial, sans-serif" font-size="10" fill="#555">has emerged as a significant financial</text>
+  <text x="35" y="621" font-family="Arial, sans-serif" font-size="10" fill="#555">hub adding $12 billion to the state</text>
+  <text x="35" y="634" font-family="Arial, sans-serif" font-size="10" fill="#555">economy in financial services alone.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="258" x2="275" y2="720" stroke="#0A1929" stroke-width="0.3"/>
+
+  <!-- Column 2 -->
+  <text x="285" y="278" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">RBI Holds Rates Steady,</text>
+  <text x="285" y="298" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">Signals Easing in June</text>
+
+  <text x="285" y="318" font-family="Arial, sans-serif" font-size="10" fill="#555">Mumbai: The Reserve Bank of India's</text>
+  <text x="285" y="331" font-family="Arial, sans-serif" font-size="10" fill="#555">Monetary Policy Committee kept the</text>
+  <text x="285" y="344" font-family="Arial, sans-serif" font-size="10" fill="#555">repo rate unchanged at 6.25% in its</text>
+  <text x="285" y="357" font-family="Arial, sans-serif" font-size="10" fill="#555">March review. However, the central</text>
+  <text x="285" y="370" font-family="Arial, sans-serif" font-size="10" fill="#555">bank hinted at a possible 25 basis</text>
+  <text x="285" y="383" font-family="Arial, sans-serif" font-size="10" fill="#555">point cut in June if inflation stays</text>
+  <text x="285" y="396" font-family="Arial, sans-serif" font-size="10" fill="#555">below 4.5%. Bond markets rallied on</text>
+  <text x="285" y="409" font-family="Arial, sans-serif" font-size="10" fill="#555">the dovish guidance.</text>
+
+  <line x1="285" y1="422" x2="505" y2="422" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="285" y="442" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">Tech Mahindra Opens New</text>
+  <text x="285" y="458" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">AI Research Centre in GIFT</text>
+
+  <text x="285" y="478" font-family="Arial, sans-serif" font-size="10" fill="#555">Tech Mahindra has inaugurated a new</text>
+  <text x="285" y="491" font-family="Arial, sans-serif" font-size="10" fill="#555">AI and machine learning research</text>
+  <text x="285" y="504" font-family="Arial, sans-serif" font-size="10" fill="#555">centre at GIFT City, Gandhinagar. The</text>
+  <text x="285" y="517" font-family="Arial, sans-serif" font-size="10" fill="#555">facility will employ 2,000 engineers</text>
+  <text x="285" y="530" font-family="Arial, sans-serif" font-size="10" fill="#555">and focus on generative AI solutions</text>
+  <text x="285" y="543" font-family="Arial, sans-serif" font-size="10" fill="#555">for banking and insurance sectors.</text>
+
+  <rect x="285" y="558" width="220" height="110" fill="#E0E0E0" rx="2"/>
+  <text x="395" y="618" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="285" y="688" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Sensex Crosses 93,000 Mark</text>
+  <text x="285" y="706" font-family="Arial, sans-serif" font-size="10" fill="#555">BSE Sensex surged past 93,000 for</text>
+  <text x="285" y="719" font-family="Arial, sans-serif" font-size="10" fill="#555">the first time on GDP milestone news.</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="258" x2="515" y2="720" stroke="#0A1929" stroke-width="0.3"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="278" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">Chandrayaan-4 Launch</text>
+  <text x="525" y="298" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">Date Set for October</text>
+
+  <rect x="525" y="310" width="240" height="140" fill="#E0E0E0" rx="2"/>
+  <text x="645" y="385" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="525" y="470" font-family="Arial, sans-serif" font-size="10" fill="#555">Bengaluru: ISRO has confirmed that</text>
+  <text x="525" y="483" font-family="Arial, sans-serif" font-size="10" fill="#555">the Chandrayaan-4 mission will launch</text>
+  <text x="525" y="496" font-family="Arial, sans-serif" font-size="10" fill="#555">in October 2026 from Sriharikota.</text>
+  <text x="525" y="509" font-family="Arial, sans-serif" font-size="10" fill="#555">The mission will attempt to collect</text>
+  <text x="525" y="522" font-family="Arial, sans-serif" font-size="10" fill="#555">and return lunar soil samples, making</text>
+  <text x="525" y="535" font-family="Arial, sans-serif" font-size="10" fill="#555">India the fourth country to achieve</text>
+  <text x="525" y="548" font-family="Arial, sans-serif" font-size="10" fill="#555">this milestone after the US, Russia,</text>
+  <text x="525" y="561" font-family="Arial, sans-serif" font-size="10" fill="#555">and China.</text>
+
+  <line x1="525" y1="575" x2="765" y2="575" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="525" y="595" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">India-UK Free Trade Deal</text>
+  <text x="525" y="611" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#0A1929">Enters Final Phase</text>
+
+  <text x="525" y="631" font-family="Arial, sans-serif" font-size="10" fill="#555">New Delhi: The India-UK Free Trade</text>
+  <text x="525" y="644" font-family="Arial, sans-serif" font-size="10" fill="#555">Agreement negotiations have entered</text>
+  <text x="525" y="657" font-family="Arial, sans-serif" font-size="10" fill="#555">the final phase with both sides</text>
+  <text x="525" y="670" font-family="Arial, sans-serif" font-size="10" fill="#555">agreeing on 90% of the tariff lines.</text>
+  <text x="525" y="683" font-family="Arial, sans-serif" font-size="10" fill="#555">Gujarat's textile and pharma sectors</text>
+  <text x="525" y="696" font-family="Arial, sans-serif" font-size="10" fill="#555">stand to gain significantly.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#0A1929" stroke-width="1"/>
+
+  <!-- Bottom section -->
+  <text x="35" y="755" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#0A1929">AHMEDABAD TIMES</text>
+
+  <text x="35" y="780" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">IIM-A Hosts Global Leadership Summit With 300 CEOs From 40 Countries</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#555">The Indian Institute of Management Ahmedabad hosted its annual Global Leadership Summit, attracting</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#555">300 CEOs and business leaders from 40 countries to discuss AI, sustainability, and inclusive growth.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Ahmedabad Real Estate: Luxury Segment Sees 45% Growth in Q4 FY26</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#555">The luxury real estate segment in Ahmedabad recorded 45% year-on-year growth in Q4 FY26, with</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#555">premium properties in SG Highway and South Bopal leading demand.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#0A1929">Gujarat University Launches India's First Quantum Computing MSc Programme</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#555">Gujarat University has launched India's first dedicated MSc programme in Quantum Computing, with</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#555">30 seats and collaboration with IBM Quantum Network. Applications open until April 15.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#0A1929" stroke-width="0.5"/>
+  <rect x="30" y="965" width="740" height="50" fill="#0A1929" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ADVERTISEMENT: HDFC Bank — We Understand Your World | www.hdfcbank.com</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#0A1929" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by Bennett, Coleman &amp; Co. Ltd., Times House, DN Road, Mumbai-400001 | Editor: R. Sharma</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#0A1929" stroke-width="1"/>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFF0"/>
+
+  <!-- Top rule -->
+  <line x1="30" y1="25" x2="770" y2="25" stroke="#8B0000" stroke-width="3"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="42" font-family="Georgia, serif" font-size="10" fill="#333">Est. 1932</text>
+  <text x="765" y="42" font-family="Georgia, serif" font-size="10" fill="#333" text-anchor="end">₹5 | Page 1 of 28</text>
+
+  <!-- Masthead -->
+  <text x="400" y="85" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" fill="#8B0000" text-anchor="middle" letter-spacing="4">GUJARAT SAMACHAR</text>
+
+  <!-- Subline -->
+  <line x1="30" y1="95" x2="770" y2="95" stroke="#8B0000" stroke-width="1"/>
+  <text x="400" y="112" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">Gandhinagar Edition | Tuesday, 17 March 2026 | Vol. 94, No. 76 | RNI No. GUJGUJ/1932/01234</text>
+  <line x1="30" y1="120" x2="770" y2="120" stroke="#8B0000" stroke-width="2"/>
+
+  <!-- Main Headline -->
+  <text x="400" y="160" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Gujarat Assembly Passes Historic</text>
+  <text x="400" y="195" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Water Conservation Bill 2026</text>
+
+  <!-- Subtitle -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="14" fill="#444" text-anchor="middle">Legislation mandates rainwater harvesting in all new construction; ₹500 crore allocated for dam repairs</text>
+
+  <line x1="100" y1="235" x2="700" y2="235" stroke="#8B0000" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <text x="35" y="268" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Narmada Canal Network</text>
+  <text x="35" y="286" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Expansion Approved</text>
+
+  <text x="35" y="306" font-family="Arial, sans-serif" font-size="10" fill="#666">The Gujarat government has approved</text>
+  <text x="35" y="319" font-family="Arial, sans-serif" font-size="10" fill="#666">the expansion of the Narmada canal</text>
+  <text x="35" y="332" font-family="Arial, sans-serif" font-size="10" fill="#666">network to cover an additional 1,500</text>
+  <text x="35" y="345" font-family="Arial, sans-serif" font-size="10" fill="#666">villages in North Gujarat. The project</text>
+  <text x="35" y="358" font-family="Arial, sans-serif" font-size="10" fill="#666">will provide irrigation water to over</text>
+  <text x="35" y="371" font-family="Arial, sans-serif" font-size="10" fill="#666">3 lakh hectares of farmland in the</text>
+  <text x="35" y="384" font-family="Arial, sans-serif" font-size="10" fill="#666">drought-prone Banaskantha and Patan</text>
+  <text x="35" y="397" font-family="Arial, sans-serif" font-size="10" fill="#666">districts. Work is expected to begin</text>
+  <text x="35" y="410" font-family="Arial, sans-serif" font-size="10" fill="#666">by June 2026 before the monsoon.</text>
+
+  <rect x="35" y="425" width="230" height="140" fill="#D0D0D0" rx="2"/>
+  <text x="150" y="500" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="35" y="585" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Solar Park in Charanka</text>
+  <text x="35" y="601" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Exceeds 1 GW Capacity</text>
+
+  <text x="35" y="621" font-family="Arial, sans-serif" font-size="10" fill="#666">Asia's largest solar park in Charanka</text>
+  <text x="35" y="634" font-family="Arial, sans-serif" font-size="10" fill="#666">has exceeded 1 GW of installed</text>
+  <text x="35" y="647" font-family="Arial, sans-serif" font-size="10" fill="#666">capacity, making Gujarat the leading</text>
+  <text x="35" y="660" font-family="Arial, sans-serif" font-size="10" fill="#666">state in solar energy production.</text>
+  <text x="35" y="673" font-family="Arial, sans-serif" font-size="10" fill="#666">The milestone was achieved with the</text>
+  <text x="35" y="686" font-family="Arial, sans-serif" font-size="10" fill="#666">commissioning of a new 200 MW unit.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="250" x2="275" y2="720" stroke="#8B0000" stroke-width="0.5"/>
+
+  <!-- Column 2 -->
+  <rect x="285" y="255" width="220" height="150" fill="#D8D8D8" rx="2"/>
+  <text x="395" y="335" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="285" y="425" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">GPSC Exam Results</text>
+  <text x="285" y="443" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Declared; Pass Rate Up</text>
+
+  <text x="285" y="463" font-family="Arial, sans-serif" font-size="10" fill="#666">The Gujarat Public Service Commission</text>
+  <text x="285" y="476" font-family="Arial, sans-serif" font-size="10" fill="#666">has declared results for the Class I and</text>
+  <text x="285" y="489" font-family="Arial, sans-serif" font-size="10" fill="#666">Class II examinations held in January.</text>
+  <text x="285" y="502" font-family="Arial, sans-serif" font-size="10" fill="#666">The overall pass rate has increased by</text>
+  <text x="285" y="515" font-family="Arial, sans-serif" font-size="10" fill="#666">8% compared to last year, attributed to</text>
+  <text x="285" y="528" font-family="Arial, sans-serif" font-size="10" fill="#666">better access to online study materials</text>
+  <text x="285" y="541" font-family="Arial, sans-serif" font-size="10" fill="#666">and digital library platforms.</text>
+
+  <line x1="285" y1="555" x2="505" y2="555" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="285" y="575" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">Gandhinagar Gets Its First</text>
+  <text x="285" y="591" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">EV Charging Hub at Infocity</text>
+
+  <text x="285" y="611" font-family="Arial, sans-serif" font-size="10" fill="#666">A state-of-the-art EV charging hub</text>
+  <text x="285" y="624" font-family="Arial, sans-serif" font-size="10" fill="#666">with 24 fast-charging stations has</text>
+  <text x="285" y="637" font-family="Arial, sans-serif" font-size="10" fill="#666">been inaugurated near Infocity in</text>
+  <text x="285" y="650" font-family="Arial, sans-serif" font-size="10" fill="#666">Gandhinagar. The facility supports</text>
+  <text x="285" y="663" font-family="Arial, sans-serif" font-size="10" fill="#666">both two-wheelers and four-wheelers</text>
+  <text x="285" y="676" font-family="Arial, sans-serif" font-size="10" fill="#666">and operates 24/7 with solar backup.</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="250" x2="515" y2="720" stroke="#8B0000" stroke-width="0.5"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="268" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Kankaria Lakefront</text>
+  <text x="525" y="286" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Festival Dates Announced</text>
+
+  <text x="525" y="306" font-family="Arial, sans-serif" font-size="10" fill="#666">The annual Kankaria Carnival will be</text>
+  <text x="525" y="319" font-family="Arial, sans-serif" font-size="10" fill="#666">held from December 25, 2026 to</text>
+  <text x="525" y="332" font-family="Arial, sans-serif" font-size="10" fill="#666">January 1, 2027, announced the</text>
+  <text x="525" y="345" font-family="Arial, sans-serif" font-size="10" fill="#666">Ahmedabad Municipal Corporation.</text>
+  <text x="525" y="358" font-family="Arial, sans-serif" font-size="10" fill="#666">This year's theme will focus on</text>
+  <text x="525" y="371" font-family="Arial, sans-serif" font-size="10" fill="#666">Gujarat's cultural heritage and folk</text>
+  <text x="525" y="384" font-family="Arial, sans-serif" font-size="10" fill="#666">traditions with a digital twist.</text>
+
+  <line x1="525" y1="398" x2="765" y2="398" stroke="#ccc" stroke-width="0.5"/>
+
+  <rect x="525" y="410" width="240" height="130" fill="#D0D0D0" rx="2"/>
+  <text x="645" y="480" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="525" y="560" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">Sabarmati Riverfront Gets</text>
+  <text x="525" y="576" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">New Open-Air Theatre</text>
+
+  <text x="525" y="596" font-family="Arial, sans-serif" font-size="10" fill="#666">A 1,200-seat open-air amphitheatre</text>
+  <text x="525" y="609" font-family="Arial, sans-serif" font-size="10" fill="#666">will be constructed along the eastern</text>
+  <text x="525" y="622" font-family="Arial, sans-serif" font-size="10" fill="#666">bank of the Sabarmati Riverfront.</text>
+  <text x="525" y="635" font-family="Arial, sans-serif" font-size="10" fill="#666">The venue will host cultural events,</text>
+  <text x="525" y="648" font-family="Arial, sans-serif" font-size="10" fill="#666">concerts, and public gatherings.</text>
+  <text x="525" y="661" font-family="Arial, sans-serif" font-size="10" fill="#666">Construction will cost ₹45 crore.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#8B0000" stroke-width="1.5"/>
+
+  <!-- Bottom section -->
+  <text x="35" y="755" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#8B0000">SPORTS</text>
+
+  <text x="35" y="780" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Gujarat Titans Begin IPL 2026 Practice Camp at Narendra Modi Stadium</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#666">The Gujarat Titans squad has arrived in Ahmedabad for their pre-season training camp ahead of the</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#666">IPL 2026 season. Captain Shubman Gill expressed confidence in the team's new lineup.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Gandhinagar Marathon 2026 Registration Opens; 10,000 Slots Available</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#666">Registration for the 6th edition of the Gandhinagar Marathon has opened with categories for full</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#666">marathon, half marathon, 10K run, and 5K fun run. The event is scheduled for April 12, 2026.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Gujarat U-19 Cricket Team Qualifies for National Finals</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#666">The Gujarat Under-19 cricket team secured a spot in the Cooch Behar Trophy national finals after</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#666">defeating Maharashtra by 7 wickets in the semi-final held at the IPCL Ground in Vadodara.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#8B0000" stroke-width="1"/>
+  <rect x="30" y="965" width="740" height="50" fill="#8B0000" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFF0" text-anchor="middle" font-weight="bold">ADVERTISEMENT: Gujarat State Fertilizers &amp; Chemicals Ltd — Nurturing Growth | www.gsfc.in</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#8B0000" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by Gujarat Samachar Pvt. Ltd., Khanpur, Ahmedabad-380001 | Editor: R.K. Patel | RNI Reg. No. GUJGUJ/1932/01234</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#8B0000" stroke-width="1"/>
+</svg>

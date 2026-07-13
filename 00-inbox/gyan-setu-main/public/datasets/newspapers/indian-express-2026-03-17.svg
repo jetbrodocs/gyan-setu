@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFFF"/>
+
+  <!-- Top rule -->
+  <line x1="30" y1="15" x2="770" y2="15" stroke="#CC0000" stroke-width="5"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="35" font-family="Georgia, serif" font-size="10" fill="#333">Journalism of Courage | Est. 1932</text>
+  <text x="765" y="35" font-family="Georgia, serif" font-size="10" fill="#333" text-anchor="end">₹7 | Page 1 of 20</text>
+
+  <!-- Masthead -->
+  <text x="400" y="78" font-family="'Times New Roman', Georgia, serif" font-size="46" font-weight="bold" fill="#000000" text-anchor="middle" letter-spacing="3">THE INDIAN EXPRESS</text>
+
+  <!-- Red underline -->
+  <line x1="30" y1="88" x2="770" y2="88" stroke="#CC0000" stroke-width="3"/>
+
+  <!-- Subline -->
+  <text x="400" y="107" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle">Gujarat Edition | Tuesday, 17 March 2026 | New Delhi, Lucknow, Ahmedabad, Chandigarh, Pune, Mumbai</text>
+  <line x1="30" y1="115" x2="770" y2="115" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Top news strip -->
+  <rect x="30" y="118" width="740" height="22" fill="#FFF5F5"/>
+  <text x="40" y="134" font-family="Arial, sans-serif" font-size="10" fill="#CC0000" font-weight="bold">EXCLUSIVE:</text>
+  <text x="118" y="134" font-family="Arial, sans-serif" font-size="10" fill="#333">Indian Express accesses draft bill on regulation of social media platforms in India</text>
+  <line x1="30" y1="142" x2="770" y2="142" stroke="#333" stroke-width="0.5"/>
+
+  <!-- Lead story -->
+  <text x="400" y="178" font-family="'Times New Roman', Georgia, serif" font-size="30" font-weight="bold" fill="#000" text-anchor="middle">Government Plans Universal Basic</text>
+  <text x="400" y="210" font-family="'Times New Roman', Georgia, serif" font-size="30" font-weight="bold" fill="#000" text-anchor="middle">Digital Infrastructure for All Citizens</text>
+
+  <text x="400" y="232" font-family="Arial, sans-serif" font-size="12" fill="#CC0000" text-anchor="middle" font-weight="bold">DigiLocker, UPI, ABHA health ID to be bundled into single national digital identity by 2027</text>
+
+  <line x1="60" y1="248" x2="740" y2="248" stroke="#CC0000" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <rect x="35" y="260" width="230" height="155" fill="#E0E0E0" rx="2"/>
+  <text x="150" y="342" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+  <text x="35" y="432" font-family="Arial, sans-serif" font-size="9" fill="#999">IT Minister at the launch event in New Delhi</text>
+
+  <text x="35" y="455" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Gujarat to Pilot Digital ID</text>
+  <text x="35" y="471" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Integration in Gandhinagar</text>
+
+  <text x="35" y="491" font-family="Arial, sans-serif" font-size="10" fill="#555">Gandhinagar has been selected as one</text>
+  <text x="35" y="504" font-family="Arial, sans-serif" font-size="10" fill="#555">of five pilot cities for the Universal</text>
+  <text x="35" y="517" font-family="Arial, sans-serif" font-size="10" fill="#555">Digital Infrastructure programme. The</text>
+  <text x="35" y="530" font-family="Arial, sans-serif" font-size="10" fill="#555">pilot will integrate Aadhaar, DigiLocker,</text>
+  <text x="35" y="543" font-family="Arial, sans-serif" font-size="10" fill="#555">UPI, and ABHA health records into a</text>
+  <text x="35" y="556" font-family="Arial, sans-serif" font-size="10" fill="#555">single unified digital identity that</text>
+  <text x="35" y="569" font-family="Arial, sans-serif" font-size="10" fill="#555">citizens can use for all government</text>
+  <text x="35" y="582" font-family="Arial, sans-serif" font-size="10" fill="#555">services. The 6-month pilot begins</text>
+  <text x="35" y="595" font-family="Arial, sans-serif" font-size="10" fill="#555">in May 2026. Smart City officials say</text>
+  <text x="35" y="608" font-family="Arial, sans-serif" font-size="10" fill="#555">100% of municipal services will be</text>
+  <text x="35" y="621" font-family="Arial, sans-serif" font-size="10" fill="#555">accessible through the new platform.</text>
+
+  <line x1="35" y1="635" x2="265" y2="635" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="655" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">RTI Data Shows 40% Rise in</text>
+  <text x="35" y="671" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">Citizen Complaints Against</text>
+  <text x="35" y="687" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">Municipal Bodies in Gujarat</text>
+
+  <text x="35" y="707" font-family="Arial, sans-serif" font-size="10" fill="#555">RTI data accessed by Indian Express</text>
+  <text x="35" y="720" font-family="Arial, sans-serif" font-size="10" fill="#555">shows citizen complaints increased 40%.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="260" x2="275" y2="720" stroke="#CC0000" stroke-width="0.3"/>
+
+  <!-- Column 2 -->
+  <text x="285" y="278" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#CC0000">POLITICAL PULSE</text>
+
+  <text x="285" y="300" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Five States Head to Polls:</text>
+  <text x="285" y="318" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">EC Announces Schedule</text>
+  <text x="285" y="336" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">for October Elections</text>
+
+  <text x="285" y="358" font-family="Arial, sans-serif" font-size="10" fill="#555">The Election Commission has announced</text>
+  <text x="285" y="371" font-family="Arial, sans-serif" font-size="10" fill="#555">the schedule for assembly elections in</text>
+  <text x="285" y="384" font-family="Arial, sans-serif" font-size="10" fill="#555">five states — Bihar, Jharkhand, Assam,</text>
+  <text x="285" y="397" font-family="Arial, sans-serif" font-size="10" fill="#555">Haryana, and Delhi. Polling will be held</text>
+  <text x="285" y="410" font-family="Arial, sans-serif" font-size="10" fill="#555">in 3 phases between October 5 and</text>
+  <text x="285" y="423" font-family="Arial, sans-serif" font-size="10" fill="#555">October 28. Results on November 2.</text>
+  <text x="285" y="436" font-family="Arial, sans-serif" font-size="10" fill="#555">The model code of conduct will come</text>
+  <text x="285" y="449" font-family="Arial, sans-serif" font-size="10" fill="#555">into force from September 15, 2026.</text>
+
+  <rect x="285" y="465" width="220" height="120" fill="#E0E0E0" rx="2"/>
+  <text x="395" y="530" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <line x1="285" y1="598" x2="505" y2="598" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="285" y="618" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">CAG Report Flags ₹12,000 Cr</text>
+  <text x="285" y="634" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">in Unutilized Central Grants</text>
+  <text x="285" y="650" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Across 8 State Departments</text>
+
+  <text x="285" y="670" font-family="Arial, sans-serif" font-size="10" fill="#555">The Comptroller and Auditor General</text>
+  <text x="285" y="683" font-family="Arial, sans-serif" font-size="10" fill="#555">has flagged ₹12,000 crore in central</text>
+  <text x="285" y="696" font-family="Arial, sans-serif" font-size="10" fill="#555">grants that remain unutilized across</text>
+  <text x="285" y="709" font-family="Arial, sans-serif" font-size="10" fill="#555">multiple departments in 8 states.</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="260" x2="515" y2="720" stroke="#CC0000" stroke-width="0.3"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="278" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#CC0000">SCIENCE &amp; TECH</text>
+
+  <text x="525" y="300" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">IIT Gandhinagar Develops</text>
+  <text x="525" y="318" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Low-Cost Water Purifier</text>
+  <text x="525" y="336" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" fill="#000">Using Nano-Technology</text>
+
+  <rect x="525" y="350" width="240" height="120" fill="#E0E0E0" rx="2"/>
+  <text x="645" y="415" font-family="Arial, sans-serif" font-size="14" fill="#999" text-anchor="middle">Photo</text>
+
+  <text x="525" y="490" font-family="Arial, sans-serif" font-size="10" fill="#555">Researchers at IIT Gandhinagar have</text>
+  <text x="525" y="503" font-family="Arial, sans-serif" font-size="10" fill="#555">developed a nano-technology based</text>
+  <text x="525" y="516" font-family="Arial, sans-serif" font-size="10" fill="#555">water purification system that costs</text>
+  <text x="525" y="529" font-family="Arial, sans-serif" font-size="10" fill="#555">just ₹500 and can purify 1,000 litres</text>
+  <text x="525" y="542" font-family="Arial, sans-serif" font-size="10" fill="#555">of water. The device uses silver nano-</text>
+  <text x="525" y="555" font-family="Arial, sans-serif" font-size="10" fill="#555">particles embedded in a ceramic filter</text>
+  <text x="525" y="568" font-family="Arial, sans-serif" font-size="10" fill="#555">and requires no electricity. It has been</text>
+  <text x="525" y="581" font-family="Arial, sans-serif" font-size="10" fill="#555">tested in 50 villages across Kutch.</text>
+
+  <line x1="525" y1="595" x2="765" y2="595" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="525" y="615" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">DRDO Successfully Tests</text>
+  <text x="525" y="631" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Hypersonic Missile From</text>
+  <text x="525" y="647" font-family="'Times New Roman', serif" font-size="14" font-weight="bold" fill="#000">Odisha Coast</text>
+
+  <text x="525" y="667" font-family="Arial, sans-serif" font-size="10" fill="#555">DRDO has successfully tested a long-</text>
+  <text x="525" y="680" font-family="Arial, sans-serif" font-size="10" fill="#555">range hypersonic cruise missile from</text>
+  <text x="525" y="693" font-family="Arial, sans-serif" font-size="10" fill="#555">the APJ Abdul Kalam Island off the</text>
+  <text x="525" y="706" font-family="Arial, sans-serif" font-size="10" fill="#555">Odisha coast, achieving Mach 6 speed.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#CC0000" stroke-width="1.5"/>
+
+  <!-- Bottom section -->
+  <text x="35" y="755" font-family="'Times New Roman', serif" font-size="16" font-weight="bold" fill="#CC0000">SPORTS</text>
+
+  <text x="35" y="780" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">India Win Test Series Against Australia 3-1; Virat Kohli Scores Century in Final Match</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#555">India secured a convincing 3-1 Test series victory against Australia with Virat Kohli scoring 142 in</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#555">the final Test at the Narendra Modi Stadium in Ahmedabad, watched by a record 1.1 lakh spectators.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">Neeraj Chopra Sets New Asian Record in Javelin at Doha Diamond League Meet</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#555">Olympic champion Neeraj Chopra threw 92.77 metres at the Doha Diamond League, setting a new</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#555">Asian record and strengthening his position as the world's top-ranked javelin thrower.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="'Times New Roman', serif" font-size="13" font-weight="bold" fill="#000">PV Sindhu Announces Retirement; Says 'Time to Give Back to Indian Badminton'</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#555">Two-time Olympic medallist PV Sindhu has announced her retirement from professional badminton,</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#555">saying she will focus on coaching and developing grassroots badminton infrastructure in India.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#CC0000" stroke-width="0.5"/>
+  <rect x="30" y="965" width="740" height="50" fill="#CC0000" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ADVERTISEMENT: LIC of India — Zindagi Ke Saath Bhi, Zindagi Ke Baad Bhi | www.licindia.in</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#CC0000" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by Indian Express Ltd., Express Towers, Nariman Point, Mumbai-400021 | Editor: S. Gupta</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#CC0000" stroke-width="1.5"/>
+</svg>

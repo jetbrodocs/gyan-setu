@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFFF"/>
+
+  <!-- Top rule -->
+  <line x1="30" y1="18" x2="770" y2="18" stroke="#CC0000" stroke-width="4"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="38" font-family="Arial, sans-serif" font-size="10" fill="#CC0000" font-weight="bold">HINDI DAILY</text>
+  <text x="765" y="38" font-family="Georgia, serif" font-size="10" fill="#333" text-anchor="end">₹6 | Page 1 of 24</text>
+
+  <!-- Masthead -->
+  <rect x="30" y="45" width="740" height="55" fill="#CC0000" rx="3"/>
+  <text x="400" y="85" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="5">DIVYA BHASKAR</text>
+
+  <!-- Subline -->
+  <text x="400" y="117" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">Ahmedabad Edition | Wednesday, 18 March 2026 | Year 23, Issue 77 | www.divyabhaskar.co.in</text>
+  <line x1="30" y1="125" x2="770" y2="125" stroke="#CC0000" stroke-width="2"/>
+
+  <!-- Main headline -->
+  <text x="400" y="162" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#1a1a1a" text-anchor="middle">National Education Policy 2026</text>
+  <text x="400" y="194" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Approved by Union Cabinet</text>
+
+  <text x="400" y="218" font-family="Arial, sans-serif" font-size="13" fill="#CC0000" text-anchor="middle" font-weight="bold">Mother tongue instruction mandatory till Class 5 in all states; coding from Class 3</text>
+
+  <line x1="100" y1="232" x2="700" y2="232" stroke="#CC0000" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <rect x="35" y="245" width="230" height="170" fill="#D0D0D0" rx="2"/>
+  <text x="150" y="335" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+  <text x="35" y="432" font-family="Arial, sans-serif" font-size="9" fill="#999">Union Education Minister at the press conference</text>
+
+  <text x="35" y="455" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">Gujarat to Set Up 50 New</text>
+  <text x="35" y="471" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">Model Schools Under NEP</text>
+
+  <text x="35" y="491" font-family="Arial, sans-serif" font-size="10" fill="#666">Following the approval of the National</text>
+  <text x="35" y="504" font-family="Arial, sans-serif" font-size="10" fill="#666">Education Policy 2026, Gujarat has</text>
+  <text x="35" y="517" font-family="Arial, sans-serif" font-size="10" fill="#666">announced the establishment of 50 new</text>
+  <text x="35" y="530" font-family="Arial, sans-serif" font-size="10" fill="#666">model schools across rural districts.</text>
+  <text x="35" y="543" font-family="Arial, sans-serif" font-size="10" fill="#666">Each school will have smart classrooms,</text>
+  <text x="35" y="556" font-family="Arial, sans-serif" font-size="10" fill="#666">a digital library, and STEM labs. The</text>
+  <text x="35" y="569" font-family="Arial, sans-serif" font-size="10" fill="#666">state will invest ₹1,200 crore in the</text>
+  <text x="35" y="582" font-family="Arial, sans-serif" font-size="10" fill="#666">project over the next three years.</text>
+  <text x="35" y="595" font-family="Arial, sans-serif" font-size="10" fill="#666">Priority districts include Dahod,</text>
+  <text x="35" y="608" font-family="Arial, sans-serif" font-size="10" fill="#666">Narmada, and Tapi where literacy</text>
+  <text x="35" y="621" font-family="Arial, sans-serif" font-size="10" fill="#666">rates lag behind state averages.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="245" x2="275" y2="720" stroke="#CC0000" stroke-width="0.5"/>
+
+  <!-- Column 2 -->
+  <text x="285" y="268" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">PM Announces ₹5,000 Cr</text>
+  <text x="285" y="286" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Skill India Digital Program</text>
+
+  <text x="285" y="308" font-family="Arial, sans-serif" font-size="10" fill="#666">Prime Minister has announced a ₹5,000</text>
+  <text x="285" y="321" font-family="Arial, sans-serif" font-size="10" fill="#666">crore initiative under Skill India to train</text>
+  <text x="285" y="334" font-family="Arial, sans-serif" font-size="10" fill="#666">1 crore youth in AI, data science, and</text>
+  <text x="285" y="347" font-family="Arial, sans-serif" font-size="10" fill="#666">cybersecurity by 2028. Free certifications</text>
+  <text x="285" y="360" font-family="Arial, sans-serif" font-size="10" fill="#666">will be offered through partner platforms</text>
+  <text x="285" y="373" font-family="Arial, sans-serif" font-size="10" fill="#666">including NPTEL and Swayam. Gujarat</text>
+  <text x="285" y="386" font-family="Arial, sans-serif" font-size="10" fill="#666">has been selected as a pilot state for</text>
+  <text x="285" y="399" font-family="Arial, sans-serif" font-size="10" fill="#666">the program's first phase.</text>
+
+  <line x1="285" y1="413" x2="505" y2="413" stroke="#ddd" stroke-width="0.5"/>
+
+  <rect x="285" y="425" width="220" height="130" fill="#D5D5D5" rx="2"/>
+  <text x="395" y="495" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="285" y="575" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">Ahmedabad Ranks 4th in</text>
+  <text x="285" y="591" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">National Cleanliness Survey</text>
+
+  <text x="285" y="611" font-family="Arial, sans-serif" font-size="10" fill="#666">Ahmedabad has secured the fourth</text>
+  <text x="285" y="624" font-family="Arial, sans-serif" font-size="10" fill="#666">position in the Swachh Survekshan</text>
+  <text x="285" y="637" font-family="Arial, sans-serif" font-size="10" fill="#666">2026 rankings for cities with over 10</text>
+  <text x="285" y="650" font-family="Arial, sans-serif" font-size="10" fill="#666">lakh population. The city improved</text>
+  <text x="285" y="663" font-family="Arial, sans-serif" font-size="10" fill="#666">two spots from last year's ranking</text>
+  <text x="285" y="676" font-family="Arial, sans-serif" font-size="10" fill="#666">due to better solid waste management</text>
+  <text x="285" y="689" font-family="Arial, sans-serif" font-size="10" fill="#666">and cleaner public spaces.</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="245" x2="515" y2="720" stroke="#CC0000" stroke-width="0.5"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="268" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Indian Railways Launches</text>
+  <text x="525" y="286" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Vande Bharat Sleeper on</text>
+  <text x="525" y="304" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Ahmedabad-Delhi Route</text>
+
+  <text x="525" y="326" font-family="Arial, sans-serif" font-size="10" fill="#666">Indian Railways flagged off the first</text>
+  <text x="525" y="339" font-family="Arial, sans-serif" font-size="10" fill="#666">Vande Bharat sleeper train service on</text>
+  <text x="525" y="352" font-family="Arial, sans-serif" font-size="10" fill="#666">the Ahmedabad-Delhi route. The semi-</text>
+  <text x="525" y="365" font-family="Arial, sans-serif" font-size="10" fill="#666">high-speed train will cover the distance</text>
+  <text x="525" y="378" font-family="Arial, sans-serif" font-size="10" fill="#666">in 8 hours with stops at Udaipur and</text>
+  <text x="525" y="391" font-family="Arial, sans-serif" font-size="10" fill="#666">Jaipur. Ticket prices start at ₹1,200</text>
+  <text x="525" y="404" font-family="Arial, sans-serif" font-size="10" fill="#666">for AC 3-tier sleeper class.</text>
+
+  <rect x="525" y="418" width="240" height="130" fill="#D0D0D0" rx="2"/>
+  <text x="645" y="488" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <line x1="525" y1="560" x2="765" y2="560" stroke="#ddd" stroke-width="0.5"/>
+
+  <text x="525" y="580" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">Petrol, Diesel Prices Cut</text>
+  <text x="525" y="596" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">by ₹3 Per Litre Across</text>
+  <text x="525" y="612" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">Gujarat from Today</text>
+
+  <text x="525" y="632" font-family="Arial, sans-serif" font-size="10" fill="#666">Fuel prices have been reduced by ₹3</text>
+  <text x="525" y="645" font-family="Arial, sans-serif" font-size="10" fill="#666">per litre following the global decline in</text>
+  <text x="525" y="658" font-family="Arial, sans-serif" font-size="10" fill="#666">crude oil prices. Petrol in Ahmedabad</text>
+  <text x="525" y="671" font-family="Arial, sans-serif" font-size="10" fill="#666">now costs ₹95.50 per litre while diesel</text>
+  <text x="525" y="684" font-family="Arial, sans-serif" font-size="10" fill="#666">is at ₹87.30 per litre.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#CC0000" stroke-width="1.5"/>
+
+  <!-- Bottom section -->
+  <text x="35" y="755" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#CC0000">ENTERTAINMENT</text>
+
+  <text x="35" y="780" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Gujarati Film 'Chhello Show' Sequel Announced; Shooting Begins in Kutch Next Month</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#666">The makers of Oscar-nominated 'Chhello Show' have announced a sequel titled 'Aakhri Show' with</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#666">a new cast and crew. Principal photography will begin in Kutch's Rann in April 2026.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Navratri 2026: Ahmedabad's GMDC Ground to Host 1.5 Lakh Capacity Garba Event</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#666">The Ahmedabad Municipal Corporation has approved plans for a massive Navratri celebration at</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#666">the GMDC ground with capacity for 1.5 lakh participants, making it India's largest garba venue.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Bollywood Actor to Inaugurate New Multiplex in Gandhinagar's GIFT City</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#666">A 12-screen multiplex cinema with IMAX and 4DX screens will open in GIFT City next month.</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#666">The venue will also feature a 200-seat live performance theatre and food court.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#CC0000" stroke-width="1"/>
+  <rect x="30" y="965" width="740" height="50" fill="#CC0000" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ADVERTISEMENT: Jio 5G — India Ka Apna 5G Network | www.jio.com</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#CC0000" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by D.B. Corp Ltd., Bhaskar House, Nr. Balol Nagar, Ahmedabad | Editor: S. Mishra | RNI No. GUJTHI/2003/11651</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#CC0000" stroke-width="1"/>
+</svg>

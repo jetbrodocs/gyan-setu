@@ -1,0 +1,168 @@
+/* Gyaan Setu PRD Stylesheet */
+@page {
+    size: A4;
+    margin: 2cm;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #1E293B;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    color: #1E293B;
+    font-size: 28px;
+    font-weight: 700;
+    border-bottom: 3px solid #3B82F6;
+    padding-bottom: 10px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    page-break-before: always;
+}
+
+h1:first-of-type {
+    page-break-before: avoid;
+}
+
+h2 {
+    color: #3B82F6;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: #1E293B;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+strong {
+    color: #1E293B;
+    font-weight: 600;
+}
+
+em {
+    color: #64748B;
+}
+
+code {
+    background-color: #F1F5F9;
+    color: #0F172A;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px 0;
+    font-size: 13px;
+}
+
+th {
+    background-color: #1E293B;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 14px;
+}
+
+td {
+    padding: 8px 14px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+tr:nth-child(even) {
+    background-color: #F8FAFC;
+}
+
+tr:hover {
+    background-color: #F1F5F9;
+}
+
+ul, ol {
+    margin: 8px 0;
+    padding-left: 24px;
+}
+
+li {
+    margin: 4px 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #E2E8F0;
+    margin: 32px 0;
+}
+
+blockquote {
+    border-left: 4px solid #3B82F6;
+    margin: 16px 0;
+    padding: 8px 16px;
+    background-color: #F8FAFC;
+    color: #475569;
+}
+
+/* Cover page styling */
+.cover {
+    text-align: center;
+    padding-top: 180px;
+    page-break-after: always;
+}
+
+.cover h1 {
+    font-size: 42px;
+    border-bottom: none;
+    color: #1E293B;
+    margin-bottom: 8px;
+}
+
+.cover .divider {
+    width: 120px;
+    height: 4px;
+    background: #3B82F6;
+    margin: 16px auto;
+}
+
+.cover .subtitle {
+    font-size: 18px;
+    color: #3B82F6;
+    margin-top: 16px;
+}
+
+.cover .info {
+    font-size: 14px;
+    color: #64748B;
+    margin-top: 40px;
+    line-height: 2;
+}
+
+@media print {
+    body {
+        padding: 0;
+    }
+    h1 {
+        page-break-before: always;
+    }
+    h1:first-of-type {
+        page-break-before: avoid;
+    }
+    table, figure {
+        page-break-inside: avoid;
+    }
+}

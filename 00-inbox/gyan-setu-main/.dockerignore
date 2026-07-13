@@ -1,0 +1,15 @@
+.next
+node_modules
+.git
+.gitignore
+.env
+.env.local
+.superpowers
+.playwright-mcp
+output
+slides
+brainstorming
+docs
+Dockerfile
+docker-compose.yml
+*.md

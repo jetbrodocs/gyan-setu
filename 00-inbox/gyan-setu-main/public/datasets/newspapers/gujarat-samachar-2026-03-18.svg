@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <rect width="800" height="1100" fill="#FFFFF0"/>
+
+  <!-- Top rule -->
+  <line x1="30" y1="25" x2="770" y2="25" stroke="#8B0000" stroke-width="3"/>
+
+  <!-- Price and page info -->
+  <text x="35" y="42" font-family="Georgia, serif" font-size="10" fill="#333">Est. 1932</text>
+  <text x="765" y="42" font-family="Georgia, serif" font-size="10" fill="#333" text-anchor="end">₹5 | Page 1 of 28</text>
+
+  <!-- Masthead -->
+  <text x="400" y="85" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" fill="#8B0000" text-anchor="middle" letter-spacing="4">GUJARAT SAMACHAR</text>
+
+  <!-- Subline -->
+  <line x1="30" y1="95" x2="770" y2="95" stroke="#8B0000" stroke-width="1"/>
+  <text x="400" y="112" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">Gandhinagar Edition | Wednesday, 18 March 2026 | Vol. 94, No. 77 | RNI No. GUJGUJ/1932/01234</text>
+  <line x1="30" y1="120" x2="770" y2="120" stroke="#8B0000" stroke-width="2"/>
+
+  <!-- Main Headline -->
+  <text x="400" y="160" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Smart City Project Phase III</text>
+  <text x="400" y="195" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Inaugurated in Gandhinagar</text>
+
+  <!-- Subtitle -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="14" fill="#444" text-anchor="middle">Chief Minister launches ₹2,400 crore infrastructure development initiative covering 12 sectors</text>
+
+  <line x1="100" y1="235" x2="700" y2="235" stroke="#8B0000" stroke-width="0.5"/>
+
+  <!-- Three column layout -->
+  <!-- Column 1 -->
+  <rect x="35" y="250" width="230" height="160" fill="#D0D0D0" rx="2"/>
+  <text x="150" y="335" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="35" y="430" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">New Metro Line to Connect</text>
+  <text x="35" y="448" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Gandhinagar-Ahmedabad</text>
+
+  <text x="35" y="468" font-family="Arial, sans-serif" font-size="10" fill="#666">Gandhinagar: The state government</text>
+  <text x="35" y="481" font-family="Arial, sans-serif" font-size="10" fill="#666">announced the approval of a new metro</text>
+  <text x="35" y="494" font-family="Arial, sans-serif" font-size="10" fill="#666">corridor that will connect key locations</text>
+  <text x="35" y="507" font-family="Arial, sans-serif" font-size="10" fill="#666">across both cities. The project is expected</text>
+  <text x="35" y="520" font-family="Arial, sans-serif" font-size="10" fill="#666">to reduce travel time by 45 minutes and</text>
+  <text x="35" y="533" font-family="Arial, sans-serif" font-size="10" fill="#666">benefit over 2 lakh daily commuters.</text>
+  <text x="35" y="546" font-family="Arial, sans-serif" font-size="10" fill="#666">Construction is set to begin in Q3 2026</text>
+  <text x="35" y="559" font-family="Arial, sans-serif" font-size="10" fill="#666">with completion targeted for 2029.</text>
+  <text x="35" y="572" font-family="Arial, sans-serif" font-size="10" fill="#666">The metro will have 18 stations across</text>
+  <text x="35" y="585" font-family="Arial, sans-serif" font-size="10" fill="#666">the 32-km stretch with interchange at</text>
+  <text x="35" y="598" font-family="Arial, sans-serif" font-size="10" fill="#666">three key junctions. Environmental</text>
+  <text x="35" y="611" font-family="Arial, sans-serif" font-size="10" fill="#666">clearances have been obtained.</text>
+
+  <!-- Column divider -->
+  <line x1="275" y1="250" x2="275" y2="720" stroke="#8B0000" stroke-width="0.5"/>
+
+  <!-- Column 2 -->
+  <text x="285" y="268" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Digital Library Initiative</text>
+  <text x="285" y="286" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Reaches 5 Lakh Users</text>
+
+  <text x="285" y="306" font-family="Arial, sans-serif" font-size="10" fill="#666">The Gyaan Setu digital library platform</text>
+  <text x="285" y="319" font-family="Arial, sans-serif" font-size="10" fill="#666">launched by Gandhinagar Smart City</text>
+  <text x="285" y="332" font-family="Arial, sans-serif" font-size="10" fill="#666">Development Ltd has crossed the 5 lakh</text>
+  <text x="285" y="345" font-family="Arial, sans-serif" font-size="10" fill="#666">registered users milestone. The platform</text>
+  <text x="285" y="358" font-family="Arial, sans-serif" font-size="10" fill="#666">offers access to over 50,000 eBooks in</text>
+  <text x="285" y="371" font-family="Arial, sans-serif" font-size="10" fill="#666">Gujarati, Hindi, English, and Sanskrit.</text>
+  <text x="285" y="384" font-family="Arial, sans-serif" font-size="10" fill="#666">Officials reported a 200% increase in</text>
+  <text x="285" y="397" font-family="Arial, sans-serif" font-size="10" fill="#666">usage among students preparing for</text>
+  <text x="285" y="410" font-family="Arial, sans-serif" font-size="10" fill="#666">competitive examinations like GPSC and</text>
+  <text x="285" y="423" font-family="Arial, sans-serif" font-size="10" fill="#666">UPSC. The AI-powered recommendation</text>
+  <text x="285" y="436" font-family="Arial, sans-serif" font-size="10" fill="#666">engine has been particularly popular.</text>
+
+  <line x1="285" y1="448" x2="505" y2="448" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="285" y="468" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">State Budget Allocates</text>
+  <text x="285" y="484" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">₹800 Cr for Education</text>
+
+  <text x="285" y="504" font-family="Arial, sans-serif" font-size="10" fill="#666">In a major boost to the education sector,</text>
+  <text x="285" y="517" font-family="Arial, sans-serif" font-size="10" fill="#666">the Gujarat state budget has earmarked</text>
+  <text x="285" y="530" font-family="Arial, sans-serif" font-size="10" fill="#666">₹800 crore for modernizing schools and</text>
+  <text x="285" y="543" font-family="Arial, sans-serif" font-size="10" fill="#666">colleges. This includes funds for digital</text>
+  <text x="285" y="556" font-family="Arial, sans-serif" font-size="10" fill="#666">classrooms, teacher training programs,</text>
+  <text x="285" y="569" font-family="Arial, sans-serif" font-size="10" fill="#666">and scholarship schemes for economically</text>
+  <text x="285" y="582" font-family="Arial, sans-serif" font-size="10" fill="#666">weaker sections of society.</text>
+
+  <rect x="285" y="595" width="220" height="120" fill="#D8D8D8" rx="2"/>
+  <text x="395" y="660" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <!-- Column divider -->
+  <line x1="515" y1="250" x2="515" y2="720" stroke="#8B0000" stroke-width="0.5"/>
+
+  <!-- Column 3 -->
+  <text x="525" y="268" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Monsoon Forecast:</text>
+  <text x="525" y="286" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Above Normal Rain</text>
+  <text x="525" y="304" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#1a1a1a">Expected This Year</text>
+
+  <text x="525" y="324" font-family="Arial, sans-serif" font-size="10" fill="#666">The India Meteorological Department</text>
+  <text x="525" y="337" font-family="Arial, sans-serif" font-size="10" fill="#666">has predicted above-normal monsoon</text>
+  <text x="525" y="350" font-family="Arial, sans-serif" font-size="10" fill="#666">rainfall for Gujarat in 2026. The state</text>
+  <text x="525" y="363" font-family="Arial, sans-serif" font-size="10" fill="#666">is expected to receive 110% of its long</text>
+  <text x="525" y="376" font-family="Arial, sans-serif" font-size="10" fill="#666">period average. Farmers in Saurashtra</text>
+  <text x="525" y="389" font-family="Arial, sans-serif" font-size="10" fill="#666">and North Gujarat regions are likely to</text>
+  <text x="525" y="402" font-family="Arial, sans-serif" font-size="10" fill="#666">benefit the most from the predicted</text>
+  <text x="525" y="415" font-family="Arial, sans-serif" font-size="10" fill="#666">surplus rainfall this season.</text>
+
+  <line x1="525" y1="428" x2="765" y2="428" stroke="#ccc" stroke-width="0.5"/>
+
+  <rect x="525" y="440" width="240" height="130" fill="#D0D0D0" rx="2"/>
+  <text x="645" y="510" font-family="Arial, sans-serif" font-size="14" fill="#888" text-anchor="middle">Photo</text>
+
+  <text x="525" y="590" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">GIFT City Attracts 20 New</text>
+  <text x="525" y="606" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1a1a1a">International Companies</text>
+
+  <text x="525" y="626" font-family="Arial, sans-serif" font-size="10" fill="#666">Gujarat International Finance Tec-City</text>
+  <text x="525" y="639" font-family="Arial, sans-serif" font-size="10" fill="#666">has welcomed 20 new international</text>
+  <text x="525" y="652" font-family="Arial, sans-serif" font-size="10" fill="#666">financial institutions in Q1 2026, bringing</text>
+  <text x="525" y="665" font-family="Arial, sans-serif" font-size="10" fill="#666">the total to over 450 entities operating</text>
+  <text x="525" y="678" font-family="Arial, sans-serif" font-size="10" fill="#666">from the special economic zone.</text>
+
+  <!-- Bottom section divider -->
+  <line x1="30" y1="730" x2="770" y2="730" stroke="#8B0000" stroke-width="1.5"/>
+
+  <!-- Bottom section - 2 columns -->
+  <text x="35" y="755" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#8B0000">CITY NEWS</text>
+
+  <text x="35" y="780" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Traffic Diversion on SG Highway for Flyover Work</text>
+  <text x="35" y="798" font-family="Arial, sans-serif" font-size="10" fill="#666">Gandhinagar police have announced traffic diversions on SG Highway starting March 20 due to</text>
+  <text x="35" y="811" font-family="Arial, sans-serif" font-size="10" fill="#666">construction of the new flyover near Infocity Circle. Alternate routes via CH Road are suggested.</text>
+
+  <line x1="30" y1="825" x2="770" y2="825" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="845" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">Heritage Walk Draws Record 500 Participants in Adalaj</text>
+  <text x="35" y="863" font-family="Arial, sans-serif" font-size="10" fill="#666">A heritage walk organized by the Gujarat Tourism Board at the historic Adalaj Stepwell attracted a</text>
+  <text x="35" y="876" font-family="Arial, sans-serif" font-size="10" fill="#666">record 500 participants this weekend, highlighting growing interest in cultural tourism.</text>
+
+  <line x1="30" y1="890" x2="770" y2="890" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="35" y="910" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#1a1a1a">AMC Launches Free Wi-Fi at 50 Public Locations</text>
+  <text x="35" y="928" font-family="Arial, sans-serif" font-size="10" fill="#666">The Ahmedabad Municipal Corporation has launched free public Wi-Fi at 50 locations across the city</text>
+  <text x="35" y="941" font-family="Arial, sans-serif" font-size="10" fill="#666">including gardens, bus stands, and community centers. Each user gets 1 GB daily free data.</text>
+
+  <!-- Bottom banner -->
+  <line x1="30" y1="960" x2="770" y2="960" stroke="#8B0000" stroke-width="1"/>
+  <rect x="30" y="965" width="740" height="50" fill="#8B0000" rx="2"/>
+  <text x="400" y="995" font-family="Arial, sans-serif" font-size="14" fill="#FFFFF0" text-anchor="middle" font-weight="bold">ADVERTISEMENT: Gandhinagar Smart City — Building Tomorrow's City Today | www.gandhinagarsmartcity.in</text>
+
+  <!-- Bottom rules -->
+  <line x1="30" y1="1025" x2="770" y2="1025" stroke="#8B0000" stroke-width="0.5"/>
+  <text x="400" y="1042" font-family="Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">Printed and Published by Gujarat Samachar Pvt. Ltd., Khanpur, Ahmedabad-380001 | Editor: R.K. Patel | RNI Reg. No. GUJGUJ/1932/01234</text>
+  <line x1="30" y1="1055" x2="770" y2="1055" stroke="#8B0000" stroke-width="1"/>
+</svg>
