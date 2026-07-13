@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gyan Setu — Brief Scope of Work</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#181826;
+    --ink-soft:#2c2c3d;
+    --accent:#3734C6;
+    --accent-soft:#ecebff;
+    --muted:#6b6b7b;
+    --line:#e6e6ee;
+    --bg:#ffffff;
+    --paper:#f7f7fb;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  body{
+    margin:0;
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    font-size:14px;
+    line-height:1.62;
+  }
+  .page{
+    max-width:820px;
+    margin:0 auto;
+    background:var(--bg);
+    padding:56px 60px 40px;
+  }
+  h1,h2,h3,.brandmark{font-family:"Space Grotesk","Inter",sans-serif;}
+
+  /* ---------- Cover header ---------- */
+  .cover{border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:34px;}
+  .logo{height:46px;width:auto;display:block;margin-bottom:26px;}
+  .doc-kicker{font-family:"Space Grotesk",sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:600;color:var(--accent);margin:0 0 10px;}
+  h1{font-size:40px;line-height:1.05;font-weight:700;margin:0 0 8px;color:var(--ink);letter-spacing:-.01em;}
+  .tagline{font-style:italic;color:var(--muted);font-size:16px;margin:0 0 18px;}
+  .subtitle{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:17px;color:var(--ink-soft);margin:0 0 22px;}
+  .accent-line{height:4px;width:100%;border-radius:4px;background:linear-gradient(90deg,var(--accent) 0%,#6c6af0 55%,var(--accent-soft) 100%);margin:0 0 22px;}
+  .meta{display:flex;flex-wrap:wrap;gap:22px 40px;font-size:13px;}
+  .meta .m-label{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:3px;font-weight:600;}
+  .meta .m-val{font-weight:600;color:var(--ink);}
+
+  /* ---------- Sections ---------- */
+  section{margin:0 0 30px;}
+  h2{font-size:20px;font-weight:600;margin:0 0 14px;color:var(--ink);display:flex;align-items:center;gap:12px;letter-spacing:-.005em;}
+  h2 .num{flex:none;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;font-family:"Space Grotesk",sans-serif;}
+  section > p{margin:0 0 12px;}
+  .lead{color:var(--ink-soft);}
+  em{color:var(--ink-soft);}
+  strong{font-weight:600;color:var(--ink);}
+
+  /* platform-wide note */
+  .note{background:var(--accent-soft);border-left:4px solid var(--accent);border-radius:0 8px 8px 0;padding:14px 18px;margin:0 0 22px;font-size:13.5px;}
+  .note strong{color:var(--accent);}
+
+  /* pillars */
+  .pillar{border:1px solid var(--line);border-radius:12px;padding:18px 20px 14px;margin:0 0 16px;background:var(--bg);}
+  .pillar-head{display:flex;align-items:baseline;gap:10px;margin:0 0 4px;}
+  .pillar-emoji{font-size:20px;line-height:1;}
+  .pillar-title{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:16px;color:var(--ink);}
+  .pillar-value{font-style:italic;color:var(--muted);font-size:13px;margin:0 0 12px;padding-left:30px;}
+  ul{margin:0;padding-left:20px;}
+  li{margin:0 0 8px;padding-left:2px;}
+  li::marker{color:var(--accent);}
+  .badge{display:inline-block;font-size:10px;font-weight:600;font-family:"Space Grotesk",sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);border-radius:4px;padding:1px 6px;vertical-align:middle;}
+
+  /* generic bullet lists in prose sections */
+  .prose ul li{margin-bottom:9px;}
+
+  /* tables */
+  table{width:100%;border-collapse:collapse;margin:6px 0 4px;font-size:13px;}
+  thead th{background:var(--ink);color:#fff;text-align:left;font-family:"Space Grotesk",sans-serif;font-weight:500;padding:10px 12px;font-size:12px;letter-spacing:.02em;}
+  tbody td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+  tbody tr:nth-child(even){background:var(--paper);}
+  td strong{color:var(--ink);}
+
+  /* sign-off */
+  .signoff td{height:44px;}
+  .signoff .rowlabel{font-weight:600;background:var(--accent-soft);}
+
+  /* footer */
+  .footer{margin-top:38px;padding-top:20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:11.5px;color:var(--muted);}
+  .footer .f-brand{font-family:"Space Grotesk",sans-serif;font-weight:600;color:var(--ink);font-size:13px;}
+  .footer a{color:var(--accent);text-decoration:none;}
+
+  /* print */
+  @page{size:A4;margin:14mm 12mm;}
+  @media print{
+    body{background:#fff;}
+    .page{max-width:none;margin:0;padding:0;}
+    section,.pillar,table,.note{page-break-inside:avoid;}
+    h2{page-break-after:avoid;}
+    .cover{page-break-after:avoid;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ================= COVER ================= -->
+  <header class="cover">
+    <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwgAAADGCAYAAAB2D6dOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAJAVJREFUeNrsnU1uG8fWhsuB51eZZRZ6cqeWgAABMjG1AssrCLUCWyuQvAI5KxC1AtErMD0JECCAmOmdmJlldvWt4H51xNMJLVFkk+yfequeB2jIiR2nu35O1VvnrapnAZ7ku+/+fRh/HGz5n9399dd/ZpQeAAAAACjyrNCJv036bfI/8Od7/1n9+yYxsXAXn3l8/vSf9syikLijCQIAAAAAAqFbMXDok/6X/nOXrECbTF1E/OGigewDAAAAACAQGhQEw/jDnlcJioE63Llg+ByfCYIhizY5CIsMVS5gowMAAEAgJD35MgFwEp/XLgwOMqsjEwyTJcGALUmvjd6G5q1rffMtbXHn9jD0WAXlMY79Zi7WXi8yq4NprIMpTTHb9jCP9TumpgoVCA9EwUlhdWZi4SNiQaatDuKPLxl+2ilBeK8B9pySKJJjpclpbKs2vt5kVgdm5T2iKe7cJv4nIACPqan9+UasYZ7Ex4LVf+NzVaA4CP7N9u1fYllc+R4LSJe3mX7Xa6oWIHty7OeHvnADAMoCwbIFtuIWH1uFvSlUFKzCsiij+NyahSU+I4okWUGX5Xd5Jg8AiF98FwACoTNhMLAV8rCwZ1g6HsX/NJZFsGyCZRXeMXFLpg0fZt5uGWQB8o1f1r9zHUt+poYBxATCA2EwyjhAtYFNRi/Dwn70juJgEGoZbEYA9G9FDrHnAogIhBXCAHbHRNWlZxQoy/7IfYUdmxEA8UsVsggAKQuEao9B/OUtwqBxBmFhPfrEaknn7Tp3e1EFfRYgv/hl/Tp38Y9FEiBVgeAeRxMG5wErUZsMw2Iz8yUrvp3xM98JAKKUYB8csHAGkJhA8KyBnUhkz4Bq6Ix3LhSGFEXrjAr5To4MBMiIpXuGSoAFDoBUBIJnDb4E0nt9YZO5TxnejpnSAJvz6R+roC8D0J/5VgAEwk6TJssa2Ak7NwE7UQqc+/0JA4qicUo73YdVOADilyLYjAD6FAg+Cf0UFhYXSAcLjLcEyMYpbVUKmxFABhRmL6p4S80D9CAQ3O9+65NRSI8DFwkjiqKR9l6avahUUQRAP+abARAIO06WbNL5KWApUuCKfQmNUOrlYazCAehTol3wwBd2AKALgeD7Da4oYinO/bI62K3Nl5ier8DLC6AdvwZhcSR2iXArPEAXAsEnmew30GSESNiZUu1FFWxWBtCOX3w7ALQjEHxyOaJoEQkFUvoqFIMsAAJfEWxGAG0KBMRBdiLhgmKo3fZLthdVYDMC0Ixfg8BBItiMANoQCD6ZRBzkxTmnG9WG1acF2IwAiF+SZeALPQDQlEDwSeQ5xZklV6wK14LVJyYaAAh7XcgCAzQpEHzyiF89bz6xsrK2DzCw/AM2IwCt+DUI2IsqWOgBaEIg+MToE8WYPVbPNxTDkyAOvoY7EQDor5KxnMUwgAYEQuAStJIYsmmZARbBBEB/pTwAEAhP4pNF0pJlcY595FE/GNAPHsGRgQAa8cti14CS+ApsRgC7CgQPKmxKLhP2m3wNE2EGWQBV2Jy8IqZjMwLYPYPAJLFcDrEaMcAinADop5QLAALhb7AWQeStW2uKBnvRWrAZAaQdv7AXrRnjKAJAIGw/IaLjgKVfsZixyrQJbEYA6UL282kOWQQDBMJ2nAdOLYIFIwIoA+wmAYWXFyDdGE4RrI9fFAGUzPO6f9Ang6UGlGmNPzMssFxMMJ6W2CA8PY+9aD3VBXJjigIgqfh1Eljs24QtAH2gGACBUG8ymDMzf/7wn/O//vrPfIfAa0Jq4JPH7/1nruLBsgjvdymnTAYP2MxrBAJAkv0S1nNvMyp0fAOoJxAyzR7cxWcSn4/xmcYgcNfEX+rBxJ7pgzIcelA+CXltDCs1i0D6uWY5mc2oqf4FAMSvjsuJLAIUSd09CDltTDZR8CZOWL6Nz2l8Jl1MXuL/w0TIWXxexH88CotV1RwmTcX5zDn9g8kIgHD8wl5UHzLFUCwbMwg++Rtl8K02IU/CDhPfwSxMp7Fsz+LPdy7AVAN21T5KWmVh0NgObEZixBj1jFLIuj9CPcxmdOhjNkBR1MkgqK82TONz5NmCeUovZpmL+FzEX74Qn2CXNmFmRXzL8uI0I4D+8X5I/GJ8A2hEICivNpil5zh19e9CwbIJx2Gxf0GNYs6M9r0kgwCIKgDNfohYJ3YB7CcQhFcbzNtvWQOpVXnbpxAW+xMmBNFkYTVpN7hgEaB/sBdtz8D3nQEgEMQnfZYteKHqGfRswpug59kuZeLMatJucDMpQI9gL2J8A2hSIKitNszjc5zDkYq2ZyL+OBObAGaduub0D8QVAP2PsgNAIGhd8GWi4E1O5627RWpMEE0G0vP7wSocAPFLEWxGgECo8M6gtFp6luNRZJ5JmIq87qvM+wurSPuBzQigB7AXNQL7qACB4AyFvsMuIRtnXE+2J0EhM5LtCgv2IkQWAP2OMgRAIITwUug7TnOuJLdNKexHyDkFq5CenwoISWxGAN3D6vf+HPhCEUDxAmEg8g3j1C5Aa0kkjIOA1cjvCcgKkdvEJ3bnR0h/z8ohXl6ATuOXjeWp9zk72vtYoDjZxwEIhKBjMbouqL7eC7zjIMNyV1g1+ijUH8giABC/vhrH/R6gCWUJkLBAEDqucu5BpQj8W1PfiJ2jQFBYNZp4G7H2MWeQBQARQW53/1TC4GPi74rNCMoWCEHHSz4tsM5+Sfz9XuZU2CKnf0weHO+b+iocRwYCdBO/BkHDXqQSuwxsRlC0QFDhjwLrLPUAmttJP0r2ogpsRgAgF798oWOaepnmfikowDqBMBR5/1lpFSYQQAeZFbmMvWipjWAzAgAFIb5sL3okGBKFOyWgaIGgwl2h9fYZgdA+ovailaIhxXaCzQig1fhl/UvJXqQSuwxsRoBASJkcb06uyZSm2wkjYbGoYDPibHaA9lCw8X1cMa7PQ/ruAGxGgECAJJlRBAywzmSNeJ6nPsjSxACK7V+r7EUV15QvAAIBtuQJS0ky5LCyInL6x2zDJYHTxN+fIwMB2olfFrsGib/mZMffSwVsRpA1z8WD4LCkexAecJrwAGACQX1/iMTlQht+39L3I4FBdhIAoEkk7UUVtvARx3fLgqa8SHNvM0p9wQ6gSIFQMjEojSmF4gfYyYY2MokD2F1I++jZExe7ANBsv0qd6Ybfvw7pZ3GtnBmLIUvULUZDqhCaJhN7US0RkQDYjACajV82Lg4Sf81JjZV3hcwiBy0AAiFR8ABCG4wE3rHuJr6P9GOAopC2F1WInGZ06AtKAAgEOicwwCZBrdU1PyUkdY8sRwYCNNifcolfQeNIbzKggEBIlHOqEZpC5PSPuvaibQfjvuBmUoBm4tdJSHvP0X082mJjr8Jxpz/T8qAkgaB0zv6ILAIUFuy3HTSxGQGUgUI/qh2PRO5zwckARQkEtWO7rqhKaIgcTv94OMhiMwIgfqXCpOU/T7kDtCgQ5mLfMYyTiwuqE/ZBxF4091W1tgdlBlkArfiVm72oApsRQCoCYUt/cyqcxwA5okoh8yC/60T/s8C3YTMCyLv/bG13FLIZHdIEIXuB4MwEv+cKkQB7kMPtyU0Li07LH5sRwPZ4v1EY+yYd/3ddQhYBEAiIBMhwgDVxMEj8NXe1FwVP62MzAsgThX4z28FeVHFNHQCkIxD+EP4uEwlXrEbCFiik5/ed4CucZsTNpAB5xq+dJ/kiNqMBNiMoRSBMxb9tFJ9bv3YeYBM524uaEhhdwJGBAFvgC2E5nl6kGL+wGUH+AsEV+53499lE4xPZBNgwwCqc/rGzvWipT2MzAsgPFXvRfM+/4zN1AZCAQHCmmXznKD5f7ChUhAKsoAR7UYWCzYhVOIC84tfeewhE7nPBZgTFCISPGX2rCYNzFwqX2BhgiRLsRU0LjTbBZgRQg4LsRUrxi31UUIRAmGT4zRZQ37lQuHF7CZQ7wBZhL6rAZgSQFSOBd5w1eLeSwqIlsQvyFwg+mRhn/P3WkU0kVFkFUoPloWBnmTb8932mXgCIXx3R2BGlIjajAxYeIXuB0HTnTphBWGQVbpfEwpDmkTdC6fmmV81UbEYIdoCn45eNWwp9ZJL439cG3AoP+QuEqNinIf3zh9sQC3b60X/dhvQOT3SWKIiDO181awxP9ytchEgWAUA7fjVpL6rAZgSQgkBw3hdaPtUK82VY7Fn4siQYWN3Up6TTix7CzaQA2igI6MYn89iMABISCLFDjkNZWYSnGCwJhlvPMHzy41OHFI8OBduL2hYejfY3hDjAyvhlY1GJ9iKl+IXNCPIXCM57iuvxKkF8TBjY8akmFP63LBi4cyFpirQXLYl+E/zYjAA0GQm8Y2Onr61A4tI05gBQhEDwLMKMItvI34IhPpZhuPVNzwQLJp7b0vYqGTYjAOKXYvxSyCCoZKkBVvJ8yz9/5hNfqM+hP7bx2VLD87A4ttJWQKYtbOCCDXh6fijwqm1vxrNB9jLxMri3GbW4Egmr+whxfntsQ+5ZB3Vj48lAoDxaW4CwI9hjOUwEJuBmMxrTNSB7gWAnGsVO+aGa7MJuE56wSA+PPNjfLQmGCYKhE4q2Fy3153lsf7OQvpfZbiY9pdl2ypAiSBaF7MG8A1H/USCW3zsH/E4pACm+2eG/sb0ITGKbY9VJSVdYkoofYLtKoWMzAtBCoT9MMvl/EL8AgVAXV8JvKLrWGIRFduEmLPYwcA9Dgwid/tHVJrypgojmyEAA7EUr5iKcZgSQikDwjmmpQ1L+3bCcXbh1sUBmYb/yVKCTgc/78pxBFkAC7EVfI3FpGmM2FCMQfGIxDmy+6ZpDFwtVZmFEkWQ5wE469qwqrMKRQQDAXqQYu4hfUJZAcJFwikjoNeBc+WVtl1iQNiNkL+p6VUxhHwI2Iyg9fln7V4jzncUvIZsR97lAWQIBkZDGxCksTpX64pe0MYl6mrci79npgIfNCEAChfZvp69NcxUkezBkEQ+KEwiIhLSCUHxu/CSkEb7HR0ik53s6Ek/CZkSbBuJX2vGrh//nlPoDSFQgIBKSYxCfq7DIKlwwqZI6/aOv1TAJmxGDLBQav068/RO/Hs895vGHwkWK2IygTIGwJBLeU6xJTajOXSiUfrmdSnDuZSUfmxEA7X5PWr/ccQ0KCxyH2IygWIHgE42LsLgngZsD0xIKl249KnUFFntRouJk23okIwbErzTjF7Eri3oEaEcguEiwznocNNJ+JTEIiz0Kn0paycBeJPP/Z5AFeBy/sBdtnnPMAzYjgPQFgnfYmYuEMcWcHMPg+xMK+V7sRfX67DRoZP6wGUFJKMSvPu1FFdiMABQEgk847nxfApajNDn325kPM//OkcA7znq2FyUhUmqCzQiKwNs59qJ8YpfxlpYNxQuEJaFgHfeFUAcuCRMHt7luYhZKz6ey+oXNCIB2Lhc3hGxGxC5AIDzovJZNsEyC2Y7mFH1yXPrehNxWZlXsKEmIZxfzCtk+VuGgBDi9aDsUbEaDArL2gEDYaQIyjY9lE94HbEepMQyLbEJOwUthtWbmq1+Ilfrg5YWsEbIXTXmXrWGzMiAQ1giFi7CwHY2phqSwSZdlEkYZDLDYi3YDmxEA7VsuXgjd50LsAgTChs5cbWJGKKSFTaqvMhAJ2It265cqNiNW4SBniF95vM8qsBkBAqHmhGSOUEgSEwlXii8ulJ5PzV6kNMhiM4Is8XbN5Y67cS1SzSxwAAJhR6HAHoU0GImKBOxF+4HNCIB2LRcnhGxGI5o5IBB2EwoX8fk2/qMJBm5kRiRsC+n5/fqgypHErMJBjnC5Y57vtcyB75MDQCDsOFEZx+co/tKeD4GsQp8iQeKuBOxFRQ2yh3h5ISfcXqTQplO0F1Wo2Iy4FR4QCA0IBZtMnXlWwe5TGCMWOudSZOMy6fky3q+CLALkBPGrgflC4DQjgDIEwoPObysXp4iF3kRC6qtb2IvKeD8GWcgR7EXlxC9sRoBA6EgsVDYk9iy0GNDic5PqjctC9qK5r3Kl3LfuAkcGAnQZvwYBe1FTYDMCKFkgPJjQVDYkEwpVdgHB0MKELD6pblpWWY1RWZ3HZgTQHW9F3vOzwnwgaDgLyCAAAqHj4HDn2YWHgmEcNLyJyQe1RDctqwywKqtb2IwAaMeqcUHFZjSi6QMCoX/BYHYku2fBnlMEw16cp3RRlVB6Pnl70XK/CdiMALqIX9Z+BwKvmvrpa8uoZECxGQECIaGJz9yPUEUw7I75/S8Teh9W38oeZLEZgTIq7Vcl+1nd5yJhM0p1Xx8gEIoHwbBXYBsywNbmTmmAFRM0I7ojKMdS4kHR74tNEhAICIbs6H3DcuL2IhugzuJzZKdtqdiLlvqCiRqFd+bIQJAEe1GrYDMC2IHnFEF9weDiYLw0IR3G55X/HBRcPOb/Hpmg6vEdUpoYzl0UfPYUdw5cB439Ha+D3gpnikwpgu0nz3v8t9iL2hu7J3F8skWO1C089zYjgeNjAYEAOwqG1/6zND/heVUWPdH3AFuJgmu1DEFN7NsuBd7ThOIpEWrv+HZMKXTKSCgOqMYvhTI+6XkcBfgbLEYNCga3JL1ZuuH5QyjHjjTo66g2T8/3sbp958HcrEMv/EjdWa7tO2AzAmgjfll7VVhQUrQXVXDQAsCWkEFob0JlKxb33nOfwFrHH4W8MwtvQz+rH10H1WlYZApa+9Yff/j1wEXPIPxjX3u1PBGuKYoeXhZUXXA0r57ffv+p7qCPzQignfaqwLVqAbvNSOFVh+ZGEBZikBHPKIJu8dWi1yHfE1eOul5Fj2X6JXSzB8QEwS9Nft+SEBjG53v/jmEP9TZzwfA5CoYPT5SzvdsXgTZ451m8VGPARVhY8lKeUDE2dNce/htEMghB48jQpzgUKWfLRH9IuL3+L/Hym2KRRCCoDwoHLhLehrw2ON+f/NRhOVrQv21zsmmiID4fmtg8FgVBJQZehnQ3t794KqsQy/s2aGQRTnveNI9AgDptwRaMbigJWBZisf8dIRAQCH2Dxai/Adgmm7ZK8MG9++eZCIWuN4m2ZS9qRBh4hsDKROm0qxNvm6tQshmNA0D67RRgmUNsRpACbFJOQyyM/a4Fm1irB4WuN4k2/f8yMfA+Prbp+GIXcRBFwSA+7+LzKf6j2QfsnoiRkABcJ7pkLh3iZlIQEeMAtAtAIMB6oRB/HPkEVZlOVsVauFxoZ2FgmYL4jOJjFhzz6duRoEPR+js0kfNEGzUBq3JSE4MsJItnjhGxsApOMwIEAjyagNkGywsXCnPRz+hqYvy2ob9nsocwGMbHMgRVpuAwk6a4bnI9RagC0D6hNQ79UAgABAI8EgozFwmKxzUOfHW/z0lsHUyAHfvdFbXF2FK2wDIFZiMaZdgE161gqRx3iM0IksTbJRkuWMdbigAQCPCUSLBsgl24NhZ8/VYFwp6XC93vM/DLzaZbCAPbW3ARFhYiyxYMMm5+62xG1ZGoEiKBSAK0S6CNACAQchQKp4Ii4VXLf/+u6XkTBEdu49pGGFy5MDgP5fiGh2t+TyWzhZcXUgR7EWyiq0w8AAIhA5GgZDdqO7Btu7piWQO7gOa4rp3ogTAYMYn5ChWb0RAvL6QE9iLYAhY4AIEAtTgNOjdZtiYQdrAX3e/nqHs7pe8xuAiLC9hGBbe3E7/HYZVgxWYEQHsE2gogEKBv/ISdM5X3bXHldpv0vO01ONoia2CCoDQr0a4DFDYjgO1h8ynUBZsRIBCgtkgYB52V28YFgqfnRzX+qImp47p7Dfy4UssYXCEMaosxFZsRRwZCEng7ZMIH28ACByAQoDYqF6m1MRDWSbma/aXWCUVuJ7JLzT4xcK8ub2xGALRD6I0RRQB98Nxvc0xVoc7iJOSManqEWTuuBN6zjZX4TfaisW/o3ohlDUL+x5U2NakZP/F7U5EBzGLcB6oSEmiHAFuNo7bvLo5rE4oCOhUIPjkaUhQ62F6EGDCmpdVbjdM/Tt2CtUkY2N9jewze0Zpqi7KnyvWjiEC4txltcyEeQMPxy8ZaspSwawxGIECnpG4xIpg+zUzgHV82/Pc9JQ6q/QZ1xIG1qVvEwXblvsZmNAk6J2uxORR67UcUAdB2AIHQDGwWfZo/Bd6x6fpbZS+auziY1hAH71wcDGg+WzNc83sqK1sMstAn2Itg57HUj/cGQCBUxE4xpJpWMivpY5+wF1X3G8w2CAPbiHwTf3lJs2lUnFV8FPkGjgyEvuKXtTvaHrQVgwFaEQjzxN+RoArGaIU4OPa7IdaJg8pSxOrLfjxZfmI2I1ZxgXYHWcVggFIFwkuqCR4MsHXFgQVUO750QPHtzYGX51NgMwKg3UGLMdhPnQToTCCkzpBqWh0sSvnQB6d/1BUHtt/gJrCPpUmwGQFsH7+svQ0oCWg5BgM0LhBS97IzoK+mpDI52VIc2N0G7Ddorx4egc0IgPYG7cdg348H0L5A2DTZIsAmy/cC73jXYP1vIw5GNI9WyMVmRPuAJIQ1AO0JkhUI/nNGh5BDIYPwx75/gduLwiZx4CcV3TL5a511Ke7PKkKHIwOhC7AXQccxGKBxgTBP/D0HbM55NGkuxWI0qCMOwmIzMla0fsW60k2fDLLQBVzOB43HYGxG0KVA+EPgXc+prlqTtJTY22JkF6AhDpLiSZuR1xOnGQHQzoB2BZkIBIVLt8gi/IPKqlSr7Qpx0Buv1vyeymlG2IygVbx9sdILbcC+TEAgPOCy9NSa3yw9EHnd1jbAIw56BZsRAO0L+mO4tD8PoD2B8Ndf/5kHjSMKbVJY+vGVMt8f29Ws5XJAHPTDwG+oXlXn2IwAaF9A+4IcBIIzFXnnUalWo/jd74Qmxa2JA44yTYJ1KW4lmxHtCNqI1diLoM8YDNCoQPgs9N6XpV2e5t+rlD2ZtyQOLhAHSYDNCIB2Bf1xiM0I2uT50q+nQu997z+PneO4ZRtLKuLAvvdG7LUbF5xRHJgw4DSrNLi3Gf32+0+P+p/ZjGKbnQSNFPj9kYEiF0aCTrweibyu9d8zau3riXfQWYyzGPuBKoNWBYJNtGNgmwedDbBFiAQfbD4Fvct2Gq0T97xf0mWT4uc19fw56Hhk7T3HVCc02J5UuLajpKmyr5jGcfc8aFjEfkYgQFt887BjiL1/JRKytBstiQO572ty0PETi24Cnl6liRA2IygVpfY0obqkywWbEXQmED4KfoNNGm99A29O4uAw6B7j2XRwNXFAEEyPdacZzYPO8cncTApNxe2DoJNBmHk/hccozYW4rRvaFwgxWNjETtWLaxuXb3IY6P1kFeUz/hvbf+Cbkod01XQn12t+7zqT7wDIsR1dU12rEZsLEbugfYHgKKccraN8UT260FKFJnLiL+0YT2Wh00gbiuLAhAGbktPmddvtoCM4MhDa7g9ZxumMUSmfQWmnOkJ/AuEX8W+yifVV7DBf/CxqBWFg57FfxF/eZrAa0EjaemnfAaTNYayrwarfELMZcTMp7B3HA/ainFA6+p0FDmhfIPiJQDmcCmSD/Y0LhVGK1iPPGJgw+BIWK+U5+KCbSltfBTYlq4DNCEDrfhbsRZtRyrAQu6B9geD8ktE3DnyyaULhKoWsgguWm8yEQcV437/gxx9+PSHgSfFzJoMsq3BQSvvBXrQBvxsFmxEUy/MnOsY4NrbLzCau1eU1Njm3jj8Ni5MKZm3fo+AddxifV5lPfMf7Xjjl1qIruuYjrFyr7N7/+c+qrO8eXljm+zceCmV7/hUWm98PQnOb4O9tRvEd5itiyTy2/1nQ2HB/f2Qg1gvYIcYPgs6hEtiL6vNRaMxedy8NQDMCwbEsQq4bRCuv6IkH9+XJ15/V5Gtb4eBC4GBpAvZq6dcl0ETaGmuRD+KVgDUxGyffWwmv+OenNQXZobfRly5id53krLvR81po8sTNpLBru1Ga9EI9JkFnwWoUuBXbsIWeTxTD/vO5dQLBBsm3hUzWDnxyNHww4V/+x6cmXEPa0aJ89r0czVe9S7UWLWe1JtsKgl3xzMNsqQ4q8fx6y7pYd6PnVKgeuJkUdm03SpNeqIFlxOM8YCIyLtlhJyd+RGvJHDAva4TPzzd0jJyzCNtCg1vP+wb+jhKtRTZ5vu5SFGwQDPYOY3uWxMLPNdr/OpvRLMYS+/cDgfrAZgRbIWYvmrdtqc0QJZvRawQgNMU3G9TzhQUUigk2TXIbyB5chLJuS7ZJ+Is4oT6OzzgFcbBKLPi7Hdu7hs0b0NcNokqDFjeTwjYoZT2ZPOZdZhzuAd0IBAdPG2xir+yBn6NfwqTszsvq2zjpPl212p4q9q72zhuEwrpLojjuFHJFKXZxvOmWiJ1mdKBy/xNkIBDcz8aqAzzFZN/sQcjvqNdV2KT6KE6yL1LMFuwgFI7C470FQ7clrYojZmtQEUQcGQi18HYyEHld7EW7o7Sx+zXVBZ0IBMeyCHcUFzzgLuyZYfLswSjjMpq6MJDKGNQQCjO3Hj2MDbnYjLgTAXJrJyz07RfHVSCDAN0JBN+wh9UIHvK+gc2cuW5MvhdPvscg21W7+G124o9lE6pvxGYEJaHUTrAX7YiPcypxHJsRdCcQvIOMAysQ8A+2MXmv4yD9WNNhjmUTFlmDIo7LdNuRiQT73hNsRlAC2IuKQ0lgkQGF7gSCcxo41QgWq+OnDfw9OR6h+96zBsX1k/jNZ94usBlBCWAvKgup04yigOXCUehOIPhu/jeB/Qilc7qvtcj3HgwzE01vbBNyyQ3Dj0Udr/kjSpv9RnR1WDcJE3pXbk/eEzGbkVr7BHWB4J3EOgj7EcrlfUM3NeaUPbCBw7IGrNJtjh/ToLPAgJcXVuLtYiDyuncNnDQHC5RsRpxmBN0KBB/kx4iEIhn75Xl7kdnJRSaYj3LeiNwCSkKKQRbU2wULF2WWJTYj6F4guEiwDYljirAYmswcvc2oTI6V7zXoCSW7AxkEUG8X2IsaApsRIBDqd5ZTREIx4uDY96DshZ9wM0IcFD3I2iocNiOQxNuDysrsXUOWUPgHbEaAQEAkQJPiwFEaXBEH7YHNCFTBXlQ2U6F3NZvRgCqDXgQCIgFxsCVvcygTxMHeYDMCVbAXFYzYfS7EL+hXICyJhFOKFHHwFL45Wfnyqfv7HxAHjcQLNZvRiFoD7EXgcJ8LIBC2HPTHLhKYQGljpxUdNZw5MNSzB284rajYQRabEahNthAH7aG0D+EQmxH0LhCWRMJx4MZlVc48G9QGyqnOsygOpjSPRpGyGXFkYNl4/WMvAmxGgEDYs/McBVYwlLBswbEfX9s4P/7wq1mLBqJlM43i4ANNpPE4oRYfGGTLRqn+sRe1DzYjQCDsOPhbgHoTsBypBLoXLd+2qRqgrO2+oYkwyAZsRqWjVP9Tqqt1sBkBAmFPoTAOi2wCASvRya8JuRb2GzxEdfWVTcntgs0Ikgd7EayY26jZjEbUGiQlELwjzeNj+xLeBLIJqWDC7UUXaWhhe9EkigPS9C2Xsdj7YjMqkxP6FYiXMzYjSE8gLAmFeytLfN5T9L1RHV962kHWQHlSZWVzRnNpPSbcMciCAFKXo3UY20tHyWY0+O67fx9SZZCkQKgmBPG5cKEwpgo6Yx6fUz++dMrgupFffvv9pznNphOU7BBDvLxl4fWNvQhWzWdswU1JjLHAAekKhKWONffjNBEK3QiDF74fpFN+/OFX8+6qrVpYwOfUou7AZgTUd7n9ifhFWwYEwkah8D6wR6EpZn0KgyWGgmX3CxuTO40B2IyA+m5osoq9qHOUMjbYjEBHIDwQChcuFE59ggvbY2Lg2K1E4wTe55VY+ZE9YJDdBEcGFoLX8yH9CNbMXSYBmxEgEDrpbLZHYWwT3LA4HtUma3Oqai0mpmxD7be++Xia0LsNxcqS7EE/YDMC6rm8fkT8ok0DAmEnsTCLz5nZZBALK0WBWbJeeLbgQ6KpZbV0JtmDnhYGglbWkFW4MsBeBHVQsxkhEmAjz4UmEDOfQJy5h24YFqfjDAupKwv80/h89oEgeaH04w+/qtXNmOxBr1wLCcp7m5FCP4TdELQXfabWepufTGJ7sbFD5SJFmzuRbYI8BMITYuGDB/KhC4WX/jOH206XBcEsMdtQ7UmU4AQV+sMGrEuh9z0JZJxyZiTYf6Df8ldpMxa7TqkyyE4grBAMU59MBxcMA5+cHrpoGCQ+Wa2ubP/Dfz3LYWXyt99/+sAECrbox9bmnxXwqfPleAXJ8i+hepqTzeqda59rSGBODF9s3RZiVxnMn5X0tS4cKrFgWYbvlzp09e+aZtlbbQH8z6V/R1AHAAAAgKR4RhE8KSaGu/63onYgAAAAAIDw/wIMAFNl5bVGib10AAAAAElFTkSuQmCC" alt="Safal Softcom">
+    <p class="doc-kicker">Brief Scope of Work</p>
+    <h1>Gyan Setu</h1>
+    <p class="tagline">Empowering Every Citizen with Knowledge</p>
+    <p class="subtitle">Digital Public Library &amp; Knowledge Platform</p>
+    <div class="accent-line"></div>
+    <div class="meta">
+      <div><span class="m-label">Prepared for</span><span class="m-val">[Municipal Corporation]</span></div>
+      <div><span class="m-label">Prepared by</span><span class="m-val">Safal Softcom</span></div>
+      <div><span class="m-label">Point of contact</span><span class="m-val">Vishesh Darji · +91 98257 22409</span></div>
+      <div><span class="m-label">Date</span><span class="m-val">12 July 2026</span></div>
+      <div><span class="m-label">Version</span><span class="m-val">Draft 0.5</span></div>
+    </div>
+  </header>
+
+  <!-- 1 -->
+  <section>
+    <h2><span class="num">1</span>Purpose of This Document</h2>
+    <p class="lead">This document defines, in brief, the scope of <strong>Gyan Setu</strong> — a digital public library and knowledge platform to be delivered for [Municipal Corporation]. It sets out the platform's objective, its value to residents and to the Corporation, the modules and functionalities in scope, and the boundaries of that scope.</p>
+    <p>It is a <strong>summary scope of work</strong> intended to establish a shared understanding of the platform's breadth. <strong>A detailed scope of work — covering functional specifications, technical architecture, implementation phases, timelines, and commercials — is currently being prepared and will follow as a separate document.</strong></p>
+  </section>
+
+  <!-- 2 -->
+  <section>
+    <h2><span class="num">2</span>Platform Objective</h2>
+    <p>Every resident of [Municipal Corporation] — a school student, a competitive-exam aspirant, a homemaker, a senior citizen, a working professional, a government employee — carries a smartphone, but not a library. <strong>Gyan Setu ("Knowledge Bridge") places a complete public library in every resident's pocket and every home</strong> — free at the point of access, available 24×7, in their own language.</p>
+    <p>Gyan Setu consolidates capabilities that would otherwise require many separate services — a library, a newspaper archive, an audiobook service, an exam-preparation portal, a skilling lab, and a content-creation studio — into a single, Corporation-owned public platform.</p>
+  </section>
+
+  <!-- 3 -->
+  <section>
+    <h2><span class="num">3</span>Delivery Channels</h2>
+    <p>The platform is delivered across two access channels:</p>
+    <table>
+      <thead><tr><th style="width:32%">Channel</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Web portal</strong></td><td>Browser-based access on any device, desktop or mobile.</td></tr>
+        <tr><td><strong>Mobile applications</strong></td><td>Native Android and iOS apps, with offline download support for low-connectivity areas.</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:12px">The platform supports <strong>four languages — Gujarati, Hindi, English, and Sanskrit</strong> — across its interface and content, and is built to recognised <strong>accessibility standards (WCAG)</strong> so that elderly and differently-abled residents are not left out.</p>
+  </section>
+
+  <!-- 4 -->
+  <section>
+    <h2><span class="num">4</span>What Residents Can Do — Modules &amp; Functionalities</h2>
+    <p>The platform brings together, in one place, capabilities organised into five citizen-facing pillars. Each pillar states the value to residents, followed by the modules and functionalities in scope.</p>
+    <div class="note"><strong>Platform-wide — Home &amp; Discovery.</strong> Every resident's entry point is a personalised <strong>Home Dashboard</strong>: a unified search across the entire platform, trending and recommended content, "continue where you left off," and simple navigation to every module — so that finding the right book, test, or lesson takes seconds, regardless of the resident's familiarity with technology.</div>
+
+    <div class="pillar">
+      <div class="pillar-head"><span class="pillar-emoji">📚</span><span class="pillar-title">Pillar 1 — Read &amp; Discover</span></div>
+      <p class="pillar-value">Puts a vast, searchable library in every resident's hands — no queue, no distance to travel, no closing time.</p>
+      <ul>
+        <li><strong>Digital Library</strong> — Searchable eBook catalogue with filters, categories, ratings, and curated collections across genres and languages, including regional Gujarati literature. Each title opens a book page with <strong>AI-generated summaries, mind-maps, spoken (audio) summaries, and auto-generated quizzes</strong> to help residents grasp and retain a book quickly.</li>
+        <li><strong>eBook Reader</strong> — In-browser reader with adjustable typography, highlights and notes, text-to-speech, and an <strong>AI Reading Companion</strong> that answers questions, explains passages, and translates content on demand — like a tutor beside every reader.</li>
+        <li><strong>Audiobooks</strong> — Audiobook player with playback speed control, chapter navigation, and related-title recommendations ("you may also like") — ideal for commuters, the visually impaired, and non-readers.</li>
+        <li><strong>Newspapers &amp; Periodicals</strong> — Date-wise archive of newspapers, magazines, and journals, filterable by language, city, and date.</li>
+      </ul>
+    </div>
+
+    <div class="pillar">
+      <div class="pillar-head"><span class="pillar-emoji">🏛️</span><span class="pillar-title">Pillar 2 — Heritage &amp; Knowledge Systems</span></div>
+      <p class="pillar-value">Brings the region's and India's intellectual and cultural heritage to a wide audience, and preserves it digitally for future generations.</p>
+      <ul>
+        <li><strong>Indian Knowledge Systems (IKS)</strong> — Digitised manuscripts, scriptures, and folk/oral traditions, organised along a historical timeline (Vedic to modern era) with era-based filtering, surfacing local heritage such as Modhera, Adalaj, and Saurashtra's folk literature.</li>
+        <li><strong>Immersive heritage experiences</strong> — 360° virtual tours of heritage sites <span class="badge">Future phase</span></li>
+      </ul>
+    </div>
+
+    <div class="pillar">
+      <div class="pillar-head"><span class="pillar-emoji">🎓</span><span class="pillar-title">Pillar 3 — Learn, Prepare &amp; Skill</span></div>
+      <p class="pillar-value">Gives every aspirant coaching-grade preparation and every student modern skills — regardless of what their family can afford.</p>
+      <ul>
+        <li><strong>Test Preparation Hub</strong> — Structured preparation for competitive examinations (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET and others) with question banks, daily questions, and a personal readiness dashboard.</li>
+        <li><strong>Mock Test Engine</strong> — Timed, full-length examination simulation with negative marking and detailed score and subject-wise analysis.</li>
+        <li><strong>STEM Innovation Lab</strong> — Lessons in coding, robotics, AI, electronics, and 3D design with an in-browser code editor, achievement badges, leaderboards, and live workshops with booking, aligned to national education and innovation goals.</li>
+        <li><strong>Video Library</strong> — Curated educational video lessons organised by subject and level.</li>
+      </ul>
+    </div>
+
+    <div class="pillar">
+      <div class="pillar-head"><span class="pillar-emoji">🎙️</span><span class="pillar-title">Pillar 4 — Create &amp; Contribute</span></div>
+      <p class="pillar-value">Makes the platform two-sided — local teachers and residents become creators, building a knowledge base owned by the community.</p>
+      <ul>
+        <li><strong>Podcast Creation Studio</strong> — Browser-based recording, editing, and publishing of audio content (lessons, stories, civic awareness) by teachers, experts, and residents.</li>
+        <li><strong>Podcasts Library</strong> — Residents browse and listen to published podcast episodes, organised by series, through a built-in player — completing the two-sided create-and-consume loop.</li>
+        <li><strong>Creator ecosystem</strong> — A governed pathway for teachers and institutions to contribute courses, tests, videos, and readings, with review and moderation.</li>
+      </ul>
+    </div>
+
+    <div class="pillar">
+      <div class="pillar-head"><span class="pillar-emoji">👤</span><span class="pillar-title">Pillar 5 — Your Personal Space</span></div>
+      <p class="pillar-value">A personal knowledge home that remembers where each resident left off and recognises their progress.</p>
+      <ul>
+        <li><strong>Personal Dashboard</strong> — Per-user reading activity, progress tracking, saved bookshelf, earned certificates, and examination history — motivating sustained learning.</li>
+        <li><strong>User accounts &amp; access management</strong> — Resident registration, authentication, and role-based access (residents, students, creators, administrators).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5 -->
+  <section>
+    <h2><span class="num">5</span>For the Corporation</h2>
+    <p>Gyan Setu is not only a citizen service — it is an instrument for civic insight and governance.</p>
+    <div class="prose">
+    <ul>
+      <li><strong>Administration Console</strong> — Management of content, users, creators, and platform configuration from one place.</li>
+      <li><strong>Analytics &amp; Insight Dashboard</strong> — Usage trends, most-accessed content, exam-preparation engagement, and <strong>ward-wise reach</strong> — helping the Corporation understand what its residents read and learn, and where to invest.</li>
+      <li><strong>Government integration</strong> — Optional Aadhaar / DigiLocker-based resident verification and digital library membership <span class="badge">Future phase</span></li>
+      <li><strong>Owned and branded by the Corporation</strong> — The platform carries the Corporation's identity, and the content and resident data remain with the Corporation.</li>
+    </ul>
+    </div>
+  </section>
+
+  <!-- 6 -->
+  <section>
+    <h2><span class="num">6</span>The Possibilities — Thinking Big</h2>
+    <p>Gyan Setu is designed to grow from a digital library into the civic knowledge backbone of the city. The platform makes the following possible over time:</p>
+    <div class="prose">
+    <ul>
+      <li><strong>A personal AI tutor for every citizen</strong> — adaptive learning paths, personalised recommendations, and doubt-solving in the resident's own language.</li>
+      <li><strong>Bridging the physical and digital library</strong> — digital membership cards and integration with existing public library branches and their catalogues.</li>
+      <li><strong>A local knowledge economy</strong> — residents, teachers, and local authors publishing courses, podcasts, and books; local heritage digitised and preserved.</li>
+      <li><strong>Skilling and employment linkage</strong> — certificates and skill tracks aligned to national education and skilling frameworks, connecting learners to opportunities.</li>
+      <li><strong>Inclusion at the last mile</strong> — offline-first mobile access and voice-first, low-literacy interfaces so that access reaches <em>everyone</em>.</li>
+      <li><strong>Civic engagement</strong> — scheme awareness, public notifications, and community learning drives run through the same trusted platform residents already use.</li>
+      <li><strong>A replicable model</strong> — once live for [Municipal Corporation], the same platform can be extended to other urban local bodies across Gujarat and India, with local branding, language, and content.</li>
+    </ul>
+    </div>
+  </section>
+
+  <!-- 7 -->
+  <section>
+    <h2><span class="num">7</span>Who It Serves</h2>
+    <table>
+      <thead><tr><th style="width:34%">Resident</th><th>What Gyan Setu gives them</th></tr></thead>
+      <tbody>
+        <tr><td><strong>School &amp; college students</strong></td><td>Books, STEM lab, video lessons, structured learning</td></tr>
+        <tr><td><strong>Competitive-exam aspirants</strong></td><td>Test prep, mock tests, performance analytics — coaching-grade</td></tr>
+        <tr><td><strong>Working professionals</strong></td><td>Upskilling, audiobooks, newspapers, learn-on-the-commute</td></tr>
+        <tr><td><strong>Senior citizens</strong></td><td>Large-text reading, audiobooks, heritage content</td></tr>
+        <tr><td><strong>General readers</strong></td><td>Regional literature, audiobooks, podcasts in their language</td></tr>
+        <tr><td><strong>Teachers &amp; content creators</strong></td><td>Tools to publish, teach, and build a local knowledge base</td></tr>
+        <tr><td><strong>[Municipal Corporation]</strong></td><td>Administration, analytics, and a flagship citizen-first service</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 8 -->
+  <section>
+    <h2><span class="num">8</span>Scope Boundaries</h2>
+    <div class="prose">
+    <ul>
+      <li><strong>In scope:</strong> The modules and functionalities in Sections 4 and 5, delivered across the two channels in Section 3, in four languages, with the administration and analytics console.</li>
+      <li><strong>Future phase:</strong> Items marked <span class="badge">Future phase</span> in Sections 4–5 and all items in Section 6, to be sequenced in the detailed scope of work.</li>
+      <li><strong>Not covered by this document:</strong> Functional specifications, technical architecture, data sourcing, implementation timelines, commercial and pricing model, and service-level commitments — all addressed in the detailed scope of work.</li>
+    </ul>
+    </div>
+  </section>
+
+  <!-- 9 -->
+  <section>
+    <h2><span class="num">9</span>Next Steps</h2>
+    <p>This document presents the breadth and value of the Gyan Setu platform in summary form. <strong>A detailed Scope of Work is currently being prepared</strong> and will follow as a separate document — covering functional specifications, technical architecture, implementation phases, timelines, and commercials.</p>
+    <div class="note" style="background:var(--paper);border-left-color:var(--ink);"><strong style="color:var(--ink);">Get in touch.</strong> For any discussion on this document or the platform, please contact <strong>Vishesh Darji</strong> (Primary Point of Contact) at <strong>+91 98257 22409</strong>.</div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <div class="footer">
+    <div>
+      <div class="f-brand">Safal Softcom</div>
+      912, Block-A, Navratna Corporate Park,<br>Ashok Vatika, Ahmedabad, Gujarat 380058
+    </div>
+    <div style="text-align:right">
+      <strong style="color:var(--ink);">Vishesh Darji</strong> · Primary Point of Contact · +91 98257 22409<br>
+      <a href="https://safalsoftcom.com">safalsoftcom.com</a><br>
+      <span style="color:#a0a0b0">Gyan Setu — Brief Scope of Work · 12 July 2026</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
