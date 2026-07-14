@@ -4,9 +4,10 @@ subtitle: "Digital Public Library & Knowledge Platform"
 tagline: "Empowering Every Citizen with Knowledge"
 prepared_for: "[Municipal Corporation]"
 prepared_by: "Safal Softcom"
+poc: "Vishesh Darji · +91 98257 22409"
 created: 2026-07-14
 updated: 2026-07-14
-version: "1.0 (detailed)"
+version: "2.0 (detailed — exhaustive)"
 ---
 
 # Gyan Setu
@@ -17,208 +18,377 @@ version: "1.0 (detailed)"
 Prepared for **[Municipal Corporation]**
 Prepared by **Safal Softcom**
 Primary point of contact: **Vishesh Darji** · +91 98257 22409
-Date: **14 July 2026** · Version: **1.0 (detailed)**
+Date: **14 July 2026** · Version: **2.0 (Detailed — Exhaustive)**
 
 ---
 
 ## 1. Purpose of This Document
 
-This document is the detailed companion to the Brief Scope of Work previously shared. Where the
-brief document established *what* Gyan Setu is and the breadth of its value, this document sets out
-*exactly what is being built*: feature-by-feature functionality for every module, the technical
-approach behind the platform, the order in which capability will be delivered, and the assumptions
-and dependencies the Corporation should be aware of before sign-off.
+This is the detailed, exhaustive companion to the Brief Scope of Work. Where the brief established
+*what* Gyan Setu is and the breadth of its value, this document sets out the **full scope of every
+module and functionality** the platform will deliver, how the platform is built and delivered, and the
+order in which capability is delivered.
 
-This is the document intended for formal scope approval. It defines the boundary of delivery — what
-is included, what is explicitly not, and what depends on decisions or inputs from the Corporation.
+It captures the **complete possibility** of the platform — every capability, across all thirteen
+modules — so that nothing is lost between vision and build. Capabilities are tagged by delivery phase
+(**P1 / P2 / P3**, defined in Section 7). The entire platform is targeted for delivery within a
+**three-month build period**; the detailed definition and scheduling of each phase within that window
+is finalised in a separate phase plan.
+
+This document deliberately does **not** cover the commercial and pricing model, membership pricing, or
+formal service levels — those are handled separately.
 
 ---
 
 ## 2. Platform Objective
 
 Every resident of [Municipal Corporation] — a school student, a competitive-exam aspirant, a
-homemaker, a senior citizen, a working professional, a government employee — carries a smartphone,
-but not a library. **Gyan Setu ("Knowledge Bridge") places a complete public library in every
-resident's pocket and every home** — free at the point of access, available 24×7, in their own
-language.
+homemaker, a senior citizen, a working professional, a government employee — carries a smartphone, but
+not a library. **Gyan Setu ("Knowledge Bridge") places a complete public library in every resident's
+pocket and every home** — free at the point of access, available 24×7, in their own language.
 
-Gyan Setu consolidates capabilities that would otherwise require many separate services — a library,
-a newspaper archive, an audiobook service, an exam-preparation portal, a skilling lab, and a
-content-creation studio — into a single, Corporation-owned public platform.
-
----
-
-## 3. Technical Approach
-
-This section explains, in plain terms, how the platform is built and why — so the Corporation
-understands what it is receiving beyond the visible features.
-
-- **Web-first, works on any device.** The platform is a modern web application, accessible from any
-  browser on any desktop, tablet, or phone — no installation required for the initial release. Native
-  Android and iOS apps are planned as a subsequent phase (Section 6), built on the same underlying
-  platform so residents' accounts, progress, and content stay in sync across devices once available.
-- **Built on modern, industry-standard technology.** The platform uses a current, widely-adopted web
-  framework (React/Next.js) for a fast, responsive interface, and a secure, managed relational
-  database (PostgreSQL) to store every resident's library, reading progress, test history, and
-  content catalogue reliably. This is the same class of technology used by major consumer and
-  government digital platforms.
-- **Real, working artificial intelligence — not a mock-up.** Book summaries and the in-reader AI
-  Reading Companion are powered by a genuine, paid AI service (the same generation of technology
-  behind leading AI assistants), not scripted or fake responses. This means the AI features will
-  continue to improve as the underlying AI technology improves, without needing to rebuild the
-  platform.
-- **Cloud-hosted, scalable infrastructure.** The platform runs on cloud infrastructure that can scale
-  up automatically as resident usage grows, rather than being limited by a fixed server. The initial
-  configuration is cost-optimised (the server "rests" during periods of no traffic and wakes on the
-  next visit); an always-on configuration — recommended ahead of public launch to remove any wake-up
-  delay for residents — is a small incremental cost, addressed further in Section 8.
-- **Initial content sourced to control cost and launch quickly.** To make a broad content library
-  available from day one without a large upfront licensing spend, audiobook and educational video
-  content initially draws on established, freely available public archives and educational
-  publishers. Newspaper archive content, book summaries, and heritage manuscript descriptions are
-  generated using the platform's AI capability, styled and formatted to match real publications. This
-  approach is addressed in detail under Assumptions & Dependencies (Section 7), since growing the
-  catalogue to a large scale over time depends on content partnerships, not just engineering effort.
-- **Data model designed for growth.** The underlying system is already designed to support
-  administrator and government-official user roles, membership tiers, and role-based access control
-  — even where the corresponding screens are not yet built (see Section 6, Pillar 6). This means
-  adding the Administration Console in a later phase does not require redesigning how resident data
-  is stored.
+Gyan Setu consolidates into a single Corporation-owned platform what would otherwise take a dozen
+separate services: a library, a newspaper archive, an audiobook service, an exam-preparation portal, a
+skilling lab, a heritage archive, and a content-creation studio. The objective is simple — **no
+resident should be denied access to knowledge because of cost, distance, language, or ability.**
 
 ---
 
-## 4. What Residents Can Do — Modules & Functionalities
+## 3. How the Platform Is Delivered
 
-The platform brings together, in one place, capabilities organised into five citizen-facing pillars,
-plus a sixth pillar for the Corporation. Each module below is described at the feature level.
+- **Web portal** — browser-based access on any device, desktop or mobile, at launch.
+- **Native mobile applications** — Android and iOS, with offline download support (a later phase).
+- **Four languages — Gujarati, Hindi, English, and Sanskrit** — across the interface and the content,
+  with four-language content parity targeted from launch.
+- **Accessibility** — built to recognised standards (WCAG) so elderly and differently-abled residents
+  are not left out: text sizing, high contrast, screen-reader and keyboard support throughout.
+
+---
+
+## 4. How the Platform Is Built
+
+In plain terms, so the Corporation understands what it is receiving beyond the visible features:
+
+- **Modern, industry-standard technology.** A current, widely-adopted web framework (React/Next.js)
+  for a fast, responsive interface, and a secure, managed relational database (PostgreSQL) that stores
+  every resident's library, reading progress, test history, and the content catalogue reliably — the
+  same class of technology used by major consumer and government digital platforms.
+- **Real, working artificial intelligence.** Book summaries and the AI Reading Companion are powered
+  by a genuine, paid AI service (the same generation of technology behind leading AI assistants), not
+  scripted responses — so AI features improve as the underlying technology improves, without rebuilding
+  the platform.
+- **Cloud-hosted and scalable.** The platform runs on cloud infrastructure that scales with resident
+  demand. An always-on configuration is used for public launch so there is no first-visit delay for
+  residents.
+- **Designed for growth.** The underlying system already supports resident, creator, administrator,
+  and government-official roles and role-based access, so later modules build on existing foundations
+  rather than requiring redesign.
+- **Content sourced to launch quickly, grown through partnerships.** An initial curated catalogue is
+  available from day one, drawing on established public archives and educational sources; growing the
+  catalogue to full scale is a content-licensing and partnerships workstream (Section 9), not just
+  engineering.
+
+---
+
+## 5. Platform Foundations
+
+These cross-cutting foundations underpin every module and are built as part of the core launch:
+
+- **Resident accounts, roles & access control** — registration, secure login, and role-based access
+  (Citizen, Student, Senior Citizen, Content Creator, Administrator, Government Official).
+- **Resident identity verification** — Aadhaar / DigiLocker-based verification, supporting trusted
+  sign-up, library-card issuance, and eligibility checks.
+- **Core search & discovery** — the search infrastructure powering both catalogue search and the
+  unified platform-wide search.
+- **Multi-language framework** — the mechanism delivering all four languages across interface and
+  content.
+- **Accessibility baseline** — WCAG-standard text sizing, contrast, screen-reader and keyboard support.
+- **Content ingestion & catalogue pipeline** — how every content type is brought in, tagged, and
+  managed.
+- **Notifications & activity infrastructure** — powering reminders, achievements, and announcements.
+- **Cloud hosting (always-on for launch)** — reliable, scalable infrastructure with no wake-up delay.
+
+---
+
+## 6. Modules & Functionalities — Full Scope
+
+The platform's full capability, module by module, grouped into six citizen pillars plus a
+platform-wide layer. Each capability is tagged with its delivery phase — **(P1)** Launch, **(P2)**
+Enrich, **(P3)** Expand.
 
 ### Platform-Wide — Home & Discovery
+*Every resident's personalised entry point.*
 
-- **Home Dashboard** — every resident's entry point on login: a personalised welcome message, a
-  "Continue Reading" panel showing books currently in progress with completion percentage, four
-  at-a-glance stat tiles (eBooks read, reading hours, tests taken, certificates earned), a "Trending"
-  content grid surfacing popular titles in the resident's city, and a collapsible sidebar providing
-  one-click navigation to every module on the platform.
-- **Unified platform search** — a single search bar available from every screen, intended to search
-  across books, exams, and audiobooks platform-wide.
-- **Notifications** — a notification centre for platform updates, reminders, and activity alerts.
+- **Personalised Home** — welcome by name; "continue reading / listening / resume test" panels;
+  at-a-glance stat tiles (books read, hours, tests, certificates, streak). **(P1)**
+- **Discovery & Trending** — trending in your city/ward; new arrivals across all content types;
+  "for you" recommendations spanning books, audiobooks, tests, videos, and podcasts; featured
+  collections; spotlight on local and heritage content. **(P1)**
+- **Navigation** — collapsible sidebar to every module; quick links, shortcuts, recently visited. **(P1)**
+- **Language switcher & accessibility quick settings** — text size and contrast controls. **(P1)**
+- **Unified platform search** — a single search bar across every content type (books, audiobooks,
+  newspapers, tests, videos, podcasts, manuscripts). **(P2)**
+- **Notifications & reminders** — new content, activity reminders (continue reading, test due, book
+  due), and achievements. **(P2)**
+- **Announcements & civic messaging** — Corporation banners, notices, events, workshops, scheme
+  awareness, and public campaigns. **(P2)**
+- **Personal shortcuts** — pinned/favourite modules, saved items, goals. **(P2)**
+- **Voice search.** **(P3)**
+
+---
 
 ### 📚 Pillar 1 — Read & Discover
-*Puts a vast, searchable library in every resident's hands — no queue, no distance to travel, no
-closing time.*
 
-- **Digital Library** — a searchable eBook catalogue with filtering by language (Gujarati, Hindi,
-  English, Sanskrit), format (eBook/PDF), and curated collection (e.g. literary academy collections,
-  Corporation-exclusive titles, public-domain classics, university texts); sortable by rating or
-  publication year; in-catalogue search by title and author. Each book opens a dedicated page showing
-  its cover, author, format, rating, year, and page count, alongside an **AI-generated summary**
-  written specifically for that title.
-- **eBook Reader** — a full in-browser reading experience: a chapter-by-chapter table of contents for
-  navigation, adjustable font size for comfortable reading, and automatic reading-progress tracking
-  (page and percentage) that resumes exactly where the resident left off, from any device. An **AI
-  Reading Companion** panel sits alongside the text, allowing the resident to ask questions about the
-  chapter they're reading and receive contextual answers.
-- **Audiobooks** — a browsable, filterable, and searchable audiobook catalogue. The player provides
-  play/pause, 15-second skip forward/back, adjustable playback speed, a full chapter list for
-  navigation, and "you may also like" recommendations based on the current title.
-- **Newspapers & Periodicals** — a date-wise, filterable archive organised into Newspapers, Magazines,
-  and Journals sections. Newspapers can be filtered by language, city, and date via a calendar picker,
-  and open into a full-page reading view laid out like a real front page, with headline articles and
-  a multi-page format.
+#### Digital Library
+*The front door to the Corporation's entire collection of written knowledge.*
+
+- **Browse & Discover** — visual catalogue of covers; curated collections (classics, regional
+  Gujarati, academic, science, business, children's, local-author / Corporation-exclusive); themed and
+  seasonal reading lists; dynamic shelves (new arrivals, trending, most-read, staff picks, award
+  winners); personalised recommendations; author and series pages. **(P1)**
+- **Search & Filter** — search by title, author, and narrator; filter by language, format, subject,
+  collection, reading level, and availability; sort by relevance, rating, popularity, and date;
+  results in the resident's language first. **(P1)**
+- **Book Detail & AI summary** — a rich detail page per title with an AI-generated summary written for
+  that book. **(P1)**
+- **Read & Access** — one-tap "Read Now" into the eBook Reader; cross-format continuity (switch
+  between reading and listening); large-print and PDF formats. **(P1)**
+- **Physical copy access (phygital lending)** — where the Corporation holds physical stock: check
+  availability, reserve or borrow a physical book, choose branch pickup or home delivery, and manage
+  returns, renewals, due dates, and any fines — a digital-to-doorstep bridge to the Corporation's
+  physical library branches. **(P1)**
+- **Physical-catalogue integration** — a resident sees whether a physical copy also exists and where. **(P1)**
+- **Four-language content parity** — the catalogue usable across Gujarati, Hindi, English, and
+  Sanskrit. **(P1)**
+- **Bookshelf & reader tools** — My Bookshelf and personal lists; reading history; continue-reading;
+  requests for titles not yet held; personal reading goals. **(P1)**
+- **Deeper AI understanding** — visual mind-map, auto-generated quiz, and spoken (audio) summary per
+  title; translation of summaries on demand; confidence/trust signals. **(P2)**
+- **Full-text search inside books.** **(P2)**
+- **Offline download** (subject to content rights). **(P2)**
+- **Community & reviews** — resident ratings and reviews (moderated); popularity signals; recommend
+  and share. **(P2)**
+- **Rights & licensing controls** — concurrent-access limits, borrowing windows, download
+  permissions. **(P2)**
+- **Kids' / young-readers area** — a safe, filtered space. **(P2)**
+- **Book clubs / reading circles.** **(P3)**
+
+#### eBook Reader
+*A comfortable, accessible reading experience with an AI companion.*
+
+- **Reading experience** — chapter table of contents; adjustable font size, typeface, spacing, and
+  themes; page or scroll view; full-screen mode. **(P1)**
+- **Progress & sync** — automatic progress tracking; resume where left off from any device. **(P1)**
+- **AI Reading Companion** — ask questions about the current chapter, explain passages, summarise, and
+  discuss themes, grounded in the book's text. **(P1)**
+- **Annotation** — highlights, bookmarks, and personal notes that persist and are searchable. **(P2)**
+- **Translate & read-aloud (TTS)** — translate passages/chapters on demand; natural narration with
+  follow-along highlighting. **(P2)**
+- **Study tools** — jump to the book's summary/mind-map/quiz; flashcards; cite and quote. **(P2)**
+- **Accessibility depth** — large-print, high-contrast, dyslexia-friendly options beyond the baseline. **(P2)**
+- **Light social** — shared, moderated highlights. **(P3)**
+
+#### Audiobooks
+*Hands-free access for commuters, the visually impaired, and non-readers.*
+
+- **Browse & Discover** — searchable, filterable catalogue (language, subject, narrator, duration);
+  collections; "you may also like" recommendations. **(P1)**
+- **Player** — play/pause, 15-second skip, adjustable speed (0.75x–2x), chapter list with seek, sleep
+  timer. **(P1)**
+- **Multi-language catalogue (content parity)** — audiobooks across all four languages. **(P1)**
+- **Listening tools & resume** — bookmarks and notes at timestamps; playback queue; resume position
+  across devices. **(P2)**
+- **Offline** — download for offline listening (subject to content rights). **(P2)**
+- **AI synopsis & community** — AI synopsis per audiobook; ratings, reviews, sharing; cross-link to the
+  text version. **(P2)**
+- **Reduce third-party streaming dependency** — cache/self-host frequently-played titles. **(P2)**
+- **Waveform visualisation.** **(P3)**
+
+#### Newspapers & Periodicals
+*A daily and archival reading room across languages and cities.*
+
+- **Newspapers section, browse & full-page reader** — filter by language, city/edition, publication,
+  and date via a calendar; realistic full-page layout with zoom, page navigation, and article view;
+  a deep archive of past editions. **(P1)**
+- **Publisher ingestion pipeline** — how real editions are brought in (foundational). **(P1)**
+- **Magazines & Journals sections.** **(P2)**
+- **Search & personalisation** — full-text article search; follow favourite publications; daily
+  digest; new-edition notifications; saved/clipped articles. **(P2)**
+- **AI & civic** — article summaries; translate articles; a "today in brief"; Corporation bulletins,
+  official gazettes, and community newsletters. **(P2)**
+
+---
 
 ### 🏛️ Pillar 2 — Heritage & Knowledge Systems
-*Brings the region's and India's intellectual and cultural heritage to a wide audience, and preserves
-it digitally for future generations.*
 
-- **Indian Knowledge Systems (IKS)** — a historical timeline spanning six eras, from the Vedic period
-  (1500 BCE) through the Modern era (1947 CE onward). Residents select an era to browse its associated
-  manuscripts and scriptures, filterable by language (Sanskrit, Gujarati, Hindi, English), with each
-  entry showing a cover, title, language, and a descriptive summary of the work's historical
-  significance.
-- **Manuscript reading view** — a dedicated in-depth reading experience for each manuscript,
-  equivalent in depth to the eBook Reader (planned enhancement — see Section 6, Phase 2).
-- **360° virtual heritage tours** — immersive virtual tours of heritage sites (e.g. Modhera Sun
-  Temple, Adalaj Stepwell) — future phase (Section 6).
-- **Folk & oral traditions** — a dedicated section preserving regional folk literature and oral
-  storytelling traditions (e.g. Saurashtra's folk literature) — future phase (Section 6).
+#### Indian Knowledge Systems (IKS Heritage)
+*Preserving and popularising India's and the region's intellectual and cultural heritage.*
+
+- **Historical timeline & manuscripts** — browse six eras (Vedic → Mauryan → Gupta → Solanki → Mughal
+  → Modern); select an era to explore its manuscripts and scriptures, with cover, title, language,
+  era, and a summary of significance; filter by language and era. **(P1)**
+- **Full manuscript reading view** — an in-depth reading experience for each manuscript, equivalent to
+  the eBook Reader. **(P2)**
+- **Folk & oral traditions** — regional folk literature, oral storytelling, and songs (e.g.
+  Saurashtra's folk literature) with audio. **(P2)**
+- **Local heritage** — Corporation-specific and local history, monuments, personalities, and archives,
+  with contributions from local historians. **(P2)**
+- **Learning & engagement** — curated heritage collections, articles, quizzes, a children's heritage
+  section, and school tie-ins. **(P2)**
+- **Translation & transliteration** — for classical Sanskrit/Gujarati/Hindi texts. **(P2)**
+- **Immersive heritage** — 360° virtual tours of monuments and sites, image galleries, audio guides,
+  and AR/VR experiences. **(P3)**
+
+---
 
 ### 🎓 Pillar 3 — Learn, Prepare & Skill
-*Gives every aspirant coaching-grade preparation and every student modern skills — regardless of what
-their family can afford.*
 
-- **Test Preparation Hub** — structured preparation across six major competitive-exam categories
-  (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET), each showing available tests and aspirant counts. A
-  **daily practice question** gives immediate right/wrong feedback with the correct answer explained.
-  A **personal readiness dashboard** shows an overall readiness percentage, subject-wise progress
-  bars, average score, and an estimated national rank based on performance.
-- **Mock Test Engine** — a full-screen, timed examination simulation with a live countdown, a
-  question-by-question navigator showing answered/marked-for-review/skipped status at a glance, "Save
-  & Next," "Mark for Review," and "Clear Response" controls, and standard competitive-exam negative
-  marking. On submission, residents receive a detailed scored result: overall percentage, correct/
-  incorrect/unanswered counts, and a subject-wise performance breakdown — and every completed attempt
-  is recorded permanently in the resident's Personal Dashboard.
-- **STEM Innovation Lab** — course content organised into six categories (3D Design, AI & ML, Atal
-  Innovation, Coding & Dev, Electronics & IoT, Robotics Kits), combining video lessons with a live,
-  in-browser code editor where residents can write and run code and see output immediately. The
-  module includes an achievement-badge system, a class leaderboard ranked by experience points, and a
-  live workshops section for future instructor-led sessions with booking (Section 6).
-- **Video Library** — a curated library of educational videos organised by subject category
-  (Mathematics, Science, AI & ML, Coding & Dev, History, Language Learning), with search, sort, and
-  in-app video playback.
+#### Test Preparation Hub
+*Coaching-grade exam preparation for every aspirant, free.*
+
+- **Exam catalogue & readiness** — major categories (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET,
+  Railways, Police, Teaching/TET, State PSCs, and more), each with sub-exams, syllabus, and available
+  tests; a daily practice question with explanation; a personal readiness dashboard (overall
+  readiness %, subject-wise progress, average score, estimated rank); a direct link into the Mock Test
+  Engine. **(P1)**
+- **Question-bank sourcing/growth** — securing and expanding question content (foundational,
+  content-dependent). **(P1)**
+- **Study material & engagement** — syllabus breakdown; notes; linked books and videos; streaks,
+  badges, leaderboards, and study groups. **(P2)**
+- **Current affairs & notifications** — a current-affairs feed and an exam calendar with dates and
+  application windows. **(P2)**
+- **Personalised & adaptive plan** — an AI study plan and schedule; adaptive practice targeting weak
+  areas; AI and community doubt-solving. **(P3)**
+
+#### Mock Test Interface
+*A realistic, timed exam-hall experience.*
+
+- **Full-length timed test & experience** — full-screen mode; live countdown; question navigator
+  (answered / marked / skipped); Save & Next, Mark for Review, Clear Response; exam-accurate question
+  types; negative marking per exam pattern; multi-language question display. **(P1)**
+- **Results & persistence** — instant scored result (overall %, correct/incorrect/unanswered,
+  subject-wise breakdown); every attempt saved to the Personal Dashboard. **(P1)**
+- **Deeper analysis** — full solution review with explanations; time-per-question; percentile /
+  comparison / rank; bookmark tough questions; a targeted learning loop; accessibility settings. **(P2)**
+- **Sectional & previous-year modes.** **(P2)**
+- **Adaptive tests & proctoring** for high-stakes use. **(P3)**
+
+#### STEM Innovation Lab
+*Hands-on modern skills for every student, aligned to NEP and Atal goals.*
+
+- **Course catalogue & lessons** — categories (3D Design, AI & ML, Atal Innovation, Coding & Dev,
+  Electronics & IoT, Robotics Kits); structured courses → modules → lessons; video lessons paired with
+  an in-browser code editor; badges and a class leaderboard. **(P1)**
+- **Real code-execution sandbox** — write and run code with immediate output. **(P2)**
+- **Certificates & accessibility** — completion certificates; multi-language lessons; low-bandwidth
+  mode. **(P2)**
+- **Projects, simulations & grading** — guided projects, circuit/robotics simulations, auto-graded
+  assignments, and a project portfolio. **(P3)**
+- **Live workshops with booking; teacher/school tools; career pathways.** **(P3)**
+
+#### Video Library
+*Curated educational video lessons for every subject and level.*
+
+- **Catalogue, discover & player** — organised by subject, level, and language; playlists and
+  multi-video courses; search, sort, filter, recommendations; in-app playback with speed control,
+  captions, quality settings, and resume position. **(P1)**
+- **Learning tools & personalisation** — notes at timestamps, bookmarks, attached materials, linked
+  quizzes, transcripts, AI video summaries, translated captions; watch history, watch-later,
+  continue-watching, follow subjects/teachers. **(P2)**
+- **Self-hosting / rights & content ops** — reduce third-party dependency; manage rights and
+  moderation. **(P2)**
+- **Offline & accessibility depth.** **(P2–P3)**
+- **Teacher uploads with moderation.** **(P3)**
+
+---
 
 ### 🎙️ Pillar 4 — Create & Contribute
-*Makes the platform two-sided — local teachers and residents become creators, building a knowledge
-base owned by the community.*
 
-- **Podcast Creation Studio** — a browser-based recording studio for approved content creators
-  (teachers, subject experts) with live waveform monitoring, background noise cancellation, and
-  automatic AI transcription during recording. Creators organise episodes into named series (with
-  language tagging) and publish directly to the platform. A creator analytics panel shows aggregate
-  listener counts, episode counts, and average rating across the creator's series.
-- **Podcasts Library** — the resident-facing listening experience: published episodes browsable by
-  series, with a built-in audio player.
-- **Creator ecosystem & moderation** — a governed pathway and review workflow for teachers and
-  institutions to contribute courses, tests, videos, and readings — future phase (Section 6).
+#### Podcast Creation Studio
+*Turns the platform two-sided — local teachers and residents become creators.*
+
+- **Recording studio, series & publishing** — browser-based recording with live waveform and noise
+  cancellation; organise episodes into named series with language tags and cover art; publish directly
+  to the platform's Podcasts Library. **(P1)**
+- **Podcasts Library (listen side)** — residents browse published episodes by series/topic/language
+  and play them with a built-in player. **(P1)**
+- **Creator analytics** — listeners, plays, completion, ratings, and subscriber counts, per episode
+  and series. **(P2)**
+- **Editing & AI transcription** — trim, splice, re-record; intro/outro and music; automatic
+  transcription; auto-generated show notes and captions. **(P2)**
+- **Governance & moderation workflow** — creator onboarding/approval; content review; guidelines;
+  rights and consent. **(P2)**
+- **Subscriptions & offline listening.** **(P2)**
+- **External distribution / RSS; creator recognition/tips.** **(P3)**
+
+---
 
 ### 👤 Pillar 5 — Your Personal Space
-*A personal knowledge home that remembers where each resident left off and recognises their
-progress.*
 
-- **Personal Dashboard** — a single view of the resident's own activity: a 30-day reading-activity
-  chart, a "Currently Reading" list with live progress bars, earned certificates (downloadable),
-  a saved bookshelf of favourited titles, and a complete history of mock test attempts with scores and
-  dates — automatically updated the moment an activity (e.g. a completed test) happens elsewhere on
-  the platform.
-- **User accounts & access management** — resident registration and secure login (password-based at
-  launch), with role-based access distinguishing Citizens, Students, Senior Citizens, and Content
-  Creators. Administrator and Government Official roles are reserved in the platform's design for
-  Pillar 6 (Section below).
-- **Membership tiers** — three tiers (Basic / Standard / Gold), each unlocking a defined set of
-  platform features (download limits, audiobook access, mock test allowance, AI feature depth,
-  offline mode, priority support), with a stated 50% discount pathway for students and senior
-  citizens. Tier comparison and current-plan display are included at launch; **live tier upgrades via
-  online payment are a future phase** (Section 6 and Section 7).
+#### User Profile / My Dashboard
+*A personal knowledge home that recognises progress and gives residents control of their data.*
+
+- **Profile, activity & content** — profile with avatar, reading streak, and join date; activity and
+  stats charts; totals across books, audiobooks, hours, tests, podcasts, and courses; Currently
+  Reading with progress; My Bookshelf; achievements and a full test history. **(P1)**
+- **Resident identity verification** — Aadhaar / DigiLocker-linked account verification and library
+  card. **(P1)**
+- **Functional settings** — language, dark mode, text size/accessibility, and notification
+  preferences. **(P1)**
+- **Downloadable certificates.** **(P2)**
+- **Goals, recommendations & data-ownership controls** — personal goals and challenges; personalised
+  recommendations; download-my-data, delete-account, and consent management. **(P2)**
+
+---
 
 ### 🏢 Pillar 6 — For the Corporation
 
-Gyan Setu is not only a citizen service — it is an instrument for civic insight and governance.
+#### Admin & Analytics
+*The Corporation's control room — manage the platform and understand how residents use it.*
 
-- **Administration Console** — a unified place for the Corporation's administrators to manage
-  content, users, creators, and platform configuration — **future phase** (Section 6). The platform's
-  data model already reserves an Administrator role, so this module builds on existing foundations
-  rather than requiring structural rework.
-- **Analytics & Insight Dashboard** — usage trends, most-accessed content, exam-preparation
-  engagement, and ward-wise reach reporting, to help the Corporation understand what residents read
-  and learn, and where to invest next — **future phase** (Section 6).
-- **Government integration** — optional Aadhaar / DigiLocker-based resident verification, to
-  streamline membership sign-up and enable discount eligibility checks — **future phase** (Section 6),
-  dependent on government API access approval (Section 7).
-- **Owned and branded by the Corporation** — the platform carries the Corporation's identity, and all
-  content and resident data remain the Corporation's property.
+- **Content management (operate the platform)** — add, edit, and curate every content type; build
+  collections and featured shelves; metadata and cover management; physical-stock/inventory for
+  lending. **(P1)**
+- **User & role management** — manage residents, students, seniors, creators, admins, and government
+  officials; roles and permissions; institutional/ward accounts; support tools. **(P1)**
+- **Platform config & core operations** — languages, feature flags, and home/discovery curation. **(P1)**
+- **Government / identity / physical-library integrations** — connect resident identity
+  (Aadhaar/DigiLocker) and the physical-library systems that power lending. **(P1)**
+- **Creator & moderation tools** — approve creators; review and moderate community content; handle
+  reports. **(P2)**
+- **Core analytics & KPIs** — active users, content accessed, registrations, session time; DAU/MAU
+  trends; content distribution; top content; exports (Excel/PDF/CSV) and scheduled reports. **(P2)**
+- **Announcements & campaigns** — publish banners, notifications, civic messages, and featured
+  content. **(P2)**
+- **Audit logs & data governance.** **(P2)**
+- **Ward-wise / civic & governance dashboards** — literacy and engagement indicators; scheme-campaign
+  reach; equity-of-access views. **(P3)**
 
 ---
 
-## 5. Who It Serves
+## 7. Delivery Phasing
+
+The full scope above is delivered in three phases, **all within a three-month build period**. This
+document establishes *which* capability sits in *which* phase; the detailed definition, sequencing, and
+scheduling of each phase within the three months is finalised in a separate phase plan.
+
+- **Phase 1 — Launch (Core).** All thirteen modules live and genuinely useful on web, in a fully
+  four-language, accessible interface: reading with AI summaries, audiobooks, newspapers, heritage,
+  test prep and mock tests, STEM lab and video library, podcast creation and listening, **physical-book
+  lending with branch pickup or doorstep delivery**, a personal dashboard with **Aadhaar/DigiLocker
+  identity verification**, and a minimal admin to operate it — on the always-on hosting and
+  account/search/ingestion foundations.
+- **Phase 2 — Enrich (Depth & Hardening).** The full AI layer (mind-maps, quizzes, Reading Companion
+  depth, TTS, translation), personalisation and community, full-text search, offline access, richer
+  test-prep and results, real code execution, creator moderation, and the Corporation's core analytics
+  and content-operations tooling.
+- **Phase 3 — Expand (Advanced).** Immersive 360°/AR heritage, adaptive AI tutoring, live STEM
+  workshops and teacher tools, the creator ecosystem at scale, native mobile applications, deep
+  civic/ward analytics, and catalogue scale-up.
+
+---
+
+## 8. Who It Serves
 
 | Resident | What Gyan Setu gives them |
 |---|---|
@@ -232,130 +402,53 @@ Gyan Setu is not only a citizen service — it is an instrument for civic insigh
 
 ---
 
-## 6. Phased Delivery
+## 9. Assumptions & Dependencies
 
-Delivery is sequenced into three phases so the Corporation can launch a genuinely useful platform
-quickly, then extend it.
+For this scope to hold, the following must be true or provided (by the Corporation, or coordinated by
+Safal Softcom on its behalf):
 
-### Phase 1 — MVP Launch (in this scope)
-
-All modules and functionality listed in Section 4, Pillars 1 through 5, **except** the items
-explicitly marked "future phase" within those pillars. This includes: Home Dashboard, Digital
-Library, eBook Reader, Audiobooks, Newspapers & Periodicals, IKS Heritage (era-based browsing),
-Test Preparation Hub, Mock Test Engine, STEM Innovation Lab, Video Library, Podcast Creation Studio,
-Podcasts Library, Personal Dashboard, user accounts and role-based access, and membership tier
-display (without live payment processing).
-
-### Phase 2 — Launch Hardening (immediately following Phase 1)
-
-Functional refinements identified during platform review, prioritised by impact:
-
-- Fully wire the AI Reading Companion for live use (requires production AI service provisioning —
-  see Section 7).
-- Build the full manuscript reading view for IKS Heritage (currently browse-and-preview only).
-- Deliver AI-generated Mind Maps and Quizzes on book detail pages (currently placeholder).
-- Make the platform-wide search bar and notification centre fully functional.
-- Add clear in-app messaging (e.g. "coming soon") to any control tied to a future-phase feature, so
-  residents always understand what is and isn't available yet, rather than encountering an
-  unresponsive control.
-- Move hosting to an always-on configuration to remove first-visit wake-up delay ahead of public
-  launch (see Section 7).
-
-### Phase 3 — Platform Expansion (future phases, to be scoped and costed separately)
-
-- **Administration Console and Analytics & Insight Dashboard** (Pillar 6).
-- **Live membership upgrades** via an integrated payment gateway (UPI, Net Banking, Cards).
-- **Aadhaar / DigiLocker** identity verification and discount eligibility.
-- **360° virtual heritage tours** and **Folk & Oral Traditions** section (Pillar 2).
-- **Live Workshops booking** (STEM Innovation Lab).
-- **Creator ecosystem and moderation workflow** for broader community content contribution.
-- **Native Android and iOS mobile applications**, including offline download support.
-- **Expanded multi-language content parity** — growing Hindi and Sanskrit content (currently a
-  smaller share of the catalogue than Gujarati and English) to match across all content types.
-- **Catalogue scale-up** — growing from an initial curated catalogue toward the platform's long-term
-  scale ambitions, gated primarily by content licensing and partnerships (see Section 7), not by
-  further engineering.
+- **Content licensing & partnerships.** The initial catalogue is a curated starting set. Growing the
+  book, newspaper, audiobook, and question-bank catalogue to full scale — and reaching four-language
+  content parity — requires securing content rights and partnerships (literary academies, universities,
+  newspaper publishers, exam-prep providers). This is a licensing/business-development workstream that
+  paces catalogue growth.
+- **AI service costs.** AI features run on a paid, usage-based AI service; ongoing usage costs scale
+  with resident activity and are budgeted separately from one-time development.
+- **Government API access (identity).** Aadhaar / DigiLocker verification requires formal government
+  API access approval — typically a longer-lead-time process managed at the Corporation level. As
+  identity is a Phase 1 capability, securing this access early is on the critical path.
+- **Physical-library logistics (lending).** Phygital lending (Phase 1) depends on the Corporation
+  providing physical-branch stock data and agreeing the fulfilment model for branch pickup and
+  doorstep delivery (delivery operations, returns handling, and any fines policy).
+- **Hosting & operating costs.** Always-on cloud hosting and AI usage are ongoing operating expenses,
+  not one-time costs, and should be budgeted as such.
+- **Content review responsibility.** For community-contributed content (podcasts, reviews, uploads),
+  the Corporation should identify who is responsible for review and moderation.
+- **Three-month timeline.** Delivering the full P1–P3 scope within three months assumes the above
+  dependencies (identity API access, content rights, physical-branch data) are unblocked in step with
+  the build; delays in these external workstreams affect what lands in each phase.
 
 ---
 
-## 7. Assumptions & Dependencies
+## 10. Scope Boundaries
 
-For this scope to hold, the following must be true or provided by the Corporation (or coordinated by
-Safal Softcom on the Corporation's behalf):
-
-- **Content licensing and partnerships.** The initial catalogue is a curated starting set. Growing
-  the eBook, newspaper, and question-bank catalogue to a large scale requires securing content rights
-  and partnerships — with literary academies, universities, newspaper publishers, and exam-prep
-  content providers. This is a licensing and business-development workstream, separate from platform
-  engineering, and its pace directly determines how quickly the catalogue can grow beyond the initial
-  launch set.
-- **Third-party content dependency at launch.** To make audiobook and video content available from
-  day one without large upfront licensing costs, initial audiobook and video content is streamed
-  from established public archives and educational platforms rather than hosted directly by Gyan
-  Setu. This is a reasonable and cost-effective launch strategy, but it means playback for that
-  content depends on those external services remaining available. A self-hosted media strategy is a
-  future consideration if and when this dependency needs to be reduced (e.g. as part of Phase 3).
-- **AI service costs.** The AI-powered features (book summaries, Reading Companion, and the planned
-  Mind Map/Quiz generation in Phase 2) run on a paid, usage-based AI service. Ongoing usage costs
-  scale with resident activity and must be budgeted for separately from one-time development cost;
-  a production API allocation needs to be provisioned ahead of Phase 2 completion.
-- **Payment gateway agreement.** Live membership upgrades (Phase 3) require the Corporation to
-  establish a commercial relationship with a payment provider (e.g. Razorpay, CCAvenue, or a UPI-
-  enabled provider) — a separate procurement process from this scope of work.
-- **Government API access.** Aadhaar / DigiLocker integration (Phase 3) requires formal government
-  API access approval, which is typically a longer-lead-time process managed at the Corporation
-  level, not something Safal Softcom can secure independently.
-- **Hosting cost model.** The recommended always-on hosting configuration for public launch (Section
-  6, Phase 2) carries a modest, predictable monthly infrastructure cost in addition to one-time
-  development cost. The Corporation should budget for ongoing cloud hosting and AI service costs as
-  operating expenses, not one-time costs.
-- **Administrator and Official accounts.** The platform's data model already reserves roles for
-  Corporation administrators and government officials, so Phase 3's Administration Console does not
-  require a data redesign — but the console itself, its screens, and its reporting logic are new
-  build effort, not a configuration toggle.
-- **Content review responsibility.** For the Create & Contribute pillar (Section 4, Pillar 4) to
-  operate safely at scale, the Corporation should identify who is responsible for reviewing and
-  moderating community-contributed content once the Creator ecosystem (Phase 3) is live.
+- **In scope:** Every module and capability in Section 6, across phases P1–P3, delivered on web (with
+  native mobile in P3), in four languages, to WCAG accessibility standards, with the Corporation's
+  administration and analytics tooling.
+- **Not covered by this document:** The commercial and pricing model, membership pricing, formal
+  service-level agreements, and calendar-dated timelines — handled separately. The detailed definition
+  and scheduling of P1/P2/P3 within the three-month build is finalised in a separate phase plan.
 
 ---
 
-## 8. Scope Boundaries
+## 11. Next Steps
 
-- **In scope (Phase 1 — MVP):** All modules and functionality described in Section 4, Pillars 1
-  through 5, excluding items explicitly marked "future phase" within those pillars. Delivered as a
-  web application across four languages (Gujarati, Hindi, English, Sanskrit), built to recognised
-  accessibility standards (WCAG).
-- **In scope (Phase 2 — Launch Hardening):** The specific functional refinements listed in Section 6,
-  Phase 2.
-- **Future phase (Phase 3 — not in current commercial scope):** Administration Console, Analytics &
-  Insight Dashboard, live payment-based membership upgrades, Aadhaar/DigiLocker integration, 360°
-  virtual tours, Folk & Oral Traditions section, Live Workshops booking, Creator ecosystem/moderation,
-  native mobile applications, and catalogue scale-up beyond the initial curated content set. These
-  are described in this document to establish the platform's direction, but are to be separately
-  scoped, timelined, and costed when the Corporation is ready to proceed with them.
-- **Not covered by this document:** Detailed timelines with calendar dates, commercial pricing, and
-  formal service-level agreements — to be addressed in a separate commercial proposal.
+This Detailed Scope of Work defines the full capability of the Gyan Setu platform and the phase in
+which each capability is delivered. The next steps are the detailed phase plan (sequencing and
+scheduling within the three-month build) and the separate commercial proposal.
 
----
-
-## 9. Sign-Off
-
-This Detailed Scope of Work is submitted for review and approval by [Municipal Corporation]. Approval
-of this document confirms agreement on the Phase 1 (MVP) and Phase 2 (Launch Hardening) scope
-described above, and acknowledgement of the Phase 3 items and dependencies as future, separately-
-scoped work.
-
-**For [Municipal Corporation]:**
-
-Name: _____________________________ Designation: _____________________________
-
-Signature: _____________________________ Date: _____________________________
-
-**For Safal Softcom:**
-
-Name: Vishesh Darji Designation: Primary Point of Contact
-
-Signature: _____________________________ Date: _____________________________
+For any discussion on this document or the platform, please contact **Vishesh Darji** (Primary Point
+of Contact) at **+91 98257 22409**.
 
 ---
 
