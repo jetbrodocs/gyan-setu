@@ -40,6 +40,9 @@
   ul{margin:0;padding-left:18px;}
   li{margin:0 0 7px;}
   li::marker{color:var(--accent);}
+  .module li ul{margin:5px 0 3px;padding-left:16px;}
+  .module li ul li{font-size:12.5px;color:var(--ink-soft);margin:0 0 3px;}
+  .module li ul li em{font-style:italic;color:var(--ink);}
 
   .module{border:1px solid var(--line);border-radius:11px;padding:15px 18px 12px;margin:0 0 14px;}
   .module-name{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:15px;margin:0 0 2px;}
@@ -86,7 +89,7 @@
       <div><span class="m-label">Prepared by</span><span class="m-val">Safal Softcom</span></div>
       <div><span class="m-label">Point of contact</span><span class="m-val">Vishesh Darji · +91 98257 22409</span></div>
       <div><span class="m-label">Date</span><span class="m-val">14 July 2026</span></div>
-      <div><span class="m-label">Version</span><span class="m-val">2.1 (Detailed)</span></div>
+      <div><span class="m-label">Version</span><span class="m-val">2.2 (Detailed)</span></div>
     </div>
   </header>
 
@@ -154,11 +157,25 @@
       <div class="module-name">Home &amp; Discovery</div>
       <div class="module-purpose">Every resident's personalised entry point.</div>
       <ul>
-        <li><strong>Personalised Home</strong> — every resident's entry point on login: a welcome by name, a "continue reading / listening / resume test" panel showing items in progress with completion percentage, and at-a-glance stat tiles (books read, reading hours, tests taken, certificates earned, streak). <span class="phase p1">P1</span></li>
-        <li><strong>Discovery &amp; Trending</strong> — trending content in the resident's city/ward, new arrivals across every content type, personalised "for you" recommendations spanning books, audiobooks, tests, videos and podcasts, editorial/featured collections, and a spotlight on local and heritage content. <span class="phase p1">P1</span></li>
+        <li><strong>Personalised Home</strong> — every resident's entry point on login, built around what they are already doing. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Welcome &amp; daily snapshot</em> — a greeting by name and a quick view of the resident's activity.</li>
+            <li><em>Continue where you left off</em> — panels for reading, listening, and in-progress tests, each showing completion percentage with one-tap resume.</li>
+            <li><em>At-a-glance stats</em> — tiles for books read, reading hours, tests taken, certificates earned, and the current streak.</li>
+          </ul></li>
+        <li><strong>Discovery &amp; Trending</strong> — surfaces something worthwhile without the resident having to search. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Trending in your city/ward</em> and <em>new arrivals</em> across every content type.</li>
+            <li><em>Personalised "for you"</em> recommendations spanning books, audiobooks, tests, videos and podcasts.</li>
+            <li><em>Editorial &amp; featured collections</em>, plus a spotlight on local and heritage content.</li>
+          </ul></li>
         <li><strong>Navigation</strong> — a collapsible sidebar with one-click access to every module, quick links and shortcuts, and recently-visited items. <span class="phase p1">P1</span></li>
         <li><strong>Language switcher &amp; accessibility quick settings</strong> — switch interface language and adjust text size and contrast from anywhere on the platform. <span class="phase p1">P1</span></li>
-        <li><strong>Unified platform search</strong> — a single search bar, available from every screen, that searches across books, audiobooks, newspapers, tests, videos, podcasts and manuscripts, with suggestions, filters, and results in the resident's language first. <span class="phase p2">P2</span></li>
+        <li><strong>Unified platform search</strong> — a single search bar available from every screen. <span class="phase p2">P2</span>
+          <ul>
+            <li>Searches across books, audiobooks, newspapers, tests, videos, podcasts and manuscripts in one place.</li>
+            <li>Offers live suggestions and filters, returning results in the resident's language first.</li>
+          </ul></li>
         <li><strong>Notifications &amp; reminders</strong> — a notification centre for new content, activity reminders (continue reading, test due, book due for return), and achievements. <span class="phase p2">P2</span></li>
         <li><strong>Announcements &amp; civic messaging</strong> — Corporation banners and notices, events, workshops, scheme awareness, and public campaigns surfaced to residents. <span class="phase p2">P2</span></li>
         <li><strong>Personal shortcuts</strong> — pinned/favourite modules, saved items, and goals at a glance. <span class="phase p2">P2</span></li>
@@ -171,9 +188,18 @@
       <div class="module-name">Public Kiosk</div>
       <div class="module-purpose">A touch-screen public access point for residents without a personal device.</div>
       <ul>
-        <li><strong>Self-service kiosk interface</strong> — a portrait-mode touch UI with large tiles (Browse Books, My Account, Borrow/Return Book, Test Prep, Audio &amp; Podcasts, Help Desk), on-screen date/time, and Corporation branding. <span class="phase p1">P1</span></li>
+        <li><strong>Self-service kiosk interface</strong> — a portrait-mode touch experience designed for walk-up use. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Large touch tiles</em> — Browse Books, My Account, Borrow/Return Book, Test Prep, Audio &amp; Podcasts, and Help Desk.</li>
+            <li><em>On-screen date/time and Corporation branding</em>, with an idle/attract screen between users.</li>
+          </ul></li>
         <li><strong>Voice search &amp; assistance</strong> — spoken search and on-screen prompts for low-literacy and hands-free use. <span class="phase p1">P1</span></li>
-        <li><strong>Library-card sign-in, borrow &amp; return</strong> — tap the digital library card to sign in and to borrow or return physical books at the kiosk (ties to phygital lending). <span class="phase p1">P1</span></li>
+        <li><strong>Library-card sign-in, borrow &amp; return</strong> — a physical touchpoint for the phygital lending flow. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Sign in</em> by tapping or scanning the digital library card.</li>
+            <li><em>Borrow and return</em> physical books at the kiosk, with printed or scanned receipts.</li>
+            <li><em>Automatic session logout</em> to protect privacy on a shared device.</li>
+          </ul></li>
         <li><strong>Accessibility</strong> — large touch targets, audio guidance, and multi-language for elderly and differently-abled residents. <span class="phase p1">P1</span></li>
         <li><strong>Deployment</strong> — kiosks placed in libraries, ward offices, community centres, and public spaces. <span class="phase p1">P1</span></li>
       </ul>
@@ -184,15 +210,43 @@
       <div class="module-name">Digital Library</div>
       <div class="module-purpose">The front door to the Corporation's entire collection of written knowledge.</div>
       <ul>
-        <li><strong>Browse &amp; Discover</strong> — a visual catalogue of covers; curated collections (classic literature, regional Gujarati literature, academic &amp; university texts, science &amp; technology, business &amp; economics, children's &amp; young readers, public-domain classics, and Corporation-exclusive / local-author collections); themed and seasonal reading lists; dynamic shelves (new arrivals, trending in your city, most-read, most-downloaded, staff/librarian picks, award winners); personalised "because you read…" recommendations; and author and series pages. <span class="phase p1">P1</span></li>
-        <li><strong>Search &amp; Filter</strong> — search by title, author, and narrator; filter by language, format (eBook/PDF), subject/genre, collection, reading level, and availability; sort by relevance, rating, popularity/downloads, and date; with spelling tolerance ("did you mean…") and results in the resident's language first. <span class="phase p1">P1</span></li>
-        <li><strong>Book Detail &amp; AI summary</strong> — a dedicated page per title showing cover, author, publisher, edition, year, page count, language, format, subject tags and rating, alongside an AI-generated summary written specifically for that book. <span class="phase p1">P1</span></li>
+        <li><strong>Browse &amp; Discover</strong> — a visual catalogue of covers, organised so discovery feels effortless. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Curated collections</em> — classic literature, regional Gujarati literature, academic &amp; university texts, science &amp; technology, business &amp; economics, children's &amp; young readers, public-domain classics, and Corporation-exclusive / local-author collections.</li>
+            <li><em>Themed &amp; seasonal lists</em> — festival reading, exam-season lists, and "books about our city," refreshed by the library team.</li>
+            <li><em>Dynamic shelves</em> that update automatically — new arrivals, trending in your city, most-read, most-downloaded, staff/librarian picks, and award winners.</li>
+            <li><em>Personalised recommendations</em> — a "because you read…" row from the resident's history, and "readers also enjoyed" on each title.</li>
+            <li><em>Author &amp; series pages</em> — each author's works with a short biography; multi-volume series grouped and ordered.</li>
+          </ul></li>
+        <li><strong>Search &amp; Filter</strong> — find any title fast, in the resident's own language. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Search</em> by title, author, and narrator, with spelling tolerance ("did you mean…").</li>
+            <li><em>Filter</em> by language, format (eBook/PDF), subject/genre, collection, reading level, and availability.</li>
+            <li><em>Sort</em> by relevance, rating, popularity/downloads, and date; results in the resident's language first.</li>
+          </ul></li>
+        <li><strong>Book Detail &amp; AI summary</strong> — a dedicated page per title that helps a resident decide in seconds. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Bibliographic detail</em> — cover, author, publisher, edition, year, page count, language, format, subject tags, and community rating.</li>
+            <li><em>AI-generated summary</em> written specifically for that title.</li>
+            <li><em>Actions</em> — Read Now, download (where rights allow), and — if physical stock exists — reserve for branch pickup or home delivery.</li>
+          </ul></li>
         <li><strong>Read &amp; Access</strong> — one-tap "Read Now" into the eBook Reader; cross-format continuity (switch between reading and the audiobook without losing place); large-print and PDF formats. <span class="phase p1">P1</span></li>
-        <li><strong>Physical copy access (phygital lending)</strong> — where the Corporation holds physical stock: check availability, reserve or borrow a physical book, choose branch pickup or home delivery, and manage returns, renewals, due dates, and any fines — a digital-to-doorstep bridge to the physical library branches. <span class="phase p1">P1</span></li>
+        <li><strong>Physical copy access (phygital lending)</strong> — a digital-to-doorstep bridge to the physical library branches, where the Corporation holds physical stock. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Check availability</em> and <em>reserve or borrow</em> a physical book.</li>
+            <li><em>Choose branch pickup or home delivery.</em></li>
+            <li><em>Manage</em> returns, renewals, due dates, and any fines.</li>
+          </ul></li>
         <li><strong>Physical-catalogue integration</strong> — a resident sees whether a physical copy also exists and at which branch. <span class="phase p1">P1</span></li>
         <li><strong>Four-language content parity</strong> — the catalogue usable across Gujarati, Hindi, English, and Sanskrit. <span class="phase p1">P1</span></li>
         <li><strong>Personal bookshelf &amp; reader tools</strong> — My Bookshelf and personal lists; reading history; continue-reading; requests for titles the library doesn't yet hold; and personal reading goals and challenges. <span class="phase p1">P1</span></li>
-        <li><strong>Deeper AI understanding</strong> — multiple summary depths (quick summary, detailed analysis, key concepts), a visual mind-map of the book's ideas, an auto-generated quiz, a spoken (audio) summary, on-demand translation into the resident's language, and confidence / "human-verified" trust signals. <span class="phase p2">P2</span></li>
+        <li><strong>Deeper AI understanding</strong> — richer AI tools on the book page. <span class="phase p2">P2</span>
+          <ul>
+            <li><em>Multiple summary depths</em> — quick summary, detailed analysis, and key concepts.</li>
+            <li><em>Visual mind-map</em> of the book's ideas and an <em>auto-generated quiz</em>.</li>
+            <li><em>Spoken (audio) summary</em> and <em>on-demand translation</em> into the resident's language.</li>
+            <li><em>Trust signals</em> — confidence indication and, where applicable, a "human-verified" marker.</li>
+          </ul></li>
         <li><strong>Full-text search inside books</strong> — find a book by a phrase or quote from within its contents. <span class="phase p2">P2</span></li>
         <li><strong>Offline download</strong> — download titles for offline reading (subject to content rights). <span class="phase p2">P2</span></li>
         <li><strong>Community &amp; reviews</strong> — resident ratings and reviews (moderated), popularity signals, recommend-and-share, and report errors/content. <span class="phase p2">P2</span></li>
@@ -205,9 +259,18 @@
       <div class="module-name">eBook Reader</div>
       <div class="module-purpose">A comfortable, accessible reading experience with an AI companion.</div>
       <ul>
-        <li><strong>Reading experience</strong> — a chapter-by-chapter table of contents; adjustable font size, typeface, spacing, and reading themes (light/dark/sepia); page or scroll view; and a full-screen, distraction-free mode. <span class="phase p1">P1</span></li>
+        <li><strong>Reading experience</strong> — a distraction-free reading surface the resident can tune to their comfort. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Table of contents</em> for chapter-by-chapter navigation.</li>
+            <li><em>Adjustable</em> font size, typeface, spacing, and reading themes (light/dark/sepia).</li>
+            <li><em>Page or scroll view</em> and a full-screen, distraction-free mode.</li>
+          </ul></li>
         <li><strong>Progress &amp; sync</strong> — automatic reading-progress tracking (page and percentage) that resumes exactly where the resident left off from any device, with reading-time estimates. <span class="phase p1">P1</span></li>
-        <li><strong>AI Reading Companion</strong> — a panel alongside the text to ask questions about the current chapter, get passages explained, request summaries, define words, and discuss themes — grounded in the book's own content. <span class="phase p1">P1</span></li>
+        <li><strong>AI Reading Companion</strong> — a panel alongside the text, grounded in the book's own content. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Ask questions</em> about the current chapter and get passages <em>explained</em>.</li>
+            <li><em>Request summaries</em>, <em>define words</em>, and <em>discuss themes</em>.</li>
+          </ul></li>
         <li><strong>Annotation</strong> — highlights, bookmarks, and personal notes that persist and are searchable within a book, with export/share. <span class="phase p2">P2</span></li>
         <li><strong>Translate</strong> — translate passages or whole chapters on demand and read in the resident's language. <span class="phase p2">P2</span></li>
         <li><strong>Read-aloud (TTS)</strong> — natural text-to-speech narration with speed control and follow-along highlighting. <span class="phase p2">P2</span></li>
@@ -221,7 +284,11 @@
       <div class="module-purpose">Hands-free access for commuters, the visually impaired, and non-readers.</div>
       <ul>
         <li><strong>Browse &amp; Discover</strong> — a searchable, filterable catalogue (language, subject, narrator, duration), curated collections, and "you may also like" recommendations. <span class="phase p1">P1</span></li>
-        <li><strong>Player</strong> — play/pause, 15-second skip forward/back, adjustable playback speed (0.75x–2x), a full chapter list with seek, and a sleep timer. <span class="phase p1">P1</span></li>
+        <li><strong>Player</strong> — full playback control for hands-free listening. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Play/pause</em>, 15-second <em>skip</em> forward/back, and adjustable <em>playback speed</em> (0.75x–2x).</li>
+            <li><em>Full chapter list with seek</em> and a <em>sleep timer</em>.</li>
+          </ul></li>
         <li><strong>Multi-language catalogue (content parity)</strong> — audiobooks across all four languages, including regional-language narration. <span class="phase p1">P1</span></li>
         <li><strong>Listening tools &amp; resume</strong> — bookmarks and notes at timestamps, a playback queue, continue-listening, and resume position across devices. <span class="phase p2">P2</span></li>
         <li><strong>Offline</strong> — download for offline listening (subject to content rights). <span class="phase p2">P2</span></li>
@@ -235,11 +302,20 @@
       <div class="module-name">Newspapers &amp; Periodicals</div>
       <div class="module-purpose">A daily and archival reading room across languages and cities.</div>
       <ul>
-        <li><strong>Newspapers section, browse &amp; full-page reader</strong> — filter by language, city/edition, publication, and date via a calendar picker; open a realistic full-page layout with zoom, page navigation, and single-article view; clip and save articles; and browse a deep archive of past editions. <span class="phase p1">P1</span></li>
+        <li><strong>Newspapers section, browse &amp; full-page reader</strong> — a daily reading room and a deep archive. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Filter</em> by language, city/edition, publication, and date via a calendar picker.</li>
+            <li><em>Full-page reader</em> — a realistic full-page layout with zoom, page navigation, and single-article view.</li>
+            <li><em>Clip and save articles</em>, and browse a deep archive of past editions.</li>
+          </ul></li>
         <li><strong>Publisher ingestion pipeline</strong> — the pipeline that brings real editions in from publishers (foundational to real content). <span class="phase p1">P1</span></li>
         <li><strong>Magazines &amp; Journals sections</strong> — distinct, browsable sections alongside newspapers. <span class="phase p2">P2</span></li>
         <li><strong>Search &amp; personalisation</strong> — full-text article search across editions and archives; follow favourite publications; a daily digest; new-edition notifications; and saved/clipped articles with reading history. <span class="phase p2">P2</span></li>
-        <li><strong>AI &amp; civic content</strong> — article summaries, article translation, topic tracking and a "today in brief"; plus Corporation bulletins, official gazettes and notices, and community newsletters. <span class="phase p2">P2</span></li>
+        <li><strong>AI &amp; civic content</strong> — comprehension and community value on top of the archive. <span class="phase p2">P2</span>
+          <ul>
+            <li><em>AI</em> — article summaries, article translation, topic tracking, and a "today in brief."</li>
+            <li><em>Civic</em> — Corporation bulletins, official gazettes and notices, and community newsletters.</li>
+          </ul></li>
         <li><strong>Accessibility</strong> — a reader/reflow mode, read-aloud (TTS), and large-print for comfortable reading. <span class="phase p2">P2</span></li>
       </ul>
     </div>
@@ -249,7 +325,12 @@
       <div class="module-name">Indian Knowledge Systems (IKS Heritage)</div>
       <div class="module-purpose">Preserving and popularising India's and the region's intellectual and cultural heritage.</div>
       <ul>
-        <li><strong>Historical timeline &amp; manuscripts</strong> — a timeline spanning six eras (Vedic → Mauryan → Gupta → Solanki → Mughal → Modern); select an era to browse its digitised manuscripts and scriptures, each with cover, title, language, era, and a summary of historical significance; filter by language and era. <span class="phase p1">P1</span></li>
+        <li><strong>Historical timeline &amp; manuscripts</strong> — a guided journey through the region's and India's heritage. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Timeline</em> spanning six eras — Vedic → Mauryan → Gupta → Solanki → Mughal → Modern.</li>
+            <li><em>Browse</em> an era's digitised manuscripts and scriptures, each with cover, title, language, era, and a summary of historical significance.</li>
+            <li><em>Filter</em> by language and era.</li>
+          </ul></li>
         <li><strong>Full manuscript reading view</strong> — an in-depth reading experience for each manuscript, equivalent to the eBook Reader, with an AI companion for difficult classical texts. <span class="phase p2">P2</span></li>
         <li><strong>Folk &amp; oral traditions</strong> — regional folk literature, oral storytelling, and songs (e.g. Saurashtra's folk literature) with audio, reusing the audiobook experience. <span class="phase p2">P2</span></li>
         <li><strong>Local heritage</strong> — Corporation-specific and local history, monuments, personalities, and archives, with contributions from local historians. <span class="phase p2">P2</span></li>
@@ -264,7 +345,13 @@
       <div class="module-name">Test Preparation Hub</div>
       <div class="module-purpose">Coaching-grade exam preparation for every aspirant, free.</div>
       <ul>
-        <li><strong>Exam catalogue &amp; readiness</strong> — major exam categories (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET, Railways, Police, Teaching/TET, State PSCs and more), each with sub-exams, syllabus, available tests and aspirant counts; a daily practice question with explanation; and a personal readiness dashboard (overall readiness %, subject-wise progress, average score, estimated rank/percentile, strengths and weaknesses, trend over time); with a direct link into the Mock Test Engine. <span class="phase p1">P1</span></li>
+        <li><strong>Exam catalogue &amp; readiness</strong> — structured preparation with an honest view of where the aspirant stands. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Exam catalogue</em> — major categories (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET, Railways, Police, Teaching/TET, State PSCs and more), each with sub-exams, syllabus, available tests and aspirant counts.</li>
+            <li><em>Daily practice question</em> with explanation.</li>
+            <li><em>Readiness dashboard</em> — overall readiness %, subject-wise progress, average score, estimated rank/percentile, strengths and weaknesses, and trend over time.</li>
+            <li><em>Direct link</em> into the Mock Test Engine.</li>
+          </ul></li>
         <li><strong>Question-bank sourcing/growth</strong> — securing and expanding the question content that powers practice and tests (foundational, content-dependent). <span class="phase p1">P1</span></li>
         <li><strong>Practice</strong> — topic-wise practice sets, previous-year questions, difficulty levels, and flashcards. <span class="phase p2">P2</span></li>
         <li><strong>Study material</strong> — syllabus breakdown, notes, and linked books and videos. <span class="phase p2">P2</span></li>
@@ -277,7 +364,12 @@
       <div class="module-name">Mock Test Interface</div>
       <div class="module-purpose">A realistic, timed exam-hall experience.</div>
       <ul>
-        <li><strong>Test experience</strong> — a full-screen exam mode with a live countdown timer; a question navigator showing answered / marked-for-review / skipped status at a glance; Save &amp; Next, Mark for Review, and Clear Response controls; exam-accurate question types; standard negative marking per exam pattern; and multi-language question display. <span class="phase p1">P1</span></li>
+        <li><strong>Test experience</strong> — a full-screen exam mode that mirrors the real exam hall. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Live countdown timer</em> and a <em>question navigator</em> showing answered / marked-for-review / skipped status at a glance.</li>
+            <li><em>Save &amp; Next, Mark for Review, and Clear Response</em> controls.</li>
+            <li><em>Exam-accurate question types</em>, standard <em>negative marking</em> per exam pattern, and <em>multi-language</em> question display.</li>
+          </ul></li>
         <li><strong>Exam modes</strong> — full-length timed mock tests and topic quizzes at launch. <span class="phase p1">P1</span></li>
         <li><strong>Integrity</strong> — an instructions/consent screen and auto-submit on timeout. <span class="phase p1">P1</span></li>
         <li><strong>Results &amp; persistence</strong> — an instant scored result (overall %, correct/incorrect/unanswered, subject-wise breakdown), with every attempt saved permanently to the resident's Personal Dashboard. <span class="phase p1">P1</span></li>
@@ -291,8 +383,16 @@
       <div class="module-name">STEM Innovation Lab</div>
       <div class="module-purpose">Hands-on modern skills for every student, aligned to NEP and Atal goals.</div>
       <ul>
-        <li><strong>Course catalogue</strong> — six categories (3D Design, AI &amp; ML, Atal Innovation, Coding &amp; Dev, Electronics &amp; IoT, Robotics Kits); structured courses → modules → lessons; beginner-to-advanced levels; and age/grade tracks. <span class="phase p1">P1</span></li>
-        <li><strong>Learn</strong> — video lessons paired with an in-browser code editor across languages (Python, block/Scratch, JavaScript and more), interactive tutorials, and downloadable resources. <span class="phase p1">P1</span></li>
+        <li><strong>Course catalogue</strong> — a structured skilling path. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Six categories</em> — 3D Design, AI &amp; ML, Atal Innovation, Coding &amp; Dev, Electronics &amp; IoT, Robotics Kits.</li>
+            <li><em>Structured</em> courses → modules → lessons, with beginner-to-advanced levels and age/grade tracks.</li>
+          </ul></li>
+        <li><strong>Learn</strong> — hands-on learning that pairs watching with doing. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Video lessons</em> paired with an <em>in-browser code editor</em> across languages (Python, block/Scratch, JavaScript and more).</li>
+            <li><em>Interactive tutorials</em> and <em>downloadable resources</em>.</li>
+          </ul></li>
         <li><strong>Recognition</strong> — XP, achievement badges, and a class leaderboard ranked by experience points. <span class="phase p1">P1</span></li>
         <li><strong>Real code-execution sandbox</strong> — write and run code and see output immediately. <span class="phase p2">P2</span></li>
         <li><strong>Certificates &amp; accessibility</strong> — completion certificates, multi-language lessons, and a low-bandwidth mode. <span class="phase p2">P2</span></li>
@@ -305,7 +405,11 @@
       <div class="module-name">Video Library</div>
       <div class="module-purpose">Curated educational video lessons for every subject and level.</div>
       <ul>
-        <li><strong>Catalogue &amp; discover</strong> — organised by subject (Mathematics, Science, AI &amp; ML, Coding &amp; Dev, History, Language Learning and more), level and language; playlists and multi-video courses; search, sort and filter; recommendations; trending/new; and teacher/channel pages. <span class="phase p1">P1</span></li>
+        <li><strong>Catalogue &amp; discover</strong> — a curated video library organised for learning. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Organised</em> by subject (Mathematics, Science, AI &amp; ML, Coding &amp; Dev, History, Language Learning and more), level and language, with playlists and multi-video courses.</li>
+            <li><em>Discover</em> via search, sort and filter; recommendations; trending/new; and teacher/channel pages.</li>
+          </ul></li>
         <li><strong>Player</strong> — in-app playback with speed control, captions/subtitles, quality settings, resume position, a playback queue, and picture-in-picture. <span class="phase p1">P1</span></li>
         <li><strong>Learning tools</strong> — notes at timestamps, bookmarks, attached materials, linked quizzes, transcripts, AI video summaries, and translated captions. <span class="phase p2">P2</span></li>
         <li><strong>Personalisation</strong> — watch history, watch-later, continue-watching, and follow subjects/teachers. <span class="phase p2">P2</span></li>
@@ -320,8 +424,16 @@
       <div class="module-name">Podcast Creation Studio</div>
       <div class="module-purpose">Turns the platform two-sided — local teachers and residents become creators.</div>
       <ul>
-        <li><strong>Recording studio</strong> — browser-based recording with live waveform monitoring, background noise cancellation, multi-take, and pause/resume; plus upload of existing audio. <span class="phase p1">P1</span></li>
-        <li><strong>Series &amp; publishing</strong> — organise episodes into named series with language tags, cover art, descriptions and categories; schedule and publish directly to the platform's Podcasts Library. <span class="phase p1">P1</span></li>
+        <li><strong>Recording studio</strong> — a browser-based studio for approved creators. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Live waveform monitoring</em>, <em>background noise cancellation</em>, <em>multi-take</em>, and <em>pause/resume</em>.</li>
+            <li><em>Upload</em> of existing audio.</li>
+          </ul></li>
+        <li><strong>Series &amp; publishing</strong> — organise and release content in a structured way. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Named series</em> with language tags, cover art, descriptions and categories.</li>
+            <li><em>Schedule and publish</em> directly to the platform's Podcasts Library.</li>
+          </ul></li>
         <li><strong>Podcasts Library (listen side)</strong> — residents browse published episodes by series/topic/language and play them with a built-in player. <span class="phase p1">P1</span></li>
         <li><strong>Creator analytics</strong> — listeners, plays, completion, ratings, and subscriber counts, per episode and series, with trends. <span class="phase p2">P2</span></li>
         <li><strong>Editing &amp; AI transcription</strong> — trim, splice and re-record segments, add intro/outro and background music, automatic AI transcription, and auto-generated show notes and captions. <span class="phase p2">P2</span></li>
@@ -337,8 +449,17 @@
       <div class="module-purpose">A personal knowledge home that recognises progress and gives residents control of their data.</div>
       <ul>
         <li><strong>Profile</strong> — avatar, name, contact, reading streak and join date, with edit-profile and privacy controls. <span class="phase p1">P1</span></li>
-        <li><strong>Activity &amp; stats</strong> — reading/listening/learning activity charts (30-day and longer), totals (books, audiobooks, hours, tests, podcasts, courses), and streaks and milestones. <span class="phase p1">P1</span></li>
-        <li><strong>My content</strong> — Currently Reading with progress bars, My Bookshelf/favourites, saved/clipped articles, playback queues, and downloads for offline use. <span class="phase p1">P1</span></li>
+        <li><strong>Activity &amp; stats</strong> — a clear picture of the resident's learning over time. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Activity charts</em> for reading, listening and learning (30-day and longer).</li>
+            <li><em>Totals</em> across books, audiobooks, hours, tests, podcasts and courses.</li>
+            <li><em>Streaks and milestones</em>.</li>
+          </ul></li>
+        <li><strong>My content</strong> — everything the resident has saved or is working through. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Currently Reading</em> with progress bars, <em>My Bookshelf/favourites</em>, and <em>saved/clipped articles</em>.</li>
+            <li><em>Playback queues</em> and <em>downloads</em> for offline use.</li>
+          </ul></li>
         <li><strong>Achievements</strong> — earned certificates, badges, completed courses, and a full test history with scores and dates. <span class="phase p1">P1</span></li>
         <li><strong>Resident identity verification</strong> — Aadhaar / DigiLocker-linked account verification and a digital library card. <span class="phase p1">P1</span></li>
         <li><strong>Functional settings</strong> — language, dark mode, text size/accessibility, and notification preferences. <span class="phase p1">P1</span></li>
@@ -353,12 +474,22 @@
       <div class="module-name">Admin &amp; Analytics</div>
       <div class="module-purpose">The Corporation's control room — manage the platform and understand how residents use it.</div>
       <ul>
-        <li><strong>Content management</strong> — add, edit and curate every content type (books, audiobooks, newspapers, videos, tests, manuscripts, podcasts); build collections, featured shelves and schedules; bulk import; metadata and cover enrichment; rights/licensing; and physical-stock/inventory for lending. <span class="phase p1">P1</span></li>
+        <li><strong>Content management</strong> — the tools to run the whole catalogue. <span class="phase p1">P1</span>
+          <ul>
+            <li><em>Add, edit and curate</em> every content type (books, audiobooks, newspapers, videos, tests, manuscripts, podcasts).</li>
+            <li><em>Build</em> collections, featured shelves and schedules; <em>bulk import</em>; <em>metadata and cover enrichment</em>.</li>
+            <li><em>Rights/licensing</em> and <em>physical-stock/inventory</em> for lending.</li>
+          </ul></li>
         <li><strong>User &amp; role management</strong> — manage residents, students, seniors, creators, admins and government officials; roles and permissions (role-based access); institutional/ward accounts; and support tools. <span class="phase p1">P1</span></li>
         <li><strong>Platform config &amp; core operations</strong> — languages, feature flags, and home/discovery curation. <span class="phase p1">P1</span></li>
         <li><strong>Government / identity / physical-library integrations</strong> — connect resident identity (Aadhaar/DigiLocker) and the physical-library systems that power lending. <span class="phase p1">P1</span></li>
         <li><strong>Creator &amp; moderation tools</strong> — approve creators, review and moderate community content (podcasts, reviews, uploads), and handle reports. <span class="phase p2">P2</span></li>
-        <li><strong>Core analytics &amp; KPIs</strong> — active users, content accessed, registrations, session time; DAU/MAU trends; content distribution; usage by time; top content; exports (Excel/PDF/CSV); and scheduled reports. <span class="phase p2">P2</span></li>
+        <li><strong>Core analytics &amp; KPIs</strong> — understand how residents use the platform. <span class="phase p2">P2</span>
+          <ul>
+            <li><em>KPIs</em> — active users, content accessed, registrations, session time.</li>
+            <li><em>Trends &amp; distribution</em> — DAU/MAU trends, content distribution, usage by time, and top content.</li>
+            <li><em>Exports</em> (Excel/PDF/CSV) and scheduled reports.</li>
+          </ul></li>
         <li><strong>Announcements &amp; campaigns</strong> — publish banners, notifications, civic messages, events, and featured content to residents. <span class="phase p2">P2</span></li>
         <li><strong>Audit logs &amp; data governance</strong> — audit logs, data governance and privacy, backups, and health/monitoring. <span class="phase p2">P2</span></li>
         <li><strong>Ward-wise / civic &amp; governance dashboards</strong> — literacy and engagement indicators for policy, scheme-campaign reach, and equity-of-access views (which wards/groups are underserved). <span class="phase p3">P3</span></li>

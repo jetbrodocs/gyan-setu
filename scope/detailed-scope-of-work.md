@@ -122,21 +122,26 @@ Enrich, **(P3)** Expand.
 ### Platform-Wide — Home & Discovery
 *Every resident's personalised entry point.*
 
-- **Personalised Home** — every resident's entry point on login: a welcome by name, a "continue
-  reading / listening / resume test" panel showing items in progress with completion percentage, and
-  at-a-glance stat tiles (books read, reading hours, tests taken, certificates earned, streak). **(P1)**
-- **Discovery & Trending** — trending content in the resident's city/ward, new arrivals across every
-  content type, personalised "for you" recommendations spanning books, audiobooks, tests, videos and
-  podcasts, editorial/featured collections, and a spotlight on local and heritage content. **(P1)**
+- **Personalised Home** — every resident's entry point on login, built around what they are already
+  doing. **(P1)**
+  - *Welcome & daily snapshot* — a greeting by name and a quick view of the resident's activity.
+  - *Continue where you left off* — panels for reading, listening, and in-progress tests, each showing
+    completion percentage with one-tap resume.
+  - *At-a-glance stats* — tiles for books read, reading hours, tests taken, certificates earned, and the
+    current streak.
+- **Discovery & Trending** — surfaces something worthwhile without the resident having to search. **(P1)**
+  - *Trending in your city/ward* and *new arrivals* across every content type.
+  - *Personalised "for you"* recommendations spanning books, audiobooks, tests, videos and podcasts.
+  - *Editorial & featured collections*, plus a spotlight on local and heritage content.
 - **Navigation** — a collapsible sidebar with one-click access to every module, quick links and
   shortcuts, and recently-visited items. **(P1)**
 - **Language switcher & accessibility quick settings** — switch interface language and adjust text size
   and contrast from anywhere on the platform. **(P1)**
-- **Unified platform search** — a single search bar, available from every screen, that searches across
-  books, audiobooks, newspapers, tests, videos, podcasts and manuscripts, with suggestions, filters,
-  and results in the resident's language first. **(P2)**
+- **Unified platform search** — a single search bar available from every screen. **(P2)**
+  - Searches across books, audiobooks, newspapers, tests, videos, podcasts and manuscripts in one place.
+  - Offers live suggestions and filters, returning results in the resident's language first.
 - **Notifications & reminders** — a notification centre for new content, activity reminders (continue
-  reading, test due, book due for return), and achievements. **(P2)**
+  reading, test due, book due for return), and achievement alerts. **(P2)**
 - **Announcements & civic messaging** — Corporation banners and notices, events, workshops, scheme
   awareness, and public campaigns surfaced to residents. **(P2)**
 - **Personal shortcuts** — pinned/favourite modules, saved items, and goals at a glance. **(P2)**
@@ -145,16 +150,20 @@ Enrich, **(P3)** Expand.
 ### Public Kiosk (Self-Service)
 *A touch-screen public access point for residents without a personal device.*
 
-- **Self-service kiosk interface** — a portrait-mode touch UI with large tiles (Browse Books, My
-  Account, Borrow/Return Book, Test Prep, Audio & Podcasts, Help Desk), on-screen date/time, and
-  Corporation branding. **(P1)**
+- **Self-service kiosk interface** — a portrait-mode touch experience designed for walk-up use. **(P1)**
+  - *Large touch tiles* — Browse Books, My Account, Borrow/Return Book, Test Prep, Audio & Podcasts, and
+    Help Desk.
+  - *On-screen date/time and Corporation branding*, with an idle/attract screen between users.
 - **Voice search & assistance** — spoken search and on-screen prompts for low-literacy and hands-free
   use. **(P1)**
-- **Library-card sign-in, borrow & return** — tap the digital library card to sign in and to borrow or
-  return physical books at the kiosk (ties to phygital lending). **(P1)**
-- **Accessibility** — large touch targets, audio guidance, and multi-language for elderly and
-  differently-abled residents. **(P1)**
-- **Deployment** — kiosks placed in libraries, ward offices, community centres, and public spaces. **(P1)**
+- **Library-card sign-in, borrow & return** — a physical touchpoint for the phygital lending flow. **(P1)**
+  - *Sign in* by tapping or scanning the digital library card.
+  - *Borrow and return* physical books at the kiosk, with printed or scanned receipts.
+  - *Automatic session logout* to protect privacy on a shared device.
+- **Accessibility** — large touch targets, audio guidance, screen-reader support, wheelchair-friendly
+  placement, and multi-language, for elderly and differently-abled residents. **(P1)**
+- **Deployment** — kiosks placed in libraries, ward offices, community centres, and public spaces, with
+  remote monitoring and content sync. **(P1)**
 
 ---
 
@@ -163,25 +172,35 @@ Enrich, **(P3)** Expand.
 #### Digital Library
 *The front door to the Corporation's entire collection of written knowledge.*
 
-- **Browse & Discover** — a visual catalogue of covers; curated collections (classic literature,
-  regional Gujarati literature, academic & university texts, science & technology, business &
-  economics, children's & young readers, public-domain classics, and Corporation-exclusive /
-  local-author collections); themed and seasonal reading lists; dynamic shelves (new arrivals,
-  trending in your city, most-read, most-downloaded, staff/librarian picks, award winners);
-  personalised "because you read…" recommendations; and author and series pages. **(P1)**
-- **Search & Filter** — search by title, author, and narrator; filter by language, format (eBook/PDF),
-  subject/genre, collection, reading level, and availability; sort by relevance, rating,
-  popularity/downloads, and date; with spelling tolerance ("did you mean…") and results in the
-  resident's language first. **(P1)**
-- **Book Detail & AI summary** — a dedicated page per title showing cover, author, publisher, edition,
-  year, page count, language, format, subject tags and rating, alongside an AI-generated summary
-  written specifically for that book. **(P1)**
+- **Browse & Discover** — a visual catalogue of covers, organised so discovery feels effortless. **(P1)**
+  - *Curated collections* — classic literature, regional Gujarati literature, academic & university
+    texts, science & technology, business & economics, children's & young readers, public-domain
+    classics, and Corporation-exclusive / local-author collections.
+  - *Themed & seasonal lists* — festival reading, exam-season lists, and "books about our city,"
+    refreshed by the library team.
+  - *Dynamic shelves* that update automatically — new arrivals, trending in your city, most-read,
+    most-downloaded, staff/librarian picks, and award winners.
+  - *Personalised recommendations* — a "because you read…" row from the resident's history, and "readers
+    also enjoyed" on each title.
+  - *Author & series pages* — each author's works with a short biography; multi-volume series grouped and
+    ordered.
+- **Search & Filter** — find any title fast, in the resident's own language. **(P1)**
+  - *Search* by title, author, and narrator, with spelling tolerance ("did you mean…").
+  - *Filter* by language, format (eBook/PDF), subject/genre, collection, reading level, and availability.
+  - *Sort* by relevance, rating, popularity/downloads, and date; results in the resident's language first.
+- **Book Detail & AI summary** — a dedicated page per title that helps a resident decide in seconds. **(P1)**
+  - *Bibliographic detail* — cover, author, publisher, edition, year, page count, language, format,
+    subject tags, and community rating.
+  - *AI-generated summary* written specifically for that title.
+  - *Actions* — Read Now, download (where rights allow), and — if physical stock exists — reserve for
+    branch pickup or home delivery.
 - **Read & Access** — one-tap "Read Now" into the eBook Reader; cross-format continuity (switch between
   reading and the audiobook without losing place); large-print and PDF formats. **(P1)**
-- **Physical copy access (phygital lending)** — where the Corporation holds physical stock: check
-  availability, reserve or borrow a physical book, choose branch pickup or home delivery, and manage
-  returns, renewals, due dates, and any fines — a digital-to-doorstep bridge to the physical library
-  branches. **(P1)**
+- **Physical copy access (phygital lending)** — a digital-to-doorstep bridge to the physical library
+  branches, where the Corporation holds physical stock. **(P1)**
+  - *Check availability* and *reserve or borrow* a physical book.
+  - *Choose branch pickup or home delivery.*
+  - *Manage* returns, renewals, due dates, and any fines.
 - **Physical-catalogue integration** — a resident sees whether a physical copy also exists and at which
   branch. **(P1)**
 - **Four-language content parity** — the catalogue usable across Gujarati, Hindi, English, and
@@ -189,10 +208,11 @@ Enrich, **(P3)** Expand.
 - **Personal bookshelf & reader tools** — My Bookshelf and personal lists; reading history;
   continue-reading; requests for titles the library doesn't yet hold; and personal reading goals and
   challenges. **(P1)**
-- **Deeper AI understanding** — multiple summary depths (quick summary, detailed analysis, key
-  concepts), a visual mind-map of the book's ideas, an auto-generated quiz, a spoken (audio) summary,
-  on-demand translation into the resident's language, and confidence / "human-verified" trust
-  signals. **(P2)**
+- **Deeper AI understanding** — richer AI tools on the book page. **(P2)**
+  - *Multiple summary depths* — quick summary, detailed analysis, and key concepts.
+  - *Visual mind-map* of the book's ideas and an *auto-generated quiz*.
+  - *Spoken (audio) summary* and *on-demand translation* into the resident's language.
+  - *Trust signals* — confidence indication and, where applicable, a "human-verified" marker.
 - **Full-text search inside books** — find a book by a phrase or quote from within its contents. **(P2)**
 - **Offline download** — download titles for offline reading (subject to content rights). **(P2)**
 - **Community & reviews** — resident ratings and reviews (moderated), popularity signals,
@@ -205,14 +225,15 @@ Enrich, **(P3)** Expand.
 #### eBook Reader
 *A comfortable, accessible reading experience with an AI companion.*
 
-- **Reading experience** — a chapter-by-chapter table of contents; adjustable font size, typeface,
-  spacing, and reading themes (light/dark/sepia); page or scroll view; and a full-screen,
-  distraction-free mode. **(P1)**
+- **Reading experience** — a distraction-free reading surface the resident can tune to their comfort. **(P1)**
+  - *Table of contents* for chapter-by-chapter navigation.
+  - *Adjustable* font size, typeface, spacing, and reading themes (light/dark/sepia).
+  - *Page or scroll view* and a full-screen, distraction-free mode.
 - **Progress & sync** — automatic reading-progress tracking (page and percentage) that resumes exactly
   where the resident left off from any device, with reading-time estimates. **(P1)**
-- **AI Reading Companion** — a panel alongside the text to ask questions about the current chapter, get
-  passages explained, request summaries, define words, and discuss themes — grounded in the book's own
-  content. **(P1)**
+- **AI Reading Companion** — a panel alongside the text, grounded in the book's own content. **(P1)**
+  - *Ask questions* about the current chapter and get passages *explained*.
+  - *Request summaries*, *define words*, and *discuss themes*.
 - **Annotation** — highlights, bookmarks, and personal notes that persist and are searchable within a
   book, with export/share. **(P2)**
 - **Translate** — translate passages or whole chapters on demand and read in the resident's
@@ -230,8 +251,9 @@ Enrich, **(P3)** Expand.
 
 - **Browse & Discover** — a searchable, filterable catalogue (language, subject, narrator, duration),
   curated collections, and "you may also like" recommendations. **(P1)**
-- **Player** — play/pause, 15-second skip forward/back, adjustable playback speed (0.75x–2x), a full
-  chapter list with seek, and a sleep timer. **(P1)**
+- **Player** — full playback control for hands-free listening. **(P1)**
+  - *Play/pause*, 15-second *skip* forward/back, and adjustable *playback speed* (0.75x–2x).
+  - *Full chapter list with seek* and a *sleep timer*.
 - **Multi-language catalogue (content parity)** — audiobooks across all four languages, including
   regional-language narration. **(P1)**
 - **Listening tools & resume** — bookmarks and notes at timestamps, a playback queue, continue-
@@ -247,17 +269,19 @@ Enrich, **(P3)** Expand.
 #### Newspapers & Periodicals
 *A daily and archival reading room across languages and cities.*
 
-- **Newspapers section, browse & full-page reader** — filter by language, city/edition, publication,
-  and date via a calendar picker; open a realistic full-page layout with zoom, page navigation, and
-  single-article view; clip and save articles; and browse a deep archive of past editions. **(P1)**
+- **Newspapers section, browse & full-page reader** — a daily reading room and a deep archive. **(P1)**
+  - *Filter* by language, city/edition, publication, and date via a calendar picker.
+  - *Full-page reader* — a realistic full-page layout with zoom, page navigation, and single-article view.
+  - *Clip and save articles*, and browse a deep archive of past editions.
 - **Publisher ingestion pipeline** — the pipeline that brings real editions in from publishers
   (foundational to real content). **(P1)**
 - **Magazines & Journals sections** — distinct, browsable sections alongside newspapers. **(P2)**
 - **Search & personalisation** — full-text article search across editions and archives; follow
   favourite publications; a daily digest; new-edition notifications; and saved/clipped articles with
   reading history. **(P2)**
-- **AI & civic content** — article summaries, article translation, topic tracking and a "today in
-  brief"; plus Corporation bulletins, official gazettes and notices, and community newsletters. **(P2)**
+- **AI & civic content** — comprehension and community value on top of the archive. **(P2)**
+  - *AI* — article summaries, article translation, topic tracking, and a "today in brief."
+  - *Civic* — Corporation bulletins, official gazettes and notices, and community newsletters.
 - **Accessibility** — a reader/reflow mode, read-aloud (TTS), and large-print for comfortable
   reading. **(P2)**
 
@@ -268,10 +292,11 @@ Enrich, **(P3)** Expand.
 #### Indian Knowledge Systems (IKS Heritage)
 *Preserving and popularising India's and the region's intellectual and cultural heritage.*
 
-- **Historical timeline & manuscripts** — a timeline spanning six eras (Vedic → Mauryan → Gupta →
-  Solanki → Mughal → Modern); select an era to browse its digitised manuscripts and scriptures, each
-  with cover, title, language, era, and a summary of historical significance; filter by language and
-  era. **(P1)**
+- **Historical timeline & manuscripts** — a guided journey through the region's and India's heritage. **(P1)**
+  - *Timeline* spanning six eras — Vedic → Mauryan → Gupta → Solanki → Mughal → Modern.
+  - *Browse* an era's digitised manuscripts and scriptures, each with cover, title, language, era, and a
+    summary of historical significance.
+  - *Filter* by language and era.
 - **Full manuscript reading view** — an in-depth reading experience for each manuscript, equivalent to
   the eBook Reader, with an AI companion for difficult classical texts. **(P2)**
 - **Folk & oral traditions** — regional folk literature, oral storytelling, and songs (e.g.
@@ -292,11 +317,15 @@ Enrich, **(P3)** Expand.
 #### Test Preparation Hub
 *Coaching-grade exam preparation for every aspirant, free.*
 
-- **Exam catalogue & readiness** — major exam categories (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET,
-  Railways, Police, Teaching/TET, State PSCs and more), each with sub-exams, syllabus, available tests
-  and aspirant counts; a daily practice question with explanation; and a personal readiness dashboard
-  (overall readiness %, subject-wise progress, average score, estimated rank/percentile, strengths and
-  weaknesses, trend over time); with a direct link into the Mock Test Engine. **(P1)**
+- **Exam catalogue & readiness** — structured preparation with an honest view of where the aspirant
+  stands. **(P1)**
+  - *Exam catalogue* — major categories (UPSC, GPSC, SSC, Banking, GATE, JEE/NEET, Railways, Police,
+    Teaching/TET, State PSCs and more), each with sub-exams, syllabus, available tests and aspirant
+    counts.
+  - *Daily practice question* with explanation.
+  - *Readiness dashboard* — overall readiness %, subject-wise progress, average score, estimated
+    rank/percentile, strengths and weaknesses, and trend over time.
+  - *Direct link* into the Mock Test Engine.
 - **Question-bank sourcing/growth** — securing and expanding the question content that powers practice
   and tests (foundational, content-dependent). **(P1)**
 - **Practice** — topic-wise practice sets, previous-year questions, difficulty levels, and
@@ -311,10 +340,12 @@ Enrich, **(P3)** Expand.
 #### Mock Test Interface
 *A realistic, timed exam-hall experience.*
 
-- **Test experience** — a full-screen exam mode with a live countdown timer; a question navigator
-  showing answered / marked-for-review / skipped status at a glance; Save & Next, Mark for Review, and
-  Clear Response controls; exam-accurate question types; standard negative marking per exam pattern;
-  and multi-language question display. **(P1)**
+- **Test experience** — a full-screen exam mode that mirrors the real exam hall. **(P1)**
+  - *Live countdown timer* and a *question navigator* showing answered / marked-for-review / skipped
+    status at a glance.
+  - *Save & Next, Mark for Review, and Clear Response* controls.
+  - *Exam-accurate question types*, standard *negative marking* per exam pattern, and *multi-language*
+    question display.
 - **Exam modes** — full-length timed mock tests and topic quizzes at launch. **(P1)**
 - **Integrity** — an instructions/consent screen and auto-submit on timeout. **(P1)**
 - **Results & persistence** — an instant scored result (overall %, correct/incorrect/unanswered,
@@ -331,11 +362,14 @@ Enrich, **(P3)** Expand.
 #### STEM Innovation Lab
 *Hands-on modern skills for every student, aligned to NEP and Atal goals.*
 
-- **Course catalogue** — six categories (3D Design, AI & ML, Atal Innovation, Coding & Dev, Electronics
-  & IoT, Robotics Kits); structured courses → modules → lessons; beginner-to-advanced levels; and
-  age/grade tracks. **(P1)**
-- **Learn** — video lessons paired with an in-browser code editor across languages (Python,
-  block/Scratch, JavaScript and more), interactive tutorials, and downloadable resources. **(P1)**
+- **Course catalogue** — a structured skilling path. **(P1)**
+  - *Six categories* — 3D Design, AI & ML, Atal Innovation, Coding & Dev, Electronics & IoT, Robotics
+    Kits.
+  - *Structured* courses → modules → lessons, with beginner-to-advanced levels and age/grade tracks.
+- **Learn** — hands-on learning that pairs watching with doing. **(P1)**
+  - *Video lessons* paired with an *in-browser code editor* across languages (Python, block/Scratch,
+    JavaScript and more).
+  - *Interactive tutorials* and *downloadable resources*.
 - **Recognition** — XP, achievement badges, and a class leaderboard ranked by experience points. **(P1)**
 - **Real code-execution sandbox** — write and run code and see output immediately. **(P2)**
 - **Certificates & accessibility** — completion certificates, multi-language lessons, and a
@@ -350,9 +384,10 @@ Enrich, **(P3)** Expand.
 #### Video Library
 *Curated educational video lessons for every subject and level.*
 
-- **Catalogue & discover** — organised by subject (Mathematics, Science, AI & ML, Coding & Dev,
-  History, Language Learning and more), level and language; playlists and multi-video courses; search,
-  sort and filter; recommendations; trending/new; and teacher/channel pages. **(P1)**
+- **Catalogue & discover** — a curated video library organised for learning. **(P1)**
+  - *Organised* by subject (Mathematics, Science, AI & ML, Coding & Dev, History, Language Learning and
+    more), level and language, with playlists and multi-video courses.
+  - *Discover* via search, sort and filter; recommendations; trending/new; and teacher/channel pages.
 - **Player** — in-app playback with speed control, captions/subtitles, quality settings, resume
   position, a playback queue, and picture-in-picture. **(P1)**
 - **Learning tools** — notes at timestamps, bookmarks, attached materials, linked quizzes, transcripts,
@@ -372,10 +407,12 @@ Enrich, **(P3)** Expand.
 #### Podcast Creation Studio
 *Turns the platform two-sided — local teachers and residents become creators.*
 
-- **Recording studio** — browser-based recording with live waveform monitoring, background noise
-  cancellation, multi-take, and pause/resume; plus upload of existing audio. **(P1)**
-- **Series & publishing** — organise episodes into named series with language tags, cover art,
-  descriptions and categories; schedule and publish directly to the platform's Podcasts Library. **(P1)**
+- **Recording studio** — a browser-based studio for approved creators. **(P1)**
+  - *Live waveform monitoring*, *background noise cancellation*, *multi-take*, and *pause/resume*.
+  - *Upload* of existing audio.
+- **Series & publishing** — organise and release content in a structured way. **(P1)**
+  - *Named series* with language tags, cover art, descriptions and categories.
+  - *Schedule and publish* directly to the platform's Podcasts Library.
 - **Podcasts Library (listen side)** — residents browse published episodes by series/topic/language
   and play them with a built-in player. **(P1)**
 - **Creator analytics** — listeners, plays, completion, ratings, and subscriber counts, per episode
@@ -398,10 +435,13 @@ Enrich, **(P3)** Expand.
 
 - **Profile** — avatar, name, contact, reading streak and join date, with edit-profile and privacy
   controls. **(P1)**
-- **Activity & stats** — reading/listening/learning activity charts (30-day and longer), totals
-  (books, audiobooks, hours, tests, podcasts, courses), and streaks and milestones. **(P1)**
-- **My content** — Currently Reading with progress bars, My Bookshelf/favourites, saved/clipped
-  articles, playback queues, and downloads for offline use. **(P1)**
+- **Activity & stats** — a clear picture of the resident's learning over time. **(P1)**
+  - *Activity charts* for reading, listening and learning (30-day and longer).
+  - *Totals* across books, audiobooks, hours, tests, podcasts and courses.
+  - *Streaks and milestones*.
+- **My content** — everything the resident has saved or is working through. **(P1)**
+  - *Currently Reading* with progress bars, *My Bookshelf/favourites*, and *saved/clipped articles*.
+  - *Playback queues* and *downloads* for offline use.
 - **Achievements** — earned certificates, badges, completed courses, and a full test history with
   scores and dates. **(P1)**
 - **Resident identity verification** — Aadhaar / DigiLocker-linked account verification and a digital
@@ -420,10 +460,11 @@ Enrich, **(P3)** Expand.
 #### Admin & Analytics
 *The Corporation's control room — manage the platform and understand how residents use it.*
 
-- **Content management** — add, edit and curate every content type (books, audiobooks, newspapers,
-  videos, tests, manuscripts, podcasts); build collections, featured shelves and schedules; bulk
-  import; metadata and cover enrichment; rights/licensing; and physical-stock/inventory for
-  lending. **(P1)**
+- **Content management** — the tools to run the whole catalogue. **(P1)**
+  - *Add, edit and curate* every content type (books, audiobooks, newspapers, videos, tests,
+    manuscripts, podcasts).
+  - *Build* collections, featured shelves and schedules; *bulk import*; *metadata and cover enrichment*.
+  - *Rights/licensing* and *physical-stock/inventory* for lending.
 - **User & role management** — manage residents, students, seniors, creators, admins and government
   officials; roles and permissions (role-based access); institutional/ward accounts; and support
   tools. **(P1)**
@@ -432,9 +473,10 @@ Enrich, **(P3)** Expand.
   (Aadhaar/DigiLocker) and the physical-library systems that power lending. **(P1)**
 - **Creator & moderation tools** — approve creators, review and moderate community content (podcasts,
   reviews, uploads), and handle reports. **(P2)**
-- **Core analytics & KPIs** — active users, content accessed, registrations, session time; DAU/MAU
-  trends; content distribution; usage by time; top content; exports (Excel/PDF/CSV); and scheduled
-  reports. **(P2)**
+- **Core analytics & KPIs** — understand how residents use the platform. **(P2)**
+  - *KPIs* — active users, content accessed, registrations, session time.
+  - *Trends & distribution* — DAU/MAU trends, content distribution, usage by time, and top content.
+  - *Exports* (Excel/PDF/CSV) and scheduled reports.
 - **Announcements & campaigns** — publish banners, notifications, civic messages, events, and featured
   content to residents. **(P2)**
 - **Audit logs & data governance** — audit logs, data governance and privacy, backups, and

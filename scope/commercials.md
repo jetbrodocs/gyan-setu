@@ -60,6 +60,28 @@ all-inclusive.
 *Monthly figures are the engagement total apportioned evenly across the 3-month delivery; the total is
 the fixed, all-inclusive price.*
 
+**Module-wise development cost allocation**
+
+Each module carries a weightage reflecting its relative scope and breadth. Dashboard, User Profile,
+and Admin & Analytics are auxiliary / shared platform modules and are not separately weighted. **The
+indicative cost of any module can be estimated by applying its weightage percentage to the total
+development cost.**
+
+| Module | Weightage |
+|---|---:|
+| Digital Library | 15% |
+| STEM Innovation Lab | 12% |
+| Podcast Creation Studio | 11% |
+| Test Preparation Hub | 10% |
+| Mock Test Interface | 10% |
+| eBook Reader | 9% |
+| Indian Knowledge Systems (IKS) | 8% |
+| Newspapers & Periodicals | 7% |
+| Audiobooks | 6% |
+| Video Library | 6% |
+| Public Kiosk | 6% |
+| **Total** | **100%** |
+
 ---
 
 ## 3. Estimated Cloud & Hosting Costs
@@ -77,7 +99,56 @@ costs scale with resident usage and content volume.
 
 ---
 
-## 4. Notes
+## 4. Post-Development: Maintenance & Support
+
+After the 3-month development period, the platform moves into ongoing maintenance and support —
+keeping it running and available, performing routine maintenance and updates, and delivering minor
+feature improvements.
+
+**Team continuity**
+
+| Period | Team size |
+|---|---:|
+| Months 1–3 — Development | 60 |
+| Months 4–6 — Post-development *(full team retained)* | 60 |
+| Month 7 onward — Maintenance | 30 |
+
+The full 60-person team is retained through month 6; from month 7 the team is proportionately reduced
+to a 30-person maintenance team.
+
+**Maintenance team structure (Month 7 onward)**
+
+| Role | Count |
+|---|---:|
+| Engineer (Backend, Frontend, AI, DevOps) | 11 |
+| Junior Engineer (Backend, Frontend, AI, DevOps) | 10 |
+| Tech Lead (Full Stack) | 4 |
+| Product Manager | 3 |
+| Project Manager | 2 |
+| **Total** | **30** |
+
+The maintenance team is a proportional reduction of the full development team (roughly half of each
+role). Cloud and hosting continue per Section 3.
+
+**Maintenance costs (per month)**
+
+| Line item | Months 4–6 | Month 7 onward |
+|---|---:|---:|
+| Engineering | ₹86,33,333 | ₹61,66,667 |
+| Infrastructure | ₹56,00,000 | ₹32,00,000 |
+| Product Development | ₹37,33,333 | ₹21,33,333 |
+| **Total (per month)** | **₹1,79,66,666** | **₹1,15,00,000** |
+
+- **Months 4–6:** Engineering, Infrastructure and Product Development are each reduced by 30% from the
+  development figures.
+- **Month 7 onward:** the team is proportionately reduced to 30 and Engineering recalculated
+  accordingly; Infrastructure and Product Development are each reduced by 60%.
+
+**Maintenance and support is provided for a period of two years after go-live.**
+
+---
+
+## 5. Notes
 
 - The price is fixed and all-inclusive of the dedicated team, infrastructure, and product development,
   deployment, implementation and management.
