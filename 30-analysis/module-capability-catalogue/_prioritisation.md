@@ -65,6 +65,18 @@ These are not owned by a single module; they underpin all of them.
 | Personal shortcuts | P2 |
 | Voice search | P3 |
 
+**15 — Public Kiosk (Self-Service)**
+| Capability group | Phase |
+|---|---|
+| Self-service interface; voice search & assistance | P1 |
+| Library-card / identity sign-in; borrow & return at kiosk | P1 |
+| On-screen access to platform content | P1 |
+| Accessibility; help & support | P1 |
+| Deployment & fleet management | P1 |
+
+*Note: Public Kiosk is P1 per client direction (2026-07-15). Reuses the web platform, phygital
+lending, and identity foundations, but adds a physical hardware procurement/deployment dependency.*
+
 ### Pillar 1 — Read & Discover
 
 **02 — Digital Library**

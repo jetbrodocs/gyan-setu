@@ -1,80 +1,92 @@
 ---
 title: "Gyan Setu — Commercial Proposal"
-subtitle: "Resourcing, Infrastructure & Fee — 3-Month Build"
-prepared_by: "JetBro"
-shared_with: "Safal Softcom"
-onward_audience: "[Municipal Corporation]"
+subtitle: "Full Platform Delivery — 3-Month Engagement"
+prepared_by: "Safal Softcom"
+prepared_for: "[Municipal Corporation]"
+poc: "Vishesh Darji · +91 98257 22409"
 created: 2026-07-14
 updated: 2026-07-14
 status: draft
-confidential: true
 ---
 
 # Gyan Setu — Commercial Proposal
 
-**Prepared by JetBro · shared with Safal Softcom** (for onward sharing with [Municipal Corporation])
-Engagement: **3-month build** · Date: **14 July 2026** · Status: **Draft**
-
-> These are the commercials JetBro is sharing with Safal Softcom, who will in turn share them with the
-> Municipal Corporation.
+**Prepared for [Municipal Corporation]** by **Safal Softcom**
+Primary point of contact: **Vishesh Darji** · +91 98257 22409
+Date: **14 July 2026** · Status: **Draft**
 
 ---
 
-## 1. Engagement Assumptions
+## 1. Engagement
 
-- **Duration:** 3 months, delivering the full P1–P3 scope of the Detailed Scope of Work.
-- **Team size:** 60 resources — 50 engineering + 5 product managers + 5 project managers.
-- **Infrastructure:** charged per resource, per month.
-- **Basis:** figures below are monthly, held flat across the 3-month engagement.
+Safal Softcom will design, build, and deliver the **Gyan Setu Digital Public Library & Knowledge
+Platform** as defined in the Detailed Scope of Work — the full platform across all thirteen modules,
+in four languages, built to recognised accessibility standards.
 
----
+- **Delivery timeline:** 3 months.
+- **Dedicated delivery team** across engineering, product management, and project management.
+- **Included:** cloud infrastructure, platform development, deployment, implementation, and management
+  for the full Phase 1–3 scope.
 
-## 2. Resource Costs (per month)
+**Team structure**
 
-| Role | Count | Rate / month | Monthly cost |
-|---|---:|---:|---:|
-| Tech Lead | 8 | ₹2,00,000 | ₹16,00,000 |
-| Engineer | 22 | ₹1,50,000 | ₹33,00,000 |
-| Junior Engineer | 20 | ₹50,000 | ₹10,00,000 |
-| Product Manager | 5 | ₹1,50,000 | ₹7,50,000 |
-| Project Manager | 5 | ₹1,20,000 | ₹6,00,000 |
-| **Total** | **60** | | **₹72,50,000** |
-
----
-
-## 3. Infrastructure Cost (per month)
-
-| Item | Basis | Monthly cost |
-|---|---|---:|
-| Infrastructure | 60 resources × ₹70,000 | ₹42,00,000 |
+| Role | Count |
+|---|---:|
+| Engineer (Backend, Frontend, AI, DevOps) | 22 |
+| Junior Engineer (Backend, Frontend, AI, DevOps) | 20 |
+| Tech Lead (Full Stack) | 8 |
+| Product Manager | 5 |
+| Project Manager | 5 |
+| **Total** | **60** |
 
 ---
 
-## 4. JetBro Product Development & Management Fee
+## 2. Commercials
 
-| Item | Monthly | 3 Months |
+The engagement is delivered over **3 months**. The commercial is composed of three line items —
+**Engineering**, **Infrastructure**, and **Product Development** — shown below as monthly cost and
+total cost for the 3-month engagement.
+
+| Line item | Monthly cost | Total (3 months) |
 |---|---:|---:|
-| Product Development & Management Fee | ₹60,00,000 | ₹1,80,00,000 |
+| Engineering | ₹1,23,33,333 | ₹3,70,00,000 |
+| Infrastructure | ₹80,00,000 | ₹2,40,00,000 |
+| Product Development | ₹53,33,333 | ₹1,60,00,000 |
+| **Total** | **₹2,56,66,667** | **₹7,70,00,000** |
+
+**Total engagement value: ₹7,70,00,000** — Seven crore, seventy lakh rupees (~₹7.70 crore), fixed and
+all-inclusive.
+
+*Monthly figures are the engagement total apportioned evenly across the 3-month delivery; the total is
+the fixed, all-inclusive price.*
 
 ---
 
-## 5. Total Commercials
+## 3. Estimated Cloud & Hosting Costs
 
-| Component | Monthly | 3 Months |
-|---|---:|---:|
-| Resource costs | ₹72,50,000 | ₹2,17,50,000 |
-| Infrastructure | ₹42,00,000 | ₹1,26,00,000 |
-| **Subtotal (resource + infrastructure)** | **₹1,14,50,000** | **₹3,43,50,000** |
-| Product Development & Management Fee | ₹60,00,000 | ₹1,80,00,000 |
-| **Grand Total** | **₹1,74,50,000** | **₹5,23,50,000** |
+Estimated cloud and hosting costs for the platform:
 
-- **Resource + infrastructure:** ₹1,14,50,000 / month · **₹3,43,50,000 for 3 months.**
-- **Grand total (incl. fee):** ₹1,74,50,000 / month · **₹5,23,50,000 (~₹5.24 crore) for 3 months.**
+| Period | Estimated cloud & hosting cost |
+|---|---:|
+| During the 3-month build *(included in Infrastructure above)* | ~₹5,00,000 / month |
+| Post go-live *(ongoing, billed separately)* | ~₹8,00,000 – ₹12,00,000 / month |
+
+The build-period cloud cost is included within the Infrastructure line item. Post go-live cloud and
+hosting is an ongoing operating cost, estimated above, billed separately after the engagement. Actual
+costs scale with resident usage and content volume.
 
 ---
 
-## Notes
-- Team composition: 8 Tech Leads + 22 Engineers + 20 Junior Engineers = 50 engineering, plus 5 Product
-  Managers and 5 Project Managers = 60 total resources.
-- Infrastructure is charged per resource (₹70,000 × 60 = ₹42,00,000/month).
-- All figures are exclusive of applicable taxes unless stated otherwise.
+## 4. Notes
+
+- The price is fixed and all-inclusive of the dedicated team, infrastructure, and product development,
+  deployment, implementation and management.
+- **Infrastructure includes all hosting and cloud costs** for the duration of the engagement.
+- Figures are exclusive of applicable taxes (e.g. GST), charged as per prevailing rates.
+- Ongoing operating costs after the engagement — continued cloud hosting (see Section 3) and AI
+  service usage — are billed separately.
+- Payment schedule and milestones to be mutually agreed.
+
+---
+
+*Gyan Setu — Empowering Every Citizen with Knowledge · Prepared by Safal Softcom · 14 July 2026*

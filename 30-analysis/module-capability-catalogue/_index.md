@@ -42,10 +42,11 @@ be denied access to knowledge because of cost, distance, language, or ability.**
 
 ---
 
-## The 13 Modules, Grouped by Pillar
+## The 14 Modules, Grouped by Pillar
 
 **Platform-wide**
 - [01 — Dashboard (Home & Discovery)](01-dashboard.md)
+- [15 — Public Kiosk (Self-Service)](15-public-kiosk.md)
 
 **Pillar 1 — Read & Discover**
 - [02 — Digital Library](02-digital-library.md)
@@ -90,7 +91,8 @@ be denied access to knowledge because of cost, distance, language, or ability.**
 | 11 | User Profile / My Dashboard | 🟩 Draft |
 | 12 | Video Library | 🟩 Draft |
 | 14 | Admin & Analytics | 🟩 Draft |
+| 15 | Public Kiosk (Self-Service) | 🟩 Draft |
 
-**All 13 module catalogues drafted (2026-07-14).** (Module number 13 is intentionally not part of this
-catalogue and is handled separately; the numbering gap is deliberate.) Next: one platform-wide
-prioritisation pass, then assemble into the exhaustive Detailed SOW.
+**All 14 module catalogues drafted (module 15, Public Kiosk, added 2026-07-15).** (Module number 13 is
+intentionally not part of this catalogue and is handled separately; the numbering gap is deliberate.)
+Prioritisation pass complete; feeds the exhaustive Detailed SOW.
